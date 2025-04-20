@@ -23380,9 +23380,10 @@ var require_dist = __commonJS({
 
 // damage-wrapper.js
 var import_dist = __toESM(require_dist());
-function calculateDamage(attackingPokemon, attackingPokemonOptions, defendingPokemon, defendingPokemonOptions, move, field) {
-  return "hi";
-  const gen = import_dist.Generations.get(typeof gen === "undefined" ? 4 : gen);
+function calculateDamage(attackingPokemon, attackingPokemonOptions, defendingPokemon, defendingPokemonOptions, moveName, field) {
+  const gen = import_dist.Generations.get(4);
+  attackingPokemonOptions = JSON.parse(attackingPokemonOptions);
+  const testmon = new import_dist.Pokemon(gen, attackingPokemon, attackingPokemonOptions)
   const result = (0, import_dist.calculate)(
     gen,
     new import_dist.Pokemon(gen, attackingPokemon, attackingPokemonOptions),
@@ -23390,7 +23391,7 @@ function calculateDamage(attackingPokemon, attackingPokemonOptions, defendingPok
     new import_dist.Move(gen, moveName),
     new import_dist.Field(typeof field === "undefined" ? void 0 : field)
   );
-  return result;
+  return JSON.stringify(result);
 }
 export {
   calculateDamage
