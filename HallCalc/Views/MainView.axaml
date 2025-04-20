@@ -1,0 +1,26 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:HallCalc.ViewModels"
+             xmlns:sevices="clr-namespace:HallCalc.Services"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="HallCalc.Views.MainView"
+             sevices:DialogManager.Register="{Binding}"
+             x:DataType="vm:MainViewModel">
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainViewModel />
+    </Design.DataContext>
+    <StackPanel Margin="10">
+        <TextBox Watermark="Showdown Set" AcceptsReturn="True" Height="100" Text="{Binding ShowdownText, Mode=TwoWay}" />
+        <ComboBox SelectedIndex="{Binding SelectedTypeIndex}" ItemsSource="{Binding Types}"
+                  SelectedItem="{Binding SelectedType, Mode=TwoWay}">
+        </ComboBox>
+        <ComboBox SelectedIndex="{Binding SelectedRoundIndex}" ItemsSource="{Binding Rounds}"
+                  SelectedItem="{Binding SelectedRound, Mode=TwoWay}">
+        </ComboBox>
+        <Button Command="{Binding GetDataCommand}">Run Calc</Button>
+    </StackPanel>
+</UserControl>
