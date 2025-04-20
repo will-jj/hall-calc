@@ -10,6 +10,8 @@ internal sealed partial class Program
     private static async Task Main(string[] args)
     {
         await JSHost.ImportAsync("jsinterop.js", "../jsinterop.js");
+        await JSHost.ImportAsync("damage-calc.js", "../damage-calc.js");
+
         await BuildAvaloniaApp()
             .WithInterFont()
             .StartBrowserAppAsync("out");

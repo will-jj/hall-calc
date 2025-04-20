@@ -13,8 +13,7 @@ public partial class MainViewModel : ViewModelBase
     [RelayCommand]
     public async Task GetData()
     {
-          DamageCalcInterop.ShowAlert("hi");
-         //string meme =await  DamageCalcInterop.CalculateDamage("1", "2", "3", "4","5", "6");
+         string meme = DamageCalcInterop.CalculateDamage("1", "2", "3", "4","5", "6");
          int stop = 1;
     }
 }
