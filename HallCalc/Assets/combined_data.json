@@ -13,7 +13,7 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H371",
+        "id": "371",
         "types": [
             "Grass",
             "Ice"
@@ -34,7 +34,7 @@
         "nature": "Jolly",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H349",
+        "id": "349",
         "types": [
             "Dark"
         ],
@@ -54,7 +54,7 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H396",
+        "id": "396",
         "types": [
             "Rock",
             "Flying"
@@ -75,7 +75,7 @@
         "nature": "Adamant",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "identifier": "H429",
+        "id": "429",
         "types": [
             "Steel",
             "Rock"
@@ -96,7 +96,7 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H200",
+        "id": "200",
         "types": [
             "Normal"
         ],
@@ -116,7 +116,7 @@
         "nature": "Timid",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H281",
+        "id": "281",
         "types": [
             "Psychic"
         ],
@@ -136,7 +136,7 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H336",
+        "id": "336",
         "types": [
             "Dragon",
             "Flying"
@@ -157,7 +157,7 @@
         "nature": "Naughty",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H361",
+        "id": "361",
         "types": [
             "Normal"
         ],
@@ -177,7 +177,7 @@
         "nature": "Quiet",
         "item": "Light Clay",
         "tier": "HallR10",
-        "identifier": "H406",
+        "id": "406",
         "types": [
             "Electric"
         ],
@@ -197,7 +197,7 @@
         "nature": "Adamant",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H244",
+        "id": "244",
         "types": [
             "Bug",
             "Rock"
@@ -218,7 +218,7 @@
         "nature": "Jolly",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H162",
+        "id": "162",
         "types": [
             "Poison"
         ],
@@ -238,7 +238,7 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "identifier": "H379",
+        "id": "379",
         "types": [
             "Fire"
         ],
@@ -258,7 +258,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H194",
+        "id": "194",
         "types": [
             "Poison",
             "Bug"
@@ -279,7 +279,7 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "identifier": "H344",
+        "id": "344",
         "types": [
             "Bug",
             "Rock"
@@ -300,7 +300,7 @@
         "nature": "Adamant",
         "item": "Metal Coat",
         "tier": "Hall",
-        "identifier": "H106",
+        "id": "106",
         "types": [
             "Steel",
             "Rock"
@@ -321,7 +321,7 @@
         "nature": "Modest",
         "item": "Apicot Berry",
         "tier": "HallR10",
-        "identifier": "H398",
+        "id": "398",
         "types": [
             "Ice",
             "Flying"
@@ -342,7 +342,7 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H197",
+        "id": "197",
         "types": [
             "Water"
         ],
@@ -362,7 +362,7 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "identifier": "H126",
+        "id": "126",
         "types": [
             "Dragon"
         ],
@@ -382,7 +382,7 @@
         "nature": "Mild",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H118",
+        "id": "118",
         "types": [
             "Psychic",
             "Ground"
@@ -403,7 +403,7 @@
         "nature": "Lonely",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H346",
+        "id": "346",
         "types": [
             "Ghost"
         ],
@@ -423,7 +423,7 @@
         "nature": "Quiet",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H356",
+        "id": "356",
         "types": [
             "Steel",
             "Rock"
@@ -444,7 +444,7 @@
         "nature": "Adamant",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H189",
+        "id": "189",
         "types": [
             "Grass"
         ],
@@ -464,7 +464,7 @@
         "nature": "Modest",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H221",
+        "id": "221",
         "types": [
             "Bug",
             "Flying"
@@ -485,7 +485,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H159",
+        "id": "159",
         "types": [
             "Poison",
             "Bug"
@@ -506,7 +506,7 @@
         "nature": "Brave",
         "item": "Big Root",
         "tier": "HallR10",
-        "identifier": "H309",
+        "id": "309",
         "types": [
             "Grass"
         ],
@@ -526,7 +526,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H255",
+        "id": "255",
         "types": [
             "Water",
             "Normal"
@@ -547,7 +547,7 @@
         "nature": "Impish",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H132",
+        "id": "132",
         "types": [
             "Normal"
         ],
@@ -567,7 +567,7 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H376",
+        "id": "376",
         "types": [
             "Water"
         ],
@@ -587,7 +587,7 @@
         "nature": "Lonely",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H425",
+        "id": "425",
         "types": [
             "Fire",
             "Fighting"
@@ -608,7 +608,7 @@
         "nature": "Sassy",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H419",
+        "id": "419",
         "types": [
             "Normal"
         ],
@@ -628,7 +628,7 @@
         "nature": "Jolly",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H145",
+        "id": "145",
         "types": [
             "Rock"
         ],
@@ -648,7 +648,7 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H324",
+        "id": "324",
         "types": [
             "Grass",
             "Fighting"
@@ -669,7 +669,7 @@
         "nature": "Quiet",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H449",
+        "id": "449",
         "types": [
             "Steel",
             "Psychic"
@@ -690,7 +690,7 @@
         "nature": "Quiet",
         "item": "Metal Coat",
         "tier": "Hall",
-        "identifier": "H144",
+        "id": "144",
         "types": [
             "Steel",
             "Psychic"
@@ -711,7 +711,7 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H135",
+        "id": "135",
         "types": [
             "Grass",
             "Poison"
@@ -732,7 +732,7 @@
         "nature": "Hasty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H138",
+        "id": "138",
         "types": [
             "Water"
         ],
@@ -752,7 +752,7 @@
         "nature": "Mild",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H1",
+        "id": "1",
         "types": [
             "Grass",
             "Poison"
@@ -773,7 +773,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H264",
+        "id": "264",
         "types": [
             "Normal"
         ],
@@ -793,7 +793,7 @@
         "nature": "Adamant",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H136",
+        "id": "136",
         "types": [
             "Bug"
         ],
@@ -813,7 +813,7 @@
         "nature": "Timid",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H158",
+        "id": "158",
         "types": [
             "Bug",
             "Flying"
@@ -834,7 +834,7 @@
         "nature": "Hasty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H114",
+        "id": "114",
         "types": [
             "Grass"
         ],
@@ -854,7 +854,7 @@
         "nature": "Adamant",
         "item": "Metronome",
         "tier": "HallR10",
-        "identifier": "H335",
+        "id": "335",
         "types": [
             "Grass",
             "Dark"
@@ -875,7 +875,7 @@
         "nature": "Modest",
         "item": "Power Herb",
         "tier": "HallR10",
-        "identifier": "H332",
+        "id": "332",
         "types": [
             "Fire",
             "Ground"
@@ -896,7 +896,7 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H369",
+        "id": "369",
         "types": [
             "Grass"
         ],
@@ -916,7 +916,7 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H110",
+        "id": "110",
         "types": [
             "Water",
             "Dark"
@@ -937,7 +937,7 @@
         "nature": "Modest",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "identifier": "H245",
+        "id": "245",
         "types": [
             "Normal"
         ],
@@ -957,7 +957,7 @@
         "nature": "Quiet",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "identifier": "H295",
+        "id": "295",
         "types": [
             "Normal"
         ],
@@ -977,7 +977,7 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H476",
+        "id": "476",
         "types": [
             "Fire",
             "Flying"
@@ -998,7 +998,7 @@
         "nature": "Lonely",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H2",
+        "id": "2",
         "types": [
             "Fire"
         ],
@@ -1018,7 +1018,7 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H156",
+        "id": "156",
         "types": [
             "Fire"
         ],
@@ -1038,7 +1038,7 @@
         "nature": "Modest",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H265",
+        "id": "265",
         "types": [
             "Normal",
             "Flying"
@@ -1059,7 +1059,7 @@
         "nature": "Naive",
         "item": "Heat Rock",
         "tier": "HallR10",
-        "identifier": "H359",
+        "id": "359",
         "types": [
             "Grass"
         ],
@@ -1079,7 +1079,7 @@
         "nature": "Naughty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H139",
+        "id": "139",
         "types": [
             "Grass"
         ],
@@ -1099,7 +1099,7 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H51",
+        "id": "51",
         "types": [
             "Grass"
         ],
@@ -1119,7 +1119,7 @@
         "nature": "Mild",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H129",
+        "id": "129",
         "types": [
             "Fire"
         ],
@@ -1139,7 +1139,7 @@
         "nature": "Hasty",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H246",
+        "id": "246",
         "types": [
             "Psychic"
         ],
@@ -1159,7 +1159,7 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H58",
+        "id": "58",
         "types": [
             "Water",
             "Electric"
@@ -1180,7 +1180,7 @@
         "nature": "Modest",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H142",
+        "id": "142",
         "types": [
             "Psychic"
         ],
@@ -1200,7 +1200,7 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H248",
+        "id": "248",
         "types": [
             "Water"
         ],
@@ -1220,7 +1220,7 @@
         "nature": "Rash",
         "item": "Choice Scarf",
         "tier": "HallR10",
-        "identifier": "H432",
+        "id": "432",
         "types": [
             "Psychic",
             "Ground"
@@ -1241,7 +1241,7 @@
         "nature": "Adamant",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H275",
+        "id": "275",
         "types": [
             "Normal"
         ],
@@ -1261,7 +1261,7 @@
         "nature": "Relaxed",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H16",
+        "id": "16",
         "types": [
             "Normal"
         ],
@@ -1281,7 +1281,7 @@
         "nature": "Rash",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H385",
+        "id": "385",
         "types": [
             "Water",
             "Ice"
@@ -1302,7 +1302,7 @@
         "nature": "Naughty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H137",
+        "id": "137",
         "types": [
             "Bug",
             "Flying"
@@ -1323,7 +1323,7 @@
         "nature": "Jolly",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H217",
+        "id": "217",
         "types": [
             "Fire",
             "Fighting"
@@ -1344,7 +1344,7 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H117",
+        "id": "117",
         "types": [
             "Water"
         ],
@@ -1364,7 +1364,7 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H212",
+        "id": "212",
         "types": [
             "Water",
             "Rock"
@@ -1385,7 +1385,7 @@
         "nature": "Modest",
         "item": "Big Root",
         "tier": "HallR10",
-        "identifier": "H343",
+        "id": "343",
         "types": [
             "Grass",
             "Rock"
@@ -1406,7 +1406,7 @@
         "nature": "Jolly",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H258",
+        "id": "258",
         "types": [
             "Rock"
         ],
@@ -1426,7 +1426,7 @@
         "nature": "Adamant",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H342",
+        "id": "342",
         "types": [
             "Water",
             "Dark"
@@ -1447,7 +1447,7 @@
         "nature": "Lonely",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H435",
+        "id": "435",
         "types": [
             "Psychic"
         ],
@@ -1467,7 +1467,7 @@
         "nature": "Modest",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H152",
+        "id": "152",
         "types": [
             "Poison",
             "Fighting"
@@ -1488,7 +1488,7 @@
         "nature": "Jolly",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H405",
+        "id": "405",
         "types": [
             "Poison",
             "Flying"
@@ -1509,7 +1509,7 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H191",
+        "id": "191",
         "types": [
             "Water"
         ],
@@ -1529,7 +1529,7 @@
         "nature": "Adamant",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H44",
+        "id": "44",
         "types": [
             "Ground"
         ],
@@ -1549,7 +1549,7 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H52",
+        "id": "52",
         "types": [
             "Fire"
         ],
@@ -1569,7 +1569,7 @@
         "nature": "Modest",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H230",
+        "id": "230",
         "types": [
             "Normal"
         ],
@@ -1589,7 +1589,7 @@
         "nature": "Adamant",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "identifier": "H76",
+        "id": "76",
         "types": [
             "Ice",
             "Flying"
@@ -1610,7 +1610,7 @@
         "nature": "Modest",
         "item": "Chesto Berry",
         "tier": "HallR10",
-        "identifier": "H287",
+        "id": "287",
         "types": [
             "Water",
             "Ice"
@@ -1631,7 +1631,7 @@
         "nature": "Jolly",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H286",
+        "id": "286",
         "types": [
             "Normal",
             "Flying"
@@ -1652,7 +1652,7 @@
         "nature": "Jolly",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H35",
+        "id": "35",
         "types": [
             "Normal",
             "Flying"
@@ -1673,7 +1673,7 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H417",
+        "id": "417",
         "types": [
             "Ground"
         ],
@@ -1693,7 +1693,7 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "identifier": "H188",
+        "id": "188",
         "types": [
             "Dragon"
         ],
@@ -1713,7 +1713,7 @@
         "nature": "Adamant",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H401",
+        "id": "401",
         "types": [
             "Dragon",
             "Flying"
@@ -1734,7 +1734,7 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "identifier": "H453",
+        "id": "453",
         "types": [
             "Dark",
             "Poison"
@@ -1755,7 +1755,7 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "identifier": "H50",
+        "id": "50",
         "types": [
             "Dragon"
         ],
@@ -1775,7 +1775,7 @@
         "nature": "Modest",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "identifier": "H362",
+        "id": "362",
         "types": [
             "Flying",
             "Ghost"
@@ -1796,7 +1796,7 @@
         "nature": "Modest",
         "item": "Spell Tag",
         "tier": "Hall",
-        "identifier": "H263",
+        "id": "263",
         "types": [
             "Flying",
             "Ghost"
@@ -1817,7 +1817,7 @@
         "nature": "Rash",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H40",
+        "id": "40",
         "types": [
             "Psychic"
         ],
@@ -1837,7 +1837,7 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H168",
+        "id": "168",
         "types": [
             "Ground"
         ],
@@ -1857,7 +1857,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H207",
+        "id": "207",
         "types": [
             "Normal"
         ],
@@ -1877,7 +1877,7 @@
         "nature": "Adamant",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H347",
+        "id": "347",
         "types": [
             "Ghost"
         ],
@@ -1897,7 +1897,7 @@
         "nature": "Careful",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H470",
+        "id": "470",
         "types": [
             "Ghost"
         ],
@@ -1917,7 +1917,7 @@
         "nature": "Mild",
         "item": "Spell Tag",
         "tier": "Hall",
-        "identifier": "H121",
+        "id": "121",
         "types": [
             "Ghost"
         ],
@@ -1937,7 +1937,7 @@
         "nature": "Calm",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H222",
+        "id": "222",
         "types": [
             "Poison",
             "Bug"
@@ -1958,7 +1958,7 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H49",
+        "id": "49",
         "types": [
             "Normal"
         ],
@@ -1978,7 +1978,7 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H301",
+        "id": "301",
         "types": [
             "Electric"
         ],
@@ -1998,7 +1998,7 @@
         "nature": "Naughty",
         "item": "Life Orb",
         "tier": "HallR10",
-        "identifier": "H459",
+        "id": "459",
         "types": [
             "Electric"
         ],
@@ -2018,7 +2018,7 @@
         "nature": "Naive",
         "item": "King's Rock",
         "tier": "HallR10",
-        "identifier": "H290",
+        "id": "290",
         "types": [
             "Electric"
         ],
@@ -2038,7 +2038,7 @@
         "nature": "Adamant",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H213",
+        "id": "213",
         "types": [
             "Electric"
         ],
@@ -2058,7 +2058,7 @@
         "nature": "Mild",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "identifier": "H445",
+        "id": "445",
         "types": [
             "Water",
             "Steel"
@@ -2079,7 +2079,7 @@
         "nature": "Rash",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H421",
+        "id": "421",
         "types": [
             "Fire"
         ],
@@ -2099,7 +2099,7 @@
         "nature": "Modest",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H408",
+        "id": "408",
         "types": [
             "Psychic"
         ],
@@ -2119,7 +2119,7 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H43",
+        "id": "43",
         "types": [
             "Grass",
             "Psychic"
@@ -2140,7 +2140,7 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H387",
+        "id": "387",
         "types": [
             "Grass",
             "Psychic"
@@ -2161,7 +2161,7 @@
         "nature": "Modest",
         "item": "Metronome",
         "tier": "HallR10",
-        "identifier": "H327",
+        "id": "327",
         "types": [
             "Normal"
         ],
@@ -2181,7 +2181,7 @@
         "nature": "Adamant",
         "item": "Stick",
         "tier": "Hall",
-        "identifier": "H176",
+        "id": "176",
         "types": ["Flying", "Normal"],
         "group": 2
     },
@@ -2199,7 +2199,7 @@
         "nature": "Jolly",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "identifier": "H375",
+        "id": "375",
         "types": [
             "Normal",
             "Flying"
@@ -2220,7 +2220,7 @@
         "nature": "Naive",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H404",
+        "id": "404",
         "types": [
             "Water"
         ],
@@ -2240,7 +2240,7 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H153",
+        "id": "153",
         "types": [
             "Water"
         ],
@@ -2260,7 +2260,7 @@
         "nature": "Lax",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H196",
+        "id": "196",
         "types": [
             "Electric"
         ],
@@ -2279,7 +2279,7 @@
         "nature": "Mild",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H395",
+        "id": "395",
         "types": [
             "Fire"
         ],
@@ -2299,7 +2299,7 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H358",
+        "id": "358",
         "types": [
             "Water"
         ],
@@ -2319,7 +2319,7 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H431",
+        "id": "431",
         "types": [
             "Dragon",
             "Ground"
@@ -2340,7 +2340,7 @@
         "nature": "Brave",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H313",
+        "id": "313",
         "types": [
             "Steel",
             "Bug"
@@ -2361,7 +2361,7 @@
         "nature": "Calm",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H372",
+        "id": "372",
         "types": [
             "Ice",
             "Ghost"
@@ -2382,7 +2382,7 @@
         "nature": "Rash",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H192",
+        "id": "192",
         "types": [
             "Normal"
         ],
@@ -2402,7 +2402,7 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "identifier": "H266",
+        "id": "266",
         "types": [
             "Dragon",
             "Ground"
@@ -2423,7 +2423,7 @@
         "nature": "Adamant",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H468",
+        "id": "468",
         "types": [
             "Psychic",
             "Fighting"
@@ -2444,7 +2444,7 @@
         "nature": "Adamant",
         "item": "Persim Berry",
         "tier": "HallR10",
-        "identifier": "H450",
+        "id": "450",
         "types": [
             "Dragon",
             "Ground"
@@ -2465,7 +2465,7 @@
         "nature": "Timid",
         "item": "Sticky Barb",
         "tier": "HallR10",
-        "identifier": "H427",
+        "id": "427",
         "types": [
             "Psychic"
         ],
@@ -2485,7 +2485,7 @@
         "nature": "Modest",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "identifier": "H360",
+        "id": "360",
         "types": [
             "Water",
             "Ground"
@@ -2506,7 +2506,7 @@
         "nature": "Timid",
         "item": "Razor Fang",
         "tier": "HallR10",
-        "identifier": "H386",
+        "id": "386",
         "types": [
             "Poison",
             "Ghost"
@@ -2527,7 +2527,7 @@
         "nature": "Brave",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H32",
+        "id": "32",
         "types": [
             "Rock",
             "Ground"
@@ -2548,7 +2548,7 @@
         "nature": "Adamant",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "identifier": "H148",
+        "id": "148",
         "types": [
             "Dragon",
             "Ground"
@@ -2569,7 +2569,7 @@
         "nature": "Adamant",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H312",
+        "id": "312",
         "types": [
             "Psychic",
             "Normal"
@@ -2590,7 +2590,7 @@
         "nature": "Rash",
         "item": "Icy Rock",
         "tier": "HallR10",
-        "identifier": "H464",
+        "id": "464",
         "types": [
             "Ice"
         ],
@@ -2610,7 +2610,7 @@
         "nature": "Modest",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H350",
+        "id": "350",
         "types": [
             "Ice"
         ],
@@ -2630,7 +2630,7 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H141",
+        "id": "141",
         "types": [
             "Normal"
         ],
@@ -2650,7 +2650,7 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H208",
+        "id": "208",
         "types": [
             "Ground",
             "Flying"
@@ -2671,7 +2671,7 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H465",
+        "id": "465",
         "types": [
             "Ground",
             "Flying"
@@ -2692,7 +2692,7 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H166",
+        "id": "166",
         "types": [
             "Grass",
             "Poison"
@@ -2713,7 +2713,7 @@
         "nature": "Modest",
         "item": "Razor Fang",
         "tier": "HallR10",
-        "identifier": "H276",
+        "id": "276",
         "types": [
             "Poison",
             "Flying"
@@ -2734,7 +2734,7 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H46",
+        "id": "46",
         "types": [
             "Water"
         ],
@@ -2754,7 +2754,7 @@
         "nature": "Mild",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "identifier": "H378",
+        "id": "378",
         "types": [
             "Water"
         ],
@@ -2774,7 +2774,7 @@
         "nature": "Brave",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H283",
+        "id": "283",
         "types": [
             "Rock",
             "Ground"
@@ -2795,7 +2795,7 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H352",
+        "id": "352",
         "types": [
             "Water"
         ],
@@ -2815,7 +2815,7 @@
         "nature": "Adamant",
         "item": "Focus Band",
         "tier": "HallR10",
-        "identifier": "H314",
+        "id": "314",
         "types": [
             "Normal"
         ],
@@ -2835,7 +2835,7 @@
         "nature": "Adamant",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H174",
+        "id": "174",
         "types": [
             "Rock",
             "Ground"
@@ -2856,7 +2856,7 @@
         "nature": "Lonely",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H37",
+        "id": "37",
         "types": [
             "Poison"
         ],
@@ -2876,7 +2876,7 @@
         "nature": "Brave",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H251",
+        "id": "251",
         "types": [
             "Grass"
         ],
@@ -2896,7 +2896,7 @@
         "nature": "Jolly",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H216",
+        "id": "216",
         "types": [
             "Grass"
         ],
@@ -2916,7 +2916,7 @@
         "nature": "Adamant",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H169",
+        "id": "169",
         "types": [
             "Fire"
         ],
@@ -2936,7 +2936,7 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H334",
+        "id": "334",
         "types": [
             "Psychic"
         ],
@@ -2956,7 +2956,7 @@
         "nature": "Lonely",
         "item": "Life Orb",
         "tier": "HallR10",
-        "identifier": "H391",
+        "id": "391",
         "types": [
             "Water",
             "Flying"
@@ -2977,7 +2977,7 @@
         "nature": "Lax",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H147",
+        "id": "147",
         "types": [
             "Normal"
         ],
@@ -2997,7 +2997,7 @@
         "nature": "Brave",
         "item": "Focus Band",
         "tier": "HallR10",
-        "identifier": "H328",
+        "id": "328",
         "types": [
             "Fighting"
         ],
@@ -3017,7 +3017,7 @@
         "nature": "Timid",
         "item": "Spell Tag",
         "tier": "Hall",
-        "identifier": "H177",
+        "id": "177",
         "types": [
             "Poison",
             "Ghost"
@@ -3038,7 +3038,7 @@
         "nature": "Modest",
         "item": "Focus Band",
         "tier": "HallR10",
-        "identifier": "H474",
+        "id": "474",
         "types": [
             "Fire",
             "Steel"
@@ -3059,7 +3059,7 @@
         "nature": "Jolly",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H413",
+        "id": "413",
         "types": [
             "Bug",
             "Fighting"
@@ -3080,7 +3080,7 @@
         "nature": "Careful",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H150",
+        "id": "150",
         "types": [
             "Ground"
         ],
@@ -3100,7 +3100,7 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H452",
+        "id": "452",
         "types": [
             "Ground"
         ],
@@ -3120,7 +3120,7 @@
         "nature": "Adamant",
         "item": "Choice Band",
         "tier": "HallR10",
-        "identifier": "H292",
+        "id": "292",
         "types": [
             "Fighting"
         ],
@@ -3140,7 +3140,7 @@
         "nature": "Jolly",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H291",
+        "id": "291",
         "types": [
             "Fighting"
         ],
@@ -3160,7 +3160,7 @@
         "nature": "Adamant",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H320",
+        "id": "320",
         "types": [
             "Fighting"
         ],
@@ -3180,7 +3180,7 @@
         "nature": "Lonely",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H448",
+        "id": "448",
         "types": [
             "Dark",
             "Flying"
@@ -3201,7 +3201,7 @@
         "nature": "Mild",
         "item": "Choice Scarf",
         "tier": "HallR10",
-        "identifier": "H415",
+        "id": "415",
         "types": [
             "Fire",
             "Dark"
@@ -3222,7 +3222,7 @@
         "nature": "Hasty",
         "item": "Black Glasses",
         "tier": "Hall",
-        "identifier": "H77",
+        "id": "77",
         "types": [
             "Fire",
             "Dark"
@@ -3243,7 +3243,7 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "identifier": "H351",
+        "id": "351",
         "types": [
             "Water"
         ],
@@ -3263,7 +3263,7 @@
         "nature": "Quiet",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "identifier": "H288",
+        "id": "288",
         "types": [
             "Psychic"
         ],
@@ -3283,7 +3283,7 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H238",
+        "id": "238",
         "types": [
             "Bug"
         ],
@@ -3303,7 +3303,7 @@
         "nature": "Adamant",
         "item": "Life Orb",
         "tier": "HallR10",
-        "identifier": "H444",
+        "id": "444",
         "types": [
             "Fire",
             "Fighting"
@@ -3324,7 +3324,7 @@
         "nature": "Bold",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H155",
+        "id": "155",
         "types": [
             "Grass",
             "Poison"
@@ -3345,7 +3345,7 @@
         "nature": "Rash",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H394",
+        "id": "394",
         "types": [
             "Electric"
         ],
@@ -3365,7 +3365,7 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H310",
+        "id": "310",
         "types": [
             "Grass",
             "Flying"
@@ -3386,7 +3386,7 @@
         "nature": "Timid",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H300",
+        "id": "300",
         "types": [
             "Ice",
             "Psychic"
@@ -3407,7 +3407,7 @@
         "nature": "Jolly",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H187",
+        "id": "187",
         "types": [
             "Water",
             "Rock"
@@ -3428,7 +3428,7 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "identifier": "H305",
+        "id": "305",
         "types": [
             "Water",
             "Rock"
@@ -3449,7 +3449,7 @@
         "nature": "Rash",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H171",
+        "id": "171",
         "types": [
             "Psychic"
         ],
@@ -3469,7 +3469,7 @@
         "nature": "Adamant",
         "item": "Persim Berry",
         "tier": "HallR10",
-        "identifier": "H296",
+        "id": "296",
         "types": [
             "Normal"
         ],
@@ -3489,7 +3489,7 @@
         "nature": "Jolly",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H345",
+        "id": "345",
         "types": [
             "Normal"
         ],
@@ -3509,7 +3509,7 @@
         "nature": "Modest",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H416",
+        "id": "416",
         "types": [
             "Water",
             "Dragon"
@@ -3530,7 +3530,7 @@
         "nature": "Adamant",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H289",
+        "id": "289",
         "types": [
             "Water"
         ],
@@ -3550,7 +3550,7 @@
         "nature": "Timid",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H181",
+        "id": "181",
         "types": [
             "Poison"
         ],
@@ -3570,7 +3570,7 @@
         "nature": "Naughty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H41",
+        "id": "41",
         "types": [
             "Water"
         ],
@@ -3590,7 +3590,7 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H133",
+        "id": "133",
         "types": [
             "Bug"
         ],
@@ -3610,7 +3610,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H256",
+        "id": "256",
         "types": [
             "Bug"
         ],
@@ -3630,7 +3630,7 @@
         "nature": "Impish",
         "item": "Metal Coat",
         "tier": "Hall",
-        "identifier": "H233",
+        "id": "233",
         "types": [
             "Steel",
             "Rock"
@@ -3651,7 +3651,7 @@
         "nature": "Modest",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H307",
+        "id": "307",
         "types": [
             "Water",
             "Electric"
@@ -3672,7 +3672,7 @@
         "nature": "Modest",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H392",
+        "id": "392",
         "types": [
             "Water",
             "Ice"
@@ -3693,7 +3693,7 @@
         "nature": "Lonely",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H82",
+        "id": "82",
         "types": [
             "Rock",
             "Ground"
@@ -3714,7 +3714,7 @@
         "nature": "Modest",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H441",
+        "id": "441",
         "types": [
             "Dragon",
             "Psychic"
@@ -3735,7 +3735,7 @@
         "nature": "Modest",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H442",
+        "id": "442",
         "types": [
             "Dragon",
             "Psychic"
@@ -3756,7 +3756,7 @@
         "nature": "Naughty",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H463",
+        "id": "463",
         "types": [
             "Grass"
         ],
@@ -3776,7 +3776,7 @@
         "nature": "Timid",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H193",
+        "id": "193",
         "types": [
             "Bug",
             "Flying"
@@ -3797,7 +3797,7 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H456",
+        "id": "456",
         "types": [
             "Normal"
         ],
@@ -3817,7 +3817,7 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H180",
+        "id": "180",
         "types": [
             "Normal"
         ],
@@ -3837,7 +3837,7 @@
         "nature": "Modest",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H243",
+        "id": "243",
         "types": [
             "Grass",
             "Rock"
@@ -3858,7 +3858,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H220",
+        "id": "220",
         "types": [
             "Normal"
         ],
@@ -3878,7 +3878,7 @@
         "nature": "Bold",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H223",
+        "id": "223",
         "types": [
             "Water",
             "Grass"
@@ -3899,7 +3899,7 @@
         "nature": "Jolly",
         "item": "Sticky Barb",
         "tier": "HallR10",
-        "identifier": "H363",
+        "id": "363",
         "types": [
             "Normal"
         ],
@@ -3919,7 +3919,7 @@
         "nature": "Modest",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H228",
+        "id": "228",
         "types": [
             "Normal"
         ],
@@ -3939,7 +3939,7 @@
         "nature": "Brave",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H451",
+        "id": "451",
         "types": [
             "Steel",
             "Fighting"
@@ -3960,7 +3960,7 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H322",
+        "id": "322",
         "types": [
             "Water",
             "Grass"
@@ -3981,7 +3981,7 @@
         "nature": "Timid",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H370",
+        "id": "370",
         "types": [
             "Water"
         ],
@@ -4001,7 +4001,7 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H339",
+        "id": "339",
         "types": [
             "Psychic",
             "Rock"
@@ -4022,7 +4022,7 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H125",
+        "id": "125",
         "types": [
             "Water"
         ],
@@ -4042,7 +4042,7 @@
         "nature": "Adamant",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H257",
+        "id": "257",
         "types": [
             "Electric"
         ],
@@ -4062,7 +4062,7 @@
         "nature": "Naive",
         "item": "King's Rock",
         "tier": "HallR10",
-        "identifier": "H446",
+        "id": "446",
         "types": [
             "Electric"
         ],
@@ -4082,7 +4082,7 @@
         "nature": "Brave",
         "item": "Focus Band",
         "tier": "HallR10",
-        "identifier": "H381",
+        "id": "381",
         "types": [
             "Fighting"
         ],
@@ -4102,7 +4102,7 @@
         "nature": "Jolly",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H172",
+        "id": "172",
         "types": [
             "Fighting"
         ],
@@ -4122,7 +4122,7 @@
         "nature": "Jolly",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H29",
+        "id": "29",
         "types": [
             "Fighting"
         ],
@@ -4142,7 +4142,7 @@
         "nature": "Jolly",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H214",
+        "id": "214",
         "types": [
             "Fire"
         ],
@@ -4162,7 +4162,7 @@
         "nature": "Sassy",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H211",
+        "id": "211",
         "types": [
             "Fire",
             "Rock"
@@ -4183,7 +4183,7 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H302",
+        "id": "302",
         "types": [
             "Fire"
         ],
@@ -4203,7 +4203,7 @@
         "nature": "Mild",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "identifier": "H460",
+        "id": "460",
         "types": [
             "Fire"
         ],
@@ -4223,7 +4223,7 @@
         "nature": "Rash",
         "item": "Metal Coat",
         "tier": "Hall",
-        "identifier": "H34",
+        "id": "34",
         "types": [
             "Electric",
             "Steel"
@@ -4244,7 +4244,7 @@
         "nature": "Modest",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H285",
+        "id": "285",
         "types": [
             "Electric",
             "Steel"
@@ -4265,7 +4265,7 @@
         "nature": "Bold",
         "item": "Ganlon Berry",
         "tier": "HallR10",
-        "identifier": "H455",
+        "id": "455",
         "types": [
             "Electric",
             "Steel"
@@ -4286,7 +4286,7 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H466",
+        "id": "466",
         "types": [
             "Ice",
             "Ground"
@@ -4307,7 +4307,7 @@
         "nature": "Modest",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H329",
+        "id": "329",
         "types": [
             "Electric"
         ],
@@ -4327,7 +4327,7 @@
         "nature": "Mild",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H317",
+        "id": "317",
         "types": [
             "Water",
             "Flying"
@@ -4348,7 +4348,7 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H268",
+        "id": "268",
         "types": [
             "Water",
             "Flying"
@@ -4369,7 +4369,7 @@
         "nature": "Hasty",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H179",
+        "id": "179",
         "types": [
             "Ground"
         ],
@@ -4389,7 +4389,7 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H218",
+        "id": "218",
         "types": [
             "Water",
             "Ground"
@@ -4410,7 +4410,7 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H227",
+        "id": "227",
         "types": [
             "Bug",
             "Flying"
@@ -4431,7 +4431,7 @@
         "nature": "Impish",
         "item": "Metal Coat",
         "tier": "Hall",
-        "identifier": "H232",
+        "id": "232",
         "types": [
             "Steel"
         ],
@@ -4451,7 +4451,7 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H234",
+        "id": "234",
         "types": [
             "Psychic",
             "Fighting"
@@ -4472,7 +4472,7 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H402",
+        "id": "402",
         "types": [
             "Grass"
         ],
@@ -4492,7 +4492,7 @@
         "nature": "Adamant",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H437",
+        "id": "437",
         "types": [
             "Steel",
             "Psychic"
@@ -4513,7 +4513,7 @@
         "nature": "Timid",
         "item": "Metal Coat",
         "tier": "Hall",
-        "identifier": "H250",
+        "id": "250",
         "types": [
             "Steel",
             "Psychic"
@@ -4534,7 +4534,7 @@
         "nature": "Jolly",
         "item": "Black Glasses",
         "tier": "Hall",
-        "identifier": "H219",
+        "id": "219",
         "types": [
             "Dark"
         ],
@@ -4554,7 +4554,7 @@
         "nature": "Quiet",
         "item": "Life Orb",
         "tier": "HallR10",
-        "identifier": "H433",
+        "id": "433",
         "types": [
             "Water"
         ],
@@ -4574,7 +4574,7 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H321",
+        "id": "321",
         "types": [
             "Normal"
         ],
@@ -4594,7 +4594,7 @@
         "nature": "Calm",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H146",
+        "id": "146",
         "types": ["Psychic"],
         "group": 1
     },
@@ -4612,7 +4612,7 @@
         "nature": "Timid",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H236",
+        "id": "236",
         "types": [
             "Electric"
         ],
@@ -4632,7 +4632,7 @@
         "nature": "Hasty",
         "item": "Spell Tag",
         "tier": "Hall",
-        "identifier": "H205",
+        "id": "205",
         "types": [
             "Ghost"
         ],
@@ -4652,7 +4652,7 @@
         "nature": "Modest",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "identifier": "H364",
+        "id": "364",
         "types": [
             "Ghost"
         ],
@@ -4672,7 +4672,7 @@
         "nature": "Modest",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "identifier": "H400",
+        "id": "400",
         "types": [
             "Fire",
             "Flying"
@@ -4693,7 +4693,7 @@
         "nature": "Adamant",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H252",
+        "id": "252",
         "types": [
             "Fire",
             "Fighting"
@@ -4714,7 +4714,7 @@
         "nature": "Timid",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H261",
+        "id": "261",
         "types": [
             "Bug",
             "Flying"
@@ -4735,7 +4735,7 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H299",
+        "id": "299",
         "types": [
             "Psychic"
         ],
@@ -4755,7 +4755,7 @@
         "nature": "Brave",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H85",
+        "id": "85",
         "types": [
             "Water"
         ],
@@ -4775,7 +4775,7 @@
         "nature": "Careful",
         "item": "Black Sludge",
         "tier": "HallR10",
-        "identifier": "H384",
+        "id": "384",
         "types": [
             "Poison"
         ],
@@ -4795,7 +4795,7 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H267",
+        "id": "267",
         "types": [
             "Normal"
         ],
@@ -4815,7 +4815,7 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H204",
+        "id": "204",
         "types": [
             "Dark",
             "Flying"
@@ -4836,7 +4836,7 @@
         "nature": "Modest",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H63",
+        "id": "63",
         "types": [
             "Psychic",
             "Flying"
@@ -4857,7 +4857,7 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "identifier": "H274",
+        "id": "274",
         "types": [
             "Poison",
             "Ground"
@@ -4878,7 +4878,7 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H273",
+        "id": "273",
         "types": [
             "Poison",
             "Ground"
@@ -4899,7 +4899,7 @@
         "nature": "Adamant",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H163",
+        "id": "163",
         "types": [
             "Poison"
         ],
@@ -4919,7 +4919,7 @@
         "nature": "Adamant",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H164",
+        "id": "164",
         "types": [
             "Poison"
         ],
@@ -4939,7 +4939,7 @@
         "nature": "Mild",
         "item": "White Herb",
         "tier": "HallR10",
-        "identifier": "H377",
+        "id": "377",
         "types": [
             "Fire"
         ],
@@ -4959,7 +4959,7 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H326",
+        "id": "326",
         "types": [
             "Bug",
             "Flying"
@@ -4980,7 +4980,7 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H306",
+        "id": "306",
         "types": [
             "Normal",
             "Flying"
@@ -5001,7 +5001,7 @@
         "nature": "Impish",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H229",
+        "id": "229",
         "types": [
             "Rock"
         ],
@@ -5021,7 +5021,7 @@
         "nature": "Mild",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H111",
+        "id": "111",
         "types": [
             "Fire",
             "Ground"
@@ -5042,7 +5042,7 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H224",
+        "id": "224",
         "types": [
             "Grass",
             "Dark"
@@ -5063,7 +5063,7 @@
         "nature": "Brave",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H316",
+        "id": "316",
         "types": [
             "Water"
         ],
@@ -5083,7 +5083,7 @@
         "nature": "Mild",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H20",
+        "id": "20",
         "types": [
             "Grass",
             "Poison"
@@ -5104,7 +5104,7 @@
         "nature": "Rash",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H186",
+        "id": "186",
         "types": [
             "Water",
             "Rock"
@@ -5125,7 +5125,7 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H304",
+        "id": "304",
         "types": [
             "Water",
             "Rock"
@@ -5146,7 +5146,7 @@
         "nature": "Impish",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H178",
+        "id": "178",
         "types": [
             "Rock",
             "Ground"
@@ -5167,7 +5167,7 @@
         "nature": "Modest",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H262",
+        "id": "262",
         "types": [
             "Electric"
         ],
@@ -5187,7 +5187,7 @@
         "nature": "Hasty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H167",
+        "id": "167",
         "types": [
             "Grass",
             "Bug"
@@ -5208,7 +5208,7 @@
         "nature": "Timid",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H226",
+        "id": "226",
         "types": [
             "Water",
             "Flying"
@@ -5229,7 +5229,7 @@
         "nature": "Modest",
         "item": "King's Rock",
         "tier": "HallR10",
-        "identifier": "H279",
+        "id": "279",
         "types": [
             "Normal"
         ],
@@ -5249,7 +5249,7 @@
         "nature": "Naive",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H78",
+        "id": "78",
         "types": [
             "Ground"
         ],
@@ -5269,7 +5269,7 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "identifier": "H374",
+        "id": "374",
         "types": [
             "Normal",
             "Flying"
@@ -5290,7 +5290,7 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H160",
+        "id": "160",
         "types": [
             "Normal",
             "Flying"
@@ -5311,7 +5311,7 @@
         "nature": "Naughty",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H12",
+        "id": "12",
         "types": [
             "Electric"
         ],
@@ -5331,7 +5331,7 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H315",
+        "id": "315",
         "types": [
             "Ice",
             "Ground"
@@ -5352,7 +5352,7 @@
         "nature": "Jolly",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "identifier": "H390",
+        "id": "390",
         "types": [
             "Bug"
         ],
@@ -5372,7 +5372,7 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H130",
+        "id": "130",
         "types": [
             "Water"
         ],
@@ -5392,7 +5392,7 @@
         "nature": "Timid",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H235",
+        "id": "235",
         "types": [
             "Electric"
         ],
@@ -5412,7 +5412,7 @@
         "nature": "Modest",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "identifier": "H407",
+        "id": "407",
         "types": [
             "Water"
         ],
@@ -5432,7 +5432,7 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H170",
+        "id": "170",
         "types": [
             "Water"
         ],
@@ -5452,7 +5452,7 @@
         "nature": "Quiet",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "identifier": "H380",
+        "id": "380",
         "types": [
             "Water",
             "Fighting"
@@ -5473,7 +5473,7 @@
         "nature": "Jolly",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H175",
+        "id": "175",
         "types": [
             "Fire"
         ],
@@ -5493,7 +5493,7 @@
         "nature": "Quiet",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H185",
+        "id": "185",
         "types": [
             "Normal"
         ],
@@ -5513,7 +5513,7 @@
         "nature": "Rash",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H418",
+        "id": "418",
         "types": [
             "Normal"
         ],
@@ -5533,7 +5533,7 @@
         "nature": "Modest",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H467",
+        "id": "467",
         "types": ["Normal"],
         "group": 4
     },
@@ -5551,7 +5551,7 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H280",
+        "id": "280",
         "types": [
             "Fighting"
         ],
@@ -5571,7 +5571,7 @@
         "nature": "Hasty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H253",
+        "id": "253",
         "types": [
             "Water"
         ],
@@ -5591,7 +5591,7 @@
         "nature": "Calm",
         "item": "Focus Band",
         "tier": "HallR10",
-        "identifier": "H469",
+        "id": "469",
         "types": [
             "Steel",
             "Rock"
@@ -5612,7 +5612,7 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H25",
+        "id": "25",
         "types": [
             "Water"
         ],
@@ -5632,7 +5632,7 @@
         "nature": "Adamant",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H215",
+        "id": "215",
         "types": [
             "Rock",
             "Ground"
@@ -5653,7 +5653,7 @@
         "nature": "Adamant",
         "item": "King's Rock",
         "tier": "HallR10",
-        "identifier": "H365",
+        "id": "365",
         "types": [
             "Normal"
         ],
@@ -5673,7 +5673,7 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H203",
+        "id": "203",
         "types": [
             "Water",
             "Ground"
@@ -5694,7 +5694,7 @@
         "nature": "Timid",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H190",
+        "id": "190",
         "types": [
             "Fire"
         ],
@@ -5714,7 +5714,7 @@
         "nature": "Careful",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H209",
+        "id": "209",
         "types": [
             "Water",
             "Poison"
@@ -5735,7 +5735,7 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "identifier": "H271",
+        "id": "271",
         "types": [
             "Electric"
         ],
@@ -5755,7 +5755,7 @@
         "nature": "Naive",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H420",
+        "id": "420",
         "types": [
             "Electric"
         ],
@@ -5775,7 +5775,7 @@
         "nature": "Adamant",
         "item": "Shell Bell",
         "tier": "HallR10",
-        "identifier": "H355",
+        "id": "355",
         "types": [
             "Rock"
         ],
@@ -5795,7 +5795,7 @@
         "nature": "Lonely",
         "item": "Razor Fang",
         "tier": "HallR10",
-        "identifier": "H383",
+        "id": "383",
         "types": [
             "Fire"
         ],
@@ -5815,7 +5815,7 @@
         "nature": "Jolly",
         "item": "Focus Band",
         "tier": "Hall",
-        "identifier": "H161",
+        "id": "161",
         "types": [
             "Normal"
         ],
@@ -5835,7 +5835,7 @@
         "nature": "Quiet",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H439",
+        "id": "439",
         "types": [
             "Ice"
         ],
@@ -5855,7 +5855,7 @@
         "nature": "Impish",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "identifier": "H477",
+        "id": "477",
         "types": [
             "Normal"
         ],
@@ -5875,7 +5875,7 @@
         "nature": "Brave",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H438",
+        "id": "438",
         "types": [
             "Rock"
         ],
@@ -5895,7 +5895,7 @@
         "nature": "Brave",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H440",
+        "id": "440",
         "types": [
             "Steel"
         ],
@@ -5915,7 +5915,7 @@
         "nature": "Brave",
         "item": "Shell Bell",
         "tier": "HallR10",
-        "identifier": "H353",
+        "id": "353",
         "types": [
             "Water",
             "Rock"
@@ -5936,7 +5936,7 @@
         "nature": "Timid",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H75",
+        "id": "75",
         "types": [
             "Water"
         ],
@@ -5956,7 +5956,7 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H294",
+        "id": "294",
         "types": [
             "Rock",
             "Ground"
@@ -5977,7 +5977,7 @@
         "nature": "Impish",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H182",
+        "id": "182",
         "types": [
             "Rock",
             "Ground"
@@ -5998,7 +5998,7 @@
         "nature": "Brave",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H457",
+        "id": "457",
         "types": [
             "Rock",
             "Ground"
@@ -6019,7 +6019,7 @@
         "nature": "Jolly",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H149",
+        "id": "149",
         "types": [
             "Fighting"
         ],
@@ -6039,7 +6039,7 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H239",
+        "id": "239",
         "types": [
             "Grass",
             "Poison"
@@ -6060,7 +6060,7 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "identifier": "H447",
+        "id": "447",
         "types": [
             "Grass",
             "Poison"
@@ -6081,7 +6081,7 @@
         "nature": "Timid",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "identifier": "H373",
+        "id": "373",
         "types": [
             "Electric",
             "Ghost"
@@ -6102,7 +6102,7 @@
         "nature": "Gentle",
         "item": "Spell Tag",
         "tier": "Hall",
-        "identifier": "H231",
+        "id": "231",
         "types": [
             "Dark",
             "Ghost"
@@ -6123,7 +6123,7 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H436",
+        "id": "436",
         "types": [
             "Dragon",
             "Flying"
@@ -6144,7 +6144,7 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H13",
+        "id": "13",
         "types": [
             "Ground"
         ],
@@ -6164,7 +6164,7 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H272",
+        "id": "272",
         "types": [
             "Ground"
         ],
@@ -6184,7 +6184,7 @@
         "nature": "Naughty",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H424",
+        "id": "424",
         "types": [
             "Grass"
         ],
@@ -6204,7 +6204,7 @@
         "nature": "Brave",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H411",
+        "id": "411",
         "types": [
             "Steel",
             "Bug"
@@ -6225,7 +6225,7 @@
         "nature": "Jolly",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H389",
+        "id": "389",
         "types": [
             "Bug",
             "Flying"
@@ -6246,7 +6246,7 @@
         "nature": "Modest",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "identifier": "H297",
+        "id": "297",
         "types": [
             "Water"
         ],
@@ -6266,7 +6266,7 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H298",
+        "id": "298",
         "types": [
             "Water"
         ],
@@ -6286,7 +6286,7 @@
         "nature": "Modest",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "identifier": "H247",
+        "id": "247",
         "types": [
             "Water",
             "Ice"
@@ -6307,7 +6307,7 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H36",
+        "id": "36",
         "types": [
             "Water"
         ],
@@ -6327,7 +6327,7 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H338",
+        "id": "338",
         "types": [
             "Poison"
         ],
@@ -6347,7 +6347,7 @@
         "nature": "Adamant",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H331",
+        "id": "331",
         "types": [
             "Water",
             "Dark"
@@ -6368,7 +6368,7 @@
         "nature": "Adamant",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H101",
+        "id": "101",
         "types": [
             "Bug",
             "Ghost"
@@ -6389,7 +6389,7 @@
         "nature": "Adamant",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "identifier": "H249",
+        "id": "249",
         "types": [
             "Dragon"
         ],
@@ -6409,7 +6409,7 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H140",
+        "id": "140",
         "types": [
             "Water"
         ],
@@ -6429,7 +6429,7 @@
         "nature": "Careful",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H259",
+        "id": "259",
         "types": [
             "Steel",
             "Rock"
@@ -6450,7 +6450,7 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "identifier": "H323",
+        "id": "323",
         "types": [
             "Grass",
             "Dark"
@@ -6471,7 +6471,7 @@
         "nature": "Naughty",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H134",
+        "id": "134",
         "types": [
             "Electric"
         ],
@@ -6491,7 +6491,7 @@
         "nature": "Careful",
         "item": "Smooth Rock",
         "tier": "HallR10",
-        "identifier": "H412",
+        "id": "412",
         "types": [
             "Bug",
             "Rock"
@@ -6512,7 +6512,7 @@
         "nature": "Jolly",
         "item": "Spell Tag",
         "tier": "Hall",
-        "identifier": "H120",
+        "id": "120",
         "types": [
             "Ghost"
         ],
@@ -6532,7 +6532,7 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "identifier": "H318",
+        "id": "318",
         "types": [
             "Steel",
             "Flying"
@@ -6553,7 +6553,7 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H199",
+        "id": "199",
         "types": [
             "Grass",
             "Flying"
@@ -6574,7 +6574,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H151",
+        "id": "151",
         "types": [
             "Poison",
             "Bug"
@@ -6595,7 +6595,7 @@
         "nature": "Naughty",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H366",
+        "id": "366",
         "types": [
             "Dark",
             "Poison"
@@ -6616,7 +6616,7 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H428",
+        "id": "428",
         "types": [
             "Normal"
         ],
@@ -6636,7 +6636,7 @@
         "nature": "Modest",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H284",
+        "id": "284",
         "types": [
             "Water",
             "Psychic"
@@ -6657,7 +6657,7 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H311",
+        "id": "311",
         "types": [
             "Water",
             "Psychic"
@@ -6678,7 +6678,7 @@
         "nature": "Sassy",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H33",
+        "id": "33",
         "types": [
             "Water",
             "Psychic"
@@ -6699,7 +6699,7 @@
         "nature": "Mild",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "identifier": "H81",
+        "id": "81",
         "types": [
             "Ice",
             "Psychic"
@@ -6720,7 +6720,7 @@
         "nature": "Jolly",
         "item": "Black Glasses",
         "tier": "Hall",
-        "identifier": "H210",
+        "id": "210",
         "types": [
             "Ice",
             "Dark"
@@ -6741,7 +6741,7 @@
         "nature": "Brave",
         "item": "Choice Band",
         "tier": "HallR10",
-        "identifier": "H397",
+        "id": "397",
         "types": [
             "Normal"
         ],
@@ -6761,7 +6761,7 @@
         "nature": "Brave",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "identifier": "H123",
+        "id": "123",
         "types": [
             "Ice"
         ],
@@ -6781,7 +6781,7 @@
         "nature": "Brave",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "identifier": "H154",
+        "id": "154",
         "types": [
             "Grass",
             "Ice"
@@ -6802,7 +6802,7 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H71",
+        "id": "71",
         "types": [
             "Normal"
         ],
@@ -6822,7 +6822,7 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "identifier": "H340",
+        "id": "340",
         "types": [
             "Psychic",
             "Rock"
@@ -6843,7 +6843,7 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H241",
+        "id": "241",
         "types": [
             "Normal"
         ],
@@ -6863,7 +6863,7 @@
         "nature": "Hasty",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H112",
+        "id": "112",
         "types": [
             "Psychic"
         ],
@@ -6883,7 +6883,7 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H3",
+        "id": "3",
         "types": [
             "Water"
         ],
@@ -6903,7 +6903,7 @@
         "nature": "Rash",
         "item": "King's Rock",
         "tier": "HallR10",
-        "identifier": "H319",
+        "id": "319",
         "types": [
             "Normal"
         ],
@@ -6923,7 +6923,7 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H354",
+        "id": "354",
         "types": [
             "Normal",
             "Flying"
@@ -6944,7 +6944,7 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H254",
+        "id": "254",
         "types": [
             "Normal",
             "Flying"
@@ -6965,7 +6965,7 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H131",
+        "id": "131",
         "types": [
             "Normal",
             "Flying"
@@ -6986,7 +6986,7 @@
         "nature": "Timid",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H388",
+        "id": "388",
         "types": [
             "Water",
             "Psychic"
@@ -7007,7 +7007,7 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H184",
+        "id": "184",
         "types": [
             "Water"
         ],
@@ -7027,7 +7027,7 @@
         "nature": "Brave",
         "item": "Iron Ball",
         "tier": "HallR10",
-        "identifier": "H410",
+        "id": "410",
         "types": [
             "Steel",
             "Ground"
@@ -7048,7 +7048,7 @@
         "nature": "Modest",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H143",
+        "id": "143",
         "types": [
             "Dark",
             "Poison"
@@ -7069,7 +7069,7 @@
         "nature": "Impish",
         "item": "Hard Stone",
         "tier": "Hall",
-        "identifier": "H198",
+        "id": "198",
         "types": [
             "Rock"
         ],
@@ -7089,7 +7089,7 @@
         "nature": "Bold",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "identifier": "H422",
+        "id": "422",
         "types": [
             "Water"
         ],
@@ -7109,7 +7109,7 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H201",
+        "id": "201",
         "types": [
             "Grass"
         ],
@@ -7129,7 +7129,7 @@
         "nature": "Lonely",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H115",
+        "id": "115",
         "types": [
             "Normal",
             "Flying"
@@ -7150,7 +7150,7 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H330",
+        "id": "330",
         "types": [
             "Poison"
         ],
@@ -7170,7 +7170,7 @@
         "nature": "Quiet",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H426",
+        "id": "426",
         "types": [
             "Water",
             "Ground"
@@ -7191,7 +7191,7 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H225",
+        "id": "225",
         "types": [
             "Normal",
             "Flying"
@@ -7212,7 +7212,7 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H183",
+        "id": "183",
         "types": [
             "Grass"
         ],
@@ -7232,7 +7232,7 @@
         "nature": "Lonely",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "identifier": "H458",
+        "id": "458",
         "types": [
             "Grass"
         ],
@@ -7252,7 +7252,7 @@
         "nature": "Adamant",
         "item": "Persim Berry",
         "tier": "HallR10",
-        "identifier": "H303",
+        "id": "303",
         "types": [
             "Normal"
         ],
@@ -7272,7 +7272,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H72",
+        "id": "72",
         "types": [
             "Normal"
         ],
@@ -7292,7 +7292,7 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H31",
+        "id": "31",
         "types": [
             "Water",
             "Poison"
@@ -7313,7 +7313,7 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H382",
+        "id": "382",
         "types": [
             "Water",
             "Poison"
@@ -7334,7 +7334,7 @@
         "nature": "Modest",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H461",
+        "id": "461",
         "types": [
             "Normal",
             "Flying"
@@ -7355,7 +7355,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H195",
+        "id": "195",
         "types": [
             "Flying"
         ],
@@ -7375,7 +7375,7 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H84",
+        "id": "84",
         "types": [
             "Fire"
         ],
@@ -7395,7 +7395,7 @@
         "nature": "Quiet",
         "item": "White Herb",
         "tier": "HallR10",
-        "identifier": "H333",
+        "id": "333",
         "types": [
             "Fire"
         ],
@@ -7415,7 +7415,7 @@
         "nature": "Brave",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "identifier": "H443",
+        "id": "443",
         "types": [
             "Grass",
             "Ground"
@@ -7436,7 +7436,7 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H53",
+        "id": "53",
         "types": [
             "Water"
         ],
@@ -7456,7 +7456,7 @@
         "nature": "Brave",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "identifier": "H368",
+        "id": "368",
         "types": [
             "Poison",
             "Fighting"
@@ -7477,7 +7477,7 @@
         "nature": "Naive",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H83",
+        "id": "83",
         "types": [
             "Grass"
         ],
@@ -7497,7 +7497,7 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "identifier": "H348",
+        "id": "348",
         "types": [
             "Grass",
             "Flying"
@@ -7518,7 +7518,7 @@
         "nature": "Lonely",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H128",
+        "id": "128",
         "types": [
             "Grass"
         ],
@@ -7538,7 +7538,7 @@
         "nature": "Timid",
         "item": "White Herb",
         "tier": "HallR10",
-        "identifier": "H403",
+        "id": "403",
         "types": [
             "Fire"
         ],
@@ -7558,7 +7558,7 @@
         "nature": "Brave",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "identifier": "H423",
+        "id": "423",
         "types": [
             "Dark",
             "Rock"
@@ -7579,7 +7579,7 @@
         "nature": "Relaxed",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H409",
+        "id": "409",
         "types": [
             "Dark"
         ],
@@ -7599,7 +7599,7 @@
         "nature": "Adamant",
         "item": "Focus Band",
         "tier": "HallR10",
-        "identifier": "H414",
+        "id": "414",
         "types": [
             "Normal"
         ],
@@ -7619,7 +7619,7 @@
         "nature": "Mild",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "identifier": "H393",
+        "id": "393",
         "types": [
             "Water"
         ],
@@ -7639,7 +7639,7 @@
         "nature": "Modest",
         "item": "Choice Specs",
         "tier": "HallR10",
-        "identifier": "H278",
+        "id": "278",
         "types": [
             "Poison"
         ],
@@ -7659,7 +7659,7 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H22",
+        "id": "22",
         "types": [
             "Poison",
             "Bug"
@@ -7680,7 +7680,7 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H475",
+        "id": "475",
         "types": [
             "Grass",
             "Poison"
@@ -7701,7 +7701,7 @@
         "nature": "Brave",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H357",
+        "id": "357",
         "types": [
             "Bug",
             "Flying"
@@ -7722,7 +7722,7 @@
         "nature": "Adamant",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H242",
+        "id": "242",
         "types": [
             "Dragon",
             "Ground"
@@ -7743,7 +7743,7 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "identifier": "H282",
+        "id": "282",
         "types": [
             "Grass",
             "Poison"
@@ -7764,7 +7764,7 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "identifier": "H325",
+        "id": "325",
         "types": [
             "Normal"
         ],
@@ -7784,7 +7784,7 @@
         "nature": "Modest",
         "item": "Heat Rock",
         "tier": "HallR10",
-        "identifier": "H277",
+        "id": "277",
         "types": [
             "Grass",
             "Poison"
@@ -7805,7 +7805,7 @@
         "nature": "Rash",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H237",
+        "id": "237",
         "types": [
             "Bug"
         ],
@@ -7825,7 +7825,7 @@
         "nature": "Modest",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H42",
+        "id": "42",
         "types": [
             "Electric"
         ],
@@ -7845,7 +7845,7 @@
         "nature": "Modest",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H17",
+        "id": "17",
         "types": [
             "Fire"
         ],
@@ -7865,7 +7865,7 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H240",
+        "id": "240",
         "types": [
             "Water"
         ],
@@ -7885,7 +7885,7 @@
         "nature": "Quiet",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "identifier": "H430",
+        "id": "430",
         "types": [
             "Water"
         ],
@@ -7905,7 +7905,7 @@
         "nature": "Quiet",
         "item": "Icy Rock",
         "tier": "HallR10",
-        "identifier": "H434",
+        "id": "434",
         "types": [
             "Water",
             "Ice"
@@ -7926,7 +7926,7 @@
         "nature": "Calm",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H157",
+        "id": "157",
         "types": [
             "Water"
         ],
@@ -7946,7 +7946,7 @@
         "nature": "Adamant",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "identifier": "H454",
+        "id": "454",
         "types": [
             "Ice",
             "Dark"
@@ -7967,7 +7967,7 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H173",
+        "id": "173",
         "types": [
             "Grass",
             "Poison"
@@ -7988,7 +7988,7 @@
         "nature": "Calm",
         "item": "Black Sludge",
         "tier": "HallR10",
-        "identifier": "H293",
+        "id": "293",
         "types": [
             "Poison"
         ],
@@ -8008,7 +8008,7 @@
         "nature": "Quiet",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "identifier": "H341",
+        "id": "341",
         "types": [
             "Water",
             "Ground"
@@ -8029,7 +8029,7 @@
         "nature": "Modest",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H165",
+        "id": "165",
         "types": [
             "Normal"
         ],
@@ -8049,7 +8049,7 @@
         "nature": "Calm",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "identifier": "H206",
+        "id": "206",
         "types": [
             "Psychic"
         ],
@@ -8069,7 +8069,7 @@
         "nature": "Quiet",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H260",
+        "id": "260",
         "types": [
             "Bug",
             "Grass"
@@ -8090,7 +8090,7 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "identifier": "H308",
+        "id": "308",
         "types": [
             "Psychic",
             "Flying"
@@ -8111,7 +8111,7 @@
         "nature": "Modest",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H202",
+        "id": "202",
         "types": [
             "Bug",
             "Flying"
@@ -8132,7 +8132,7 @@
         "nature": "Rash",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "identifier": "H462",
+        "id": "462",
         "types": [
             "Bug",
             "Flying"
@@ -8153,7 +8153,7 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "identifier": "H337",
+        "id": "337",
         "types": [
             "Normal"
         ],
@@ -8173,7 +8173,7 @@
         "nature": "Modest",
         "item": "Ganlon Berry",
         "tier": "HallR10",
-        "identifier": "H399",
+        "id": "399",
         "types": [
             "Electric",
             "Flying"
@@ -8194,7 +8194,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H4",
+        "id": "4",
         "types": [
             "Bug"
         ],
@@ -8214,7 +8214,7 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H5",
+        "id": "5",
         "types": [
             "Bug"
         ],
@@ -8234,7 +8234,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H6",
+        "id": "6",
         "types": [
             "Poison",
             "Bug"
@@ -8255,7 +8255,7 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H7",
+        "id": "7",
         "types": [
             "Poison",
             "Bug"
@@ -8276,7 +8276,7 @@
         "nature": "Mild",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H8",
+        "id": "8",
         "types": [
             "Normal",
             "Flying"
@@ -8297,7 +8297,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H9",
+        "id": "9",
         "types": [
             "Normal"
         ],
@@ -8317,7 +8317,7 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H10",
+        "id": "10",
         "types": [
             "Normal",
             "Flying"
@@ -8338,7 +8338,7 @@
         "nature": "Hasty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H11",
+        "id": "11",
         "types": [
             "Poison"
         ],
@@ -8358,7 +8358,7 @@
         "nature": "Mild",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H14",
+        "id": "14",
         "types": ["Poison"],
         "group": 1
     },
@@ -8376,7 +8376,7 @@
         "nature": "Naughty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H15",
+        "id": "15",
         "types": ["Poison"],
         "group": 1
     },
@@ -8394,7 +8394,7 @@
         "nature": "Rash",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H18",
+        "id": "18",
         "types": [
             "Normal"
         ],
@@ -8414,7 +8414,7 @@
         "nature": "Hasty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H19",
+        "id": "19",
         "types": [
             "Poison",
             "Flying"
@@ -8435,7 +8435,7 @@
         "nature": "Brave",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H21",
+        "id": "21",
         "types": [
             "Grass",
             "Bug"
@@ -8456,7 +8456,7 @@
         "nature": "Adamant",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H23",
+        "id": "23",
         "types": [
             "Ground"
         ],
@@ -8476,7 +8476,7 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H24",
+        "id": "24",
         "types": [
             "Normal"
         ],
@@ -8496,7 +8496,7 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H26",
+        "id": "26",
         "types": [
             "Fighting"
         ],
@@ -8516,7 +8516,7 @@
         "nature": "Hasty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H27",
+        "id": "27",
         "types": [
             "Water"
         ],
@@ -8536,7 +8536,7 @@
         "nature": "Naive",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H28",
+        "id": "28",
         "types": [
             "Psychic"
         ],
@@ -8556,7 +8556,7 @@
         "nature": "Rash",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H30",
+        "id": "30",
         "types": [
             "Grass",
             "Poison"
@@ -8577,7 +8577,7 @@
         "nature": "Sassy",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H38",
+        "id": "38",
         "types": [
             "Water"
         ],
@@ -8597,7 +8597,7 @@
         "nature": "Modest",
         "item": "Spell Tag",
         "tier": "Hall",
-        "identifier": "H39",
+        "id": "39",
         "types": [
             "Poison",
             "Ghost"
@@ -8618,7 +8618,7 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H45",
+        "id": "45",
         "types": [
             "Water"
         ],
@@ -8638,7 +8638,7 @@
         "nature": "Jolly",
         "item": "Scope Lens",
         "tier": "Hall",
-        "identifier": "H47",
+        "id": "47",
         "types": [
             "Water"
         ],
@@ -8658,7 +8658,7 @@
         "nature": "Naive",
         "item": "Quick Powder",
         "tier": "Hall",
-        "identifier": "H48",
+        "id": "48",
         "types": [
             "Normal"
         ],
@@ -8678,7 +8678,7 @@
         "nature": "Rash",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H54",
+        "id": "54",
         "types": [
             "Normal"
         ],
@@ -8698,7 +8698,7 @@
         "nature": "Mild",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H55",
+        "id": "55",
         "types": [
             "Normal",
             "Flying"
@@ -8719,7 +8719,7 @@
         "nature": "Hasty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H56",
+        "id": "56",
         "types": [
             "Bug",
             "Flying"
@@ -8740,7 +8740,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H57",
+        "id": "57",
         "types": [
             "Poison",
             "Bug"
@@ -8761,7 +8761,7 @@
         "nature": "Naive",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H59",
+        "id": "59",
         "types": [
             "Electric"
         ],
@@ -8781,7 +8781,7 @@
         "nature": "Relaxed",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H60",
+        "id": "60",
         "types": [
             "Normal"
         ],
@@ -8801,7 +8801,7 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H61",
+        "id": "61",
         "types": [
             "Normal"
         ],
@@ -8821,7 +8821,7 @@
         "nature": "Naive",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H62",
+        "id": "62",
         "types": [
             "Normal"
         ],
@@ -8841,7 +8841,7 @@
         "nature": "Rash",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H64",
+        "id": "64",
         "types": [
             "Electric"
         ],
@@ -8861,7 +8861,7 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H65",
+        "id": "65",
         "types": [
             "Water"
         ],
@@ -8881,7 +8881,7 @@
         "nature": "Hasty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H66",
+        "id": "66",
         "types": [
             "Grass",
             "Flying"
@@ -8902,7 +8902,7 @@
         "nature": "Jolly",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H67",
+        "id": "67",
         "types": [
             "Grass"
         ],
@@ -8922,7 +8922,7 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H68",
+        "id": "68",
         "types": [
             "Water",
             "Ground"
@@ -8943,7 +8943,7 @@
         "nature": "Hasty",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "identifier": "H69",
+        "id": "69",
         "types": [
             "Psychic"
         ],
@@ -8963,7 +8963,7 @@
         "nature": "Relaxed",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H70",
+        "id": "70",
         "types": [
             "Bug"
         ],
@@ -8983,7 +8983,7 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "identifier": "H73",
+        "id": "73",
         "types": [
             "Fire"
         ],
@@ -9003,7 +9003,7 @@
         "nature": "Quiet",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "identifier": "H74",
+        "id": "74",
         "types": [
             "Ice",
             "Ground"
@@ -9024,7 +9024,7 @@
         "nature": "Timid",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H79",
+        "id": "79",
         "types": [
             "Normal"
         ],
@@ -9044,7 +9044,7 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H80",
+        "id": "80",
         "types": [
             "Fighting"
         ],
@@ -9064,7 +9064,7 @@
         "nature": "Naive",
         "item": "Black Glasses",
         "tier": "Hall",
-        "identifier": "H86",
+        "id": "86",
         "types": [
             "Dark"
         ],
@@ -9084,7 +9084,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H87",
+        "id": "87",
         "types": [
             "Normal"
         ],
@@ -9104,7 +9104,7 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H88",
+        "id": "88",
         "types": [
             "Bug"
         ],
@@ -9124,7 +9124,7 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H89",
+        "id": "89",
         "types": [
             "Bug"
         ],
@@ -9144,7 +9144,7 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H90",
+        "id": "90",
         "types": [
             "Bug"
         ],
@@ -9164,7 +9164,7 @@
         "nature": "Hasty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H91",
+        "id": "91",
         "types": [
             "Water",
             "Grass"
@@ -9185,7 +9185,7 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H92",
+        "id": "92",
         "types": [
             "Grass"
         ],
@@ -9205,7 +9205,7 @@
         "nature": "Lonely",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H93",
+        "id": "93",
         "types": [
             "Normal",
             "Flying"
@@ -9226,7 +9226,7 @@
         "nature": "Timid",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "identifier": "H94",
+        "id": "94",
         "types": [
             "Water",
             "Flying"
@@ -9247,7 +9247,7 @@
         "nature": "Mild",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H95",
+        "id": "95",
         "types": [
             "Psychic"
         ],
@@ -9267,7 +9267,7 @@
         "nature": "Rash",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "identifier": "H96",
+        "id": "96",
         "types": [
             "Psychic"
         ],
@@ -9287,7 +9287,7 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H97",
+        "id": "97",
         "types": [
             "Water",
             "Bug"
@@ -9308,7 +9308,7 @@
         "nature": "Rash",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "identifier": "H98",
+        "id": "98",
         "types": [
             "Grass"
         ],
@@ -9328,7 +9328,7 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H99",
+        "id": "99",
         "types": [
             "Normal"
         ],
@@ -9348,7 +9348,7 @@
         "nature": "Hasty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H100",
+        "id": "100",
         "types": [
             "Bug",
             "Ground"
@@ -9369,7 +9369,7 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H102",
+        "id": "102",
         "types": [
             "Normal"
         ],
@@ -9389,7 +9389,7 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H103",
+        "id": "103",
         "types": [
             "Fighting"
         ],
@@ -9409,7 +9409,7 @@
         "nature": "Mild",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H104",
+        "id": "104",
         "types": [
             "Normal"
         ],
@@ -9429,7 +9429,7 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "identifier": "H105",
+        "id": "105",
         "types": [
             "Normal"
         ],
@@ -9449,7 +9449,7 @@
         "nature": "Rash",
         "item": "Black Belt",
         "tier": "Hall",
-        "identifier": "H107",
+        "id": "107",
         "types": [
             "Psychic",
             "Fighting"
@@ -9470,7 +9470,7 @@
         "nature": "Rash",
         "item": "Magnet",
         "tier": "Hall",
-        "identifier": "H108",
+        "id": "108",
         "types": [
             "Electric"
         ],
@@ -9490,7 +9490,7 @@
         "nature": "Brave",
         "item": "Poison Barb",
         "tier": "Hall",
-        "identifier": "H109",
+        "id": "109",
         "types": [
             "Poison"
         ],
@@ -9510,7 +9510,7 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "identifier": "H113",
+        "id": "113",
         "types": [
             "Ground"
         ],
@@ -9530,7 +9530,7 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H116",
+        "id": "116",
         "types": [
             "Water",
             "Ground"
@@ -9551,7 +9551,7 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "identifier": "H119",
+        "id": "119",
         "types": [
             "Water"
         ],
@@ -9571,7 +9571,7 @@
         "nature": "Bold",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "identifier": "H122",
+        "id": "122",
         "types": [
             "Psychic"
         ],
@@ -9591,7 +9591,7 @@
         "nature": "Rash",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "identifier": "H124",
+        "id": "124",
         "types": [
             "Water",
             "Ice"
@@ -9612,7 +9612,7 @@
         "nature": "Adamant",
         "item": "Metal Coat",
         "tier": "Hall",
-        "identifier": "H127",
+        "id": "127",
         "types": [
             "Steel",
             "Psychic"
@@ -9633,7 +9633,7 @@
         "nature": "Brave",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H269",
+        "id": "269",
         "types": ["Bug", "Ground"],
         "group": 2
     },
@@ -9651,7 +9651,7 @@
         "nature": "Relaxed",
         "item": "Silver Powder",
         "tier": "Hall",
-        "identifier": "H270",
+        "id": "270",
         "types": ["Bug", "Steel"],
         "group": 2
     },
@@ -9669,7 +9669,7 @@
         "nature": "Modest",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "identifier": "H367",
+        "id": "367",
         "types": [
             "Dark",
             "Ghost"
@@ -9690,7 +9690,7 @@
         "nature": "Bold",
         "item": "Focus Band",
         "tier": "HallR10",
-        "identifier": "H471",
+        "id": "471",
         "types": [
             "Psychic"
         ],
@@ -9710,7 +9710,7 @@
         "nature": "Timid",
         "item": "Light Clay",
         "tier": "HallR10",
-        "identifier": "H472",
+        "id": "472",
         "types": [
             "Psychic"
         ],
@@ -9730,7 +9730,7 @@
         "nature": "Adamant",
         "item": "Flame Orb",
         "tier": "HallR10",
-        "identifier": "H473",
+        "id": "473",
         "types": [
             "Psychic"
         ],

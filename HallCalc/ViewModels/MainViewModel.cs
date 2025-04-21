@@ -28,11 +28,17 @@ public partial class MainViewModel : ViewModelBase
         var options = new JsonSerializerOptions();
         options.PropertyNameCaseInsensitive = true;
         options.NumberHandling = JsonNumberHandling.AllowReadingFromString;
-        var sets = JsonSerializer.Deserialize<SortedDictionary<string, PokemonSet>>(json, options);
+        var sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
         var targetType = "Fire";
         IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets
             .Where(x => x.Value.Types.Contains("Fire"));
-        var memeay = fireSets.OrderBy(x => x.Value.Identifier);
+        var memeay = fireSets.OrderBy(x => x.Value.Id);
+        foreach ((var hi, var yo) in memeay)
+        {
+            Console.WriteLine(hi);
+            Console.WriteLine(yo.Id);
+        }
+        
         
         //IEnumerable<KeyValuePair<string, PokemonSet>>  fireSets = sets.Where(x => x.Key == "Fire").Select<KeyValuePair<string, PokemonSet>, KeyValuePair<string, PokemonSet>>(x => x.Value);
         // Output the results
