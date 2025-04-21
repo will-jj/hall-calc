@@ -25,42 +25,32 @@ public partial class MainViewModel : ViewModelBase
         using Stream stream = AssetLoader.Open(new Uri("avares://HallCalc/Assets/combined_data.json"));
         using StreamReader reader = new(stream);
         string json =  reader.ReadToEnd();
-        var options = new JsonSerializerOptions();
+        JsonSerializerOptions options = new JsonSerializerOptions();
         options.PropertyNameCaseInsensitive = true;
         options.NumberHandling = JsonNumberHandling.AllowReadingFromString;
-        var sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
-        var targetType = "Fire";
-        IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets
-            .Where(x => x.Value.Types.Contains("Fire"));
-        var memeay = fireSets.OrderBy(x => x.Value.Id);
-        foreach ((var hi, var yo) in memeay)
+        Dictionary<string, PokemonSet>? sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
+        const string targetType = "Fire";
+        IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets!
+            .Where(x => x.Value.Types.Contains(targetType));
+        IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = fireSets.OrderBy(x => x.Value.Id);
+        foreach ((string hi, PokemonSet yo) in memeay)
         {
             Console.WriteLine(hi);
             Console.WriteLine(yo.Id);
         }
         
-        
-        //IEnumerable<KeyValuePair<string, PokemonSet>>  fireSets = sets.Where(x => x.Key == "Fire").Select<KeyValuePair<string, PokemonSet>, KeyValuePair<string, PokemonSet>>(x => x.Value);
-        // Output the results
-
-        PokemonSet pachies = sets["Pachirisu"];
-        PokemonSet hallPachie = null;//pachies["Pachirisu-H"];
+        PokemonSet hallPachie = sets!["Pachirisu"];
         hallPachie.Level = 30;
-      
-      var meme = DamageCalcInterop.CalculateDamage("Squirtle", JsonSerializer.Serialize(hallPachie), "Bulbasaur", "","earthquake", "");
-      var meme2 =  DamageCalcInterop.CalculateDamage("Squirtle", JsonSerializer.Serialize(hallPachie), "Bulbasaur", "","earthquake", "");
-      var meme3 =  DamageCalcInterop.CalculateDamage("Squirtle", JsonSerializer.Serialize(hallPachie), "Bulbasaur", "","earthquake", "");
-    //     var hello = JsonSerializer.Deserialize<CalcResult>(meme);
-        // await Task.Delay(100);
-         var meme4 = DamageCalcInterop.CalculateDamage("Squirtle", "{}", "Pidgey", "","earthquake", "");
-         try
-         {
-             var hello2 = JsonSerializer.Deserialize<CalcResult>(meme2);
-         }
-         catch(Exception e)
-         {
-             int stop = 1;
-         }
+        if (!OperatingSystem.IsBrowser())
+        {
+            return;
+        }
+        string meme = DamageCalcInterop.CalculateDamage("Squirtle",
+            JsonSerializer.Serialize(hallPachie),
+            "Bulbasaur",
+            "",
+            "earthquake",
+            "");
 
     }
 }
