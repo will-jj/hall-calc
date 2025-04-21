@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
+using Avalonia.Controls.Primitives;
 
 namespace HallCalc.Models;
 
@@ -15,6 +16,9 @@ public class PokemonSet
     [JsonPropertyName("level")]
     public int Level { get; set; }
     public string Tier { get; set; }
+    public int Group {get; set;}
+    public string Identifier {get; set;} 
+    public List<string> Types { get; set; }
 }
 
 public partial class Stats
