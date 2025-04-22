@@ -2181,9 +2181,9 @@
         "nature": "Adamant",
         "item": "Stick",
         "tier": "Hall",
-        "id": null,
-        "types": [],
-        "group": null
+        "id": "176",
+        "types": ["Normal", "Flying"],
+        "group": "2"
     },
     "Fearow": {
         "evs": {
@@ -8358,9 +8358,9 @@
         "nature": "Mild",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": null,
-        "types": [],
-        "group": null
+        "id": "14",
+        "types": ["Poison"],
+        "group": "1"
     },
     "Nidoran-M": {
         "evs": {
@@ -8376,9 +8376,9 @@
         "nature": "Naughty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": null,
-        "types": [],
-        "group": null
+        "id": "15",
+        "types": ["Poison"],
+        "group": "1"
     },
     "Jigglypuff": {
         "evs": {
