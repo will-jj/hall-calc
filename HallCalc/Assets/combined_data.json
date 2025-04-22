@@ -23,7 +23,7 @@
     "Absol": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psycho Cut",
@@ -43,7 +43,7 @@
     "Aerodactyl": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Stone Edge",
@@ -85,7 +85,7 @@
     "Aipom": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Frustration",
@@ -105,7 +105,7 @@
     "Alakazam": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -125,7 +125,7 @@
     "Altaria": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dragon Pulse",
@@ -207,7 +207,7 @@
     "Arbok": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Glare",
@@ -227,7 +227,7 @@
     "Arcanine": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Extreme Speed",
@@ -247,7 +247,7 @@
     "Ariados": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Poison Jab",
@@ -351,7 +351,7 @@
     "Bagon": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Headbutt",
@@ -371,7 +371,7 @@
     "Baltoy": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earth Power",
@@ -453,7 +453,7 @@
     "Beautifly": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Stun Spore",
@@ -474,7 +474,7 @@
     "Beedrill": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Poison Jab",
@@ -515,7 +515,7 @@
     "Bibarel": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Super Fang",
@@ -536,7 +536,7 @@
     "Bidoof": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Fang",
@@ -576,7 +576,7 @@
     "Blaziken": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Blaze Kick",
@@ -617,7 +617,7 @@
     "Bonsly": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Double-Edge",
@@ -637,7 +637,7 @@
     "Breloom": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sky Uppercut",
@@ -721,7 +721,7 @@
     "Buizel": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Aqua Jet",
@@ -741,7 +741,7 @@
     "Bulbasaur": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Energy Ball",
@@ -762,7 +762,7 @@
     "Buneary": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dizzy Punch",
@@ -782,7 +782,7 @@
     "Burmy": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Tackle",
@@ -802,7 +802,7 @@
     "Butterfree": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Silver Wind",
@@ -823,7 +823,7 @@
     "Cacnea": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Needle Arm",
@@ -905,7 +905,7 @@
     "Carvanha": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crunch",
@@ -926,7 +926,7 @@
     "Castform": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Weather Ball",
@@ -987,7 +987,7 @@
     "Charmander": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Slash",
@@ -1007,7 +1007,7 @@
     "Charmeleon": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Will-O-Wisp",
@@ -1027,7 +1027,7 @@
     "Chatot": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Voice",
@@ -1048,7 +1048,7 @@
     "Cherrim": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sunny Day",
@@ -1068,7 +1068,7 @@
     "Cherubi": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Razor Leaf",
@@ -1128,7 +1128,7 @@
     "Chimecho": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -1148,7 +1148,7 @@
     "Chinchou": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Discharge",
@@ -1169,7 +1169,7 @@
     "Chingling": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -1291,7 +1291,7 @@
     "Combee": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bug Bite",
@@ -1312,7 +1312,7 @@
     "Combusken": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sky Uppercut",
@@ -1333,7 +1333,7 @@
     "Corphish": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crabhammer",
@@ -1395,7 +1395,7 @@
     "Cranidos": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Head Smash",
@@ -1456,7 +1456,7 @@
     "Croagunk": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Nasty Plot",
@@ -1477,7 +1477,7 @@
     "Crobat": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Brave Bird",
@@ -1498,7 +1498,7 @@
     "Croconaw": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Aqua Tail",
@@ -1518,7 +1518,7 @@
     "Cubone": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bonemerang",
@@ -1538,7 +1538,7 @@
     "Cyndaquil": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Overheat",
@@ -1578,7 +1578,7 @@
     "Delibird": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Ice Shard",
@@ -1620,7 +1620,7 @@
     "Dodrio": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Drill Peck",
@@ -1641,7 +1641,7 @@
     "Doduo": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Drill Peck",
@@ -1682,7 +1682,7 @@
     "Dragonair": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder Wave",
@@ -1702,7 +1702,7 @@
     "Dragonite": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Roost",
@@ -1744,7 +1744,7 @@
     "Dratini": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dragon Rush",
@@ -1764,7 +1764,7 @@
     "Drifblim": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Ball",
@@ -1806,7 +1806,7 @@
     "Drowzee": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Frustration",
@@ -1826,7 +1826,7 @@
     "Dugtrio": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earthquake",
@@ -1846,7 +1846,7 @@
     "Dunsparce": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Ancient Power",
@@ -1947,7 +1947,7 @@
     "Eevee": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Return",
@@ -1967,7 +1967,7 @@
     "Electabuzz": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder Punch",
@@ -1987,7 +1987,7 @@
     "Electivire": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder Punch",
@@ -2007,7 +2007,7 @@
     "Electrode": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Swift",
@@ -2027,7 +2027,7 @@
     "Elekid": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder Punch",
@@ -2068,7 +2068,7 @@
     "Entei": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Eruption",
@@ -2088,7 +2088,7 @@
     "Espeon": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -2170,7 +2170,7 @@
     "Farfetch'd": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Slash",
@@ -2181,14 +2181,14 @@
         "nature": "Adamant",
         "item": "Stick",
         "tier": "Hall",
-        "id": "176",
-        "types": ["Flying", "Normal"],
-        "group": 2
+        "id": null,
+        "types": [],
+        "group": null
     },
     "Fearow": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Drill Peck",
@@ -2209,7 +2209,7 @@
     "Feraligatr": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Aqua Tail",
@@ -2288,7 +2288,7 @@
     "Floatzel": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -2308,7 +2308,7 @@
     "Flygon": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earth Power",
@@ -2350,7 +2350,7 @@
     "Froslass": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hail",
@@ -2371,7 +2371,7 @@
     "Furret": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Voice",
@@ -2391,7 +2391,7 @@
     "Gabite": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sandstorm",
@@ -2412,7 +2412,7 @@
     "Gallade": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psycho Cut",
@@ -2433,7 +2433,7 @@
     "Garchomp": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Outrage",
@@ -2454,7 +2454,7 @@
     "Gardevoir": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -2495,7 +2495,7 @@
     "Gengar": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Ball",
@@ -2537,7 +2537,7 @@
     "Gible": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dragon Claw",
@@ -2558,7 +2558,7 @@
     "Girafarig": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crunch",
@@ -2579,7 +2579,7 @@
     "Glaceon": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hail",
@@ -2599,7 +2599,7 @@
     "Glalie": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Ice Beam",
@@ -2619,7 +2619,7 @@
     "Glameow": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Slash",
@@ -2639,7 +2639,7 @@
     "Gligar": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sandstorm",
@@ -2660,7 +2660,7 @@
     "Gliscor": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earthquake",
@@ -2681,7 +2681,7 @@
     "Gloom": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Poison Powder",
@@ -2702,7 +2702,7 @@
     "Golbat": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sludge Bomb",
@@ -2723,7 +2723,7 @@
     "Goldeen": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -2743,7 +2743,7 @@
     "Golduck": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Brine",
@@ -2824,7 +2824,7 @@
     "Graveler": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dig",
@@ -2885,7 +2885,7 @@
     "Grovyle": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Leaf Blade",
@@ -2905,7 +2905,7 @@
     "Growlithe": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Flare Blitz",
@@ -2945,7 +2945,7 @@
     "Gyarados": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bounce",
@@ -3006,7 +3006,7 @@
     "Haunter": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Ball",
@@ -3048,7 +3048,7 @@
     "Heracross": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Megahorn",
@@ -3109,7 +3109,7 @@
     "Hitmonchan": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sky Uppercut",
@@ -3129,7 +3129,7 @@
     "Hitmonlee": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Endure",
@@ -3149,7 +3149,7 @@
     "Hitmontop": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Triple Kick",
@@ -3211,7 +3211,7 @@
     "Houndour": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dark Pulse",
@@ -3272,7 +3272,7 @@
     "Illumise": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bug Buzz",
@@ -3292,7 +3292,7 @@
     "Infernape": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Close Combat",
@@ -3334,7 +3334,7 @@
     "Jolteon": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Discharge",
@@ -3354,7 +3354,7 @@
     "Jumpluff": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Seed Bomb",
@@ -3375,7 +3375,7 @@
     "Jynx": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Lovely Kiss",
@@ -3396,7 +3396,7 @@
     "Kabuto": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -3438,7 +3438,7 @@
     "Kadabra": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -3478,7 +3478,7 @@
     "Kecleon": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dizzy Punch",
@@ -3498,7 +3498,7 @@
     "Kingdra": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dragon Pulse",
@@ -3539,7 +3539,7 @@
     "Koffing": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Smog",
@@ -3559,7 +3559,7 @@
     "Krabby": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crabhammer",
@@ -3599,7 +3599,7 @@
     "Kricketune": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "X-Scissor",
@@ -3682,7 +3682,7 @@
     "Larvitar": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Stone Edge",
@@ -3745,7 +3745,7 @@
     "Leafeon": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Quick Attack",
@@ -3765,7 +3765,7 @@
     "Ledian": {
         "evs": {
             "hp": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bug Buzz",
@@ -3847,7 +3847,7 @@
     "Linoone": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Slash",
@@ -3888,7 +3888,7 @@
     "Lopunny": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Switcheroo",
@@ -3970,7 +3970,7 @@
     "Lumineon": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Silver Wind",
@@ -3990,7 +3990,7 @@
     "Lunatone": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -4011,7 +4011,7 @@
     "Luvdisc": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Aqua Ring",
@@ -4031,7 +4031,7 @@
     "Luxio": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder Fang",
@@ -4051,7 +4051,7 @@
     "Luxray": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Spark",
@@ -4091,7 +4091,7 @@
     "Machoke": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Cross Chop",
@@ -4111,7 +4111,7 @@
     "Machop": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dynamic Punch",
@@ -4131,7 +4131,7 @@
     "Magby": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Fire Punch",
@@ -4172,7 +4172,7 @@
     "Magmar": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Fire Punch",
@@ -4192,7 +4192,7 @@
     "Magmortar": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Fire Blast",
@@ -4233,7 +4233,7 @@
     "Magneton": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Tri Attack",
@@ -4296,7 +4296,7 @@
     "Manectric": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder",
@@ -4316,7 +4316,7 @@
     "Mantine": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Signal Beam",
@@ -4337,7 +4337,7 @@
     "Mantyke": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bounce",
@@ -4358,7 +4358,7 @@
     "Marowak": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bone Rush",
@@ -4502,7 +4502,7 @@
     "Metang": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Flash Cannon",
@@ -4523,7 +4523,7 @@
     "Mightyena": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crunch",
@@ -4601,7 +4601,7 @@
     "Minun": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Fake Tears",
@@ -4621,7 +4621,7 @@
     "Misdreavus": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Ball",
@@ -4641,7 +4641,7 @@
     "Mismagius": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Ball",
@@ -4682,7 +4682,7 @@
     "Monferno": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Flare Blitz",
@@ -4703,7 +4703,7 @@
     "Mothim": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Silver Wind",
@@ -4724,7 +4724,7 @@
     "Mr. Mime": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Power Swap",
@@ -4804,7 +4804,7 @@
     "Murkrow": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Confuse Ray",
@@ -4825,7 +4825,7 @@
     "Natu": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -4888,7 +4888,7 @@
     "Nidorina": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Poison Fang",
@@ -4908,7 +4908,7 @@
     "Nidorino": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Poison Jab",
@@ -4928,7 +4928,7 @@
     "Ninetales": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Will-O-Wisp",
@@ -5010,7 +5010,7 @@
     "Numel": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Heat Wave",
@@ -5031,7 +5031,7 @@
     "Nuzleaf": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dark Pulse",
@@ -5156,7 +5156,7 @@
     "Pachirisu": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Super Fang",
@@ -5176,7 +5176,7 @@
     "Parasect": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "X-Scissor",
@@ -5197,7 +5197,7 @@
     "Pelipper": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Air Slash",
@@ -5218,7 +5218,7 @@
     "Persian": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Power Gem",
@@ -5238,7 +5238,7 @@
     "Phanpy": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earthquake",
@@ -5258,7 +5258,7 @@
     "Pidgeot": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Ominous Wind",
@@ -5279,7 +5279,7 @@
     "Pidgeotto": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Quick Attack",
@@ -5300,7 +5300,7 @@
     "Pikachu": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunderbolt",
@@ -5341,7 +5341,7 @@
     "Pinsir": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "X-Scissor",
@@ -5361,7 +5361,7 @@
     "Piplup": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hydro Pump",
@@ -5381,7 +5381,7 @@
     "Plusle": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Nasty Plot",
@@ -5401,7 +5401,7 @@
     "Politoed": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Voice",
@@ -5421,7 +5421,7 @@
     "Poliwhirl": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -5462,7 +5462,7 @@
     "Ponyta": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Tail Whip",
@@ -5522,7 +5522,7 @@
     "Porygon-Z": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Tri Attack",
@@ -5540,7 +5540,7 @@
     "Primeape": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Cross Chop",
@@ -5560,7 +5560,7 @@
     "Prinplup": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Swagger",
@@ -5683,7 +5683,7 @@
     "Quilava": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Will-O-Wisp",
@@ -5724,7 +5724,7 @@
     "Raichu": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder Punch",
@@ -5744,7 +5744,7 @@
     "Raikou": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder",
@@ -5804,7 +5804,7 @@
     "Raticate": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Super Fang",
@@ -5925,7 +5925,7 @@
     "Remoraid": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Octazooka",
@@ -6008,7 +6008,7 @@
     "Riolu": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Quick Attack",
@@ -6049,7 +6049,7 @@
     "Roserade": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Weather Ball",
@@ -6070,7 +6070,7 @@
     "Rotom": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Ball",
@@ -6112,7 +6112,7 @@
     "Salamence": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dragon Claw",
@@ -6133,7 +6133,7 @@
     "Sandshrew": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dig",
@@ -6153,7 +6153,7 @@
     "Sandslash": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sandstorm",
@@ -6173,7 +6173,7 @@
     "Sceptile": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Leaf Blade",
@@ -6214,7 +6214,7 @@
     "Scyther": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "X-Scissor",
@@ -6235,7 +6235,7 @@
     "Seadra": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Dragon Pulse",
@@ -6255,7 +6255,7 @@
     "Seaking": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Megahorn",
@@ -6296,7 +6296,7 @@
     "Seel": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -6336,7 +6336,7 @@
     "Sharpedo": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crunch",
@@ -6357,7 +6357,7 @@
     "Shedinja": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "X-Scissor",
@@ -6439,7 +6439,7 @@
     "Shiftry": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Leaf Storm",
@@ -6501,7 +6501,7 @@
     "Shuppet": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Sneak",
@@ -6521,7 +6521,7 @@
     "Skarmory": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Rock Slide",
@@ -6563,7 +6563,7 @@
     "Skorupi": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Cross Poison",
@@ -6688,7 +6688,7 @@
     "Smoochum": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Blizzard",
@@ -6709,7 +6709,7 @@
     "Sneasel": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Ice Shard",
@@ -6791,7 +6791,7 @@
     "Snubbull": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Return",
@@ -6811,7 +6811,7 @@
     "Solrock": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Stone Edge",
@@ -6832,7 +6832,7 @@
     "Spinda": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Teeter Dance",
@@ -6852,7 +6852,7 @@
     "Spoink": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Extrasensory",
@@ -6892,7 +6892,7 @@
     "Stantler": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Extrasensory",
@@ -6912,7 +6912,7 @@
     "Staraptor": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Brave Bird",
@@ -6933,7 +6933,7 @@
     "Staravia": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Brave Bird",
@@ -6954,7 +6954,7 @@
     "Starly": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Brave Bird",
@@ -6975,7 +6975,7 @@
     "Starmie": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hydro Pump",
@@ -6996,7 +6996,7 @@
     "Staryu": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Water Pulse",
@@ -7037,7 +7037,7 @@
     "Stunky": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sludge Bomb",
@@ -7118,7 +7118,7 @@
     "Swablu": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Aerial Ace",
@@ -7180,7 +7180,7 @@
     "Swellow": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Double Team",
@@ -7261,7 +7261,7 @@
     "Teddiursa": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Charm",
@@ -7344,7 +7344,7 @@
     "Togetic": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Return",
@@ -7364,7 +7364,7 @@
     "Torchic": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Flamethrower",
@@ -7425,7 +7425,7 @@
     "Totodile": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Aqua Tail",
@@ -7466,7 +7466,7 @@
     "Treecko": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Leaf Storm",
@@ -7527,7 +7527,7 @@
     "Typhlosion": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Eruption",
@@ -7628,7 +7628,7 @@
     "Venomoth": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bug Buzz",
@@ -7648,7 +7648,7 @@
     "Venonat": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Signal Beam",
@@ -7711,7 +7711,7 @@
     "Vibrava": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Outrage",
@@ -7753,7 +7753,7 @@
     "Vigoroth": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Slash",
@@ -7773,7 +7773,7 @@
     "Vileplume": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Sludge Bomb",
@@ -7794,7 +7794,7 @@
     "Volbeat": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bug Buzz",
@@ -7814,7 +7814,7 @@
     "Voltorb": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunderbolt",
@@ -7834,7 +7834,7 @@
     "Vulpix": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Fire Blast",
@@ -7935,7 +7935,7 @@
     "Weavile": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Night Slash",
@@ -8079,7 +8079,7 @@
     "Xatu": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -8100,7 +8100,7 @@
     "Yanma": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bug Buzz",
@@ -8142,7 +8142,7 @@
     "Zangoose": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crush Claw",
@@ -8183,7 +8183,7 @@
     "Caterpie": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Tackle",
@@ -8223,7 +8223,7 @@
     "Weedle": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Poison Sting",
@@ -8286,7 +8286,7 @@
     "Rattata": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Fang",
@@ -8306,7 +8306,7 @@
     "Spearow": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Drill Peck",
@@ -8327,7 +8327,7 @@
     "Ekans": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Gunk Shot",
@@ -8358,9 +8358,9 @@
         "nature": "Mild",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "14",
-        "types": ["Poison"],
-        "group": 1
+        "id": null,
+        "types": [],
+        "group": null
     },
     "Nidoran-M": {
         "evs": {
@@ -8376,9 +8376,9 @@
         "nature": "Naughty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "15",
-        "types": ["Poison"],
-        "group": 1
+        "id": null,
+        "types": [],
+        "group": null
     },
     "Jigglypuff": {
         "evs": {
@@ -8403,7 +8403,7 @@
     "Zubat": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Poison Fang",
@@ -8445,7 +8445,7 @@
     "Diglett": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earthquake",
@@ -8465,7 +8465,7 @@
     "Meowth": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Slash",
@@ -8485,7 +8485,7 @@
     "Mankey": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Cross Chop",
@@ -8505,7 +8505,7 @@
     "Poliwag": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -8525,7 +8525,7 @@
     "Abra": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -8586,7 +8586,7 @@
     "Gastly": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Shadow Ball",
@@ -8607,7 +8607,7 @@
     "Horsea": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -8627,7 +8627,7 @@
     "Magikarp": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Tackle",
@@ -8647,7 +8647,7 @@
     "Ditto": {
         "evs": {
             "hp": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Transform",
@@ -8667,7 +8667,7 @@
     "Sentret": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Voice",
@@ -8687,7 +8687,7 @@
     "Hoothoot": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Swift",
@@ -8708,7 +8708,7 @@
     "Ledyba": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Bug Buzz",
@@ -8729,7 +8729,7 @@
     "Spinarak": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Pin Missile",
@@ -8750,7 +8750,7 @@
     "Pichu": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Nasty Plot",
@@ -8790,7 +8790,7 @@
     "Igglybuff": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Return",
@@ -8810,7 +8810,7 @@
     "Togepi": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Return",
@@ -8830,7 +8830,7 @@
     "Mareep": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder",
@@ -8850,7 +8850,7 @@
     "Marill": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Aqua Tail",
@@ -8870,7 +8870,7 @@
     "Hoppip": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Seed Bomb",
@@ -8891,7 +8891,7 @@
     "Sunkern": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Seed Bomb",
@@ -8932,7 +8932,7 @@
     "Unown": {
         "evs": {
             "hp": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hidden Power",
@@ -8972,7 +8972,7 @@
     "Slugma": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Heat Wave",
@@ -9013,7 +9013,7 @@
     "Smeargle": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Voice",
@@ -9033,7 +9033,7 @@
     "Tyrogue": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Mach Punch",
@@ -9053,7 +9053,7 @@
     "Poochyena": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Crunch",
@@ -9073,7 +9073,7 @@
     "Zigzagoon": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Mud-Slap",
@@ -9093,7 +9093,7 @@
     "Wurmple": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Tackle",
@@ -9153,7 +9153,7 @@
     "Lotad": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Energy Ball",
@@ -9194,7 +9194,7 @@
     "Taillow": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Brave Bird",
@@ -9215,7 +9215,7 @@
     "Wingull": {
         "evs": {
             "hp": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Brine",
@@ -9256,7 +9256,7 @@
     "Kirlia": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Psychic",
@@ -9276,7 +9276,7 @@
     "Surskit": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Signal Beam",
@@ -9317,7 +9317,7 @@
     "Slakoth": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Facade",
@@ -9337,7 +9337,7 @@
     "Nincada": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "X-Scissor",
@@ -9358,7 +9358,7 @@
     "Whismur": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Hyper Voice",
@@ -9398,7 +9398,7 @@
     "Azurill": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -9418,7 +9418,7 @@
     "Skitty": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Return",
@@ -9438,7 +9438,7 @@
     "Meditite": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Vacuum Wave",
@@ -9459,7 +9459,7 @@
     "Electrike": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Thunder",
@@ -9499,7 +9499,7 @@
     "Trapinch": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earthquake",
@@ -9519,7 +9519,7 @@
     "Barboach": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Earth Power",
@@ -9540,7 +9540,7 @@
     "Feebas": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Waterfall",
@@ -9580,7 +9580,7 @@
     "Spheal": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Blizzard",
@@ -9601,7 +9601,7 @@
     "Beldum": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Iron Head",
@@ -9699,7 +9699,7 @@
     "Mesprit": {
         "evs": {
             "spa": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Extrasensory",
@@ -9719,7 +9719,7 @@
     "Azelf": {
         "evs": {
             "atk": 252,
-            "spd": 252
+            "spe": 252
         },
         "moves": [
             "Zen Headbutt",
