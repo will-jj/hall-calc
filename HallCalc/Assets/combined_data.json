@@ -13,12 +13,12 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "371",
+        "id": 371,
         "types": [
             "Grass",
             "Ice"
         ],
-        "group": "3"
+        "group": 3
     },
     "Absol": {
         "evs": {
@@ -34,11 +34,11 @@
         "nature": "Jolly",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "349",
+        "id": 349,
         "types": [
             "Dark"
         ],
-        "group": "3"
+        "group": 3
     },
     "Aerodactyl": {
         "evs": {
@@ -54,12 +54,12 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "396",
+        "id": 396,
         "types": [
             "Rock",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Aggron": {
         "evs": {
@@ -75,12 +75,12 @@
         "nature": "Adamant",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "id": "429",
+        "id": 429,
         "types": [
             "Steel",
             "Rock"
         ],
-        "group": "4"
+        "group": 4
     },
     "Aipom": {
         "evs": {
@@ -96,11 +96,11 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "200",
+        "id": 200,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Alakazam": {
         "evs": {
@@ -116,11 +116,11 @@
         "nature": "Timid",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "281",
+        "id": 281,
         "types": [
             "Psychic"
         ],
-        "group": "3"
+        "group": 3
     },
     "Altaria": {
         "evs": {
@@ -136,12 +136,12 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "336",
+        "id": 336,
         "types": [
             "Dragon",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Ambipom": {
         "evs": {
@@ -157,11 +157,11 @@
         "nature": "Naughty",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "361",
+        "id": 361,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Ampharos": {
         "evs": {
@@ -177,11 +177,11 @@
         "nature": "Quiet",
         "item": "Light Clay",
         "tier": "HallR10",
-        "id": "406",
+        "id": 406,
         "types": [
             "Electric"
         ],
-        "group": "4"
+        "group": 4
     },
     "Anorith": {
         "evs": {
@@ -197,12 +197,12 @@
         "nature": "Adamant",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "244",
+        "id": 244,
         "types": [
             "Bug",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Arbok": {
         "evs": {
@@ -218,11 +218,11 @@
         "nature": "Jolly",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "162",
+        "id": 162,
         "types": [
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Arcanine": {
         "evs": {
@@ -238,11 +238,11 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "id": "379",
+        "id": 379,
         "types": [
             "Fire"
         ],
-        "group": "4"
+        "group": 4
     },
     "Ariados": {
         "evs": {
@@ -258,12 +258,12 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "194",
+        "id": 194,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "2"
+        "group": 2
     },
     "Armaldo": {
         "evs": {
@@ -279,12 +279,12 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "id": "344",
+        "id": 344,
         "types": [
             "Bug",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Aron": {
         "evs": {
@@ -300,12 +300,12 @@
         "nature": "Adamant",
         "item": "Metal Coat",
         "tier": "Hall",
-        "id": "106",
+        "id": 106,
         "types": [
             "Steel",
             "Rock"
         ],
-        "group": "1"
+        "group": 1
     },
     "Articuno": {
         "evs": {
@@ -321,12 +321,12 @@
         "nature": "Modest",
         "item": "Apicot Berry",
         "tier": "HallR10",
-        "id": "398",
+        "id": 398,
         "types": [
             "Ice",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Azumarill": {
         "evs": {
@@ -342,11 +342,11 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "197",
+        "id": 197,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Bagon": {
         "evs": {
@@ -362,11 +362,11 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "id": "126",
+        "id": 126,
         "types": [
             "Dragon"
         ],
-        "group": "1"
+        "group": 1
     },
     "Baltoy": {
         "evs": {
@@ -382,12 +382,12 @@
         "nature": "Mild",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "118",
+        "id": 118,
         "types": [
             "Psychic",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Banette": {
         "evs": {
@@ -403,11 +403,11 @@
         "nature": "Lonely",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "346",
+        "id": 346,
         "types": [
             "Ghost"
         ],
-        "group": "3"
+        "group": 3
     },
     "Bastiodon": {
         "evs": {
@@ -423,12 +423,12 @@
         "nature": "Quiet",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "356",
+        "id": 356,
         "types": [
             "Steel",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Bayleef": {
         "evs": {
@@ -444,11 +444,11 @@
         "nature": "Adamant",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "189",
+        "id": 189,
         "types": [
             "Grass"
         ],
-        "group": "2"
+        "group": 2
     },
     "Beautifly": {
         "evs": {
@@ -464,12 +464,12 @@
         "nature": "Modest",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "221",
+        "id": 221,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Beedrill": {
         "evs": {
@@ -485,12 +485,12 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "159",
+        "id": 159,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "2"
+        "group": 2
     },
     "Bellossom": {
         "evs": {
@@ -506,11 +506,11 @@
         "nature": "Brave",
         "item": "Big Root",
         "tier": "HallR10",
-        "id": "309",
+        "id": 309,
         "types": [
             "Grass"
         ],
-        "group": "3"
+        "group": 3
     },
     "Bibarel": {
         "evs": {
@@ -526,12 +526,12 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "255",
+        "id": 255,
         "types": [
             "Water",
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Bidoof": {
         "evs": {
@@ -547,11 +547,11 @@
         "nature": "Impish",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "132",
+        "id": 132,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Blastoise": {
         "evs": {
@@ -567,11 +567,11 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "376",
+        "id": 376,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Blaziken": {
         "evs": {
@@ -587,12 +587,12 @@
         "nature": "Lonely",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "425",
+        "id": 425,
         "types": [
             "Fire",
             "Fighting"
         ],
-        "group": "4"
+        "group": 4
     },
     "Blissey": {
         "evs": {
@@ -608,11 +608,11 @@
         "nature": "Sassy",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "419",
+        "id": 419,
         "types": [
             "Normal"
         ],
-        "group": "4"
+        "group": 4
     },
     "Bonsly": {
         "evs": {
@@ -628,11 +628,11 @@
         "nature": "Jolly",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "145",
+        "id": 145,
         "types": [
             "Rock"
         ],
-        "group": "1"
+        "group": 1
     },
     "Breloom": {
         "evs": {
@@ -648,12 +648,12 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "324",
+        "id": 324,
         "types": [
             "Grass",
             "Fighting"
         ],
-        "group": "3"
+        "group": 3
     },
     "Bronzong": {
         "evs": {
@@ -669,12 +669,12 @@
         "nature": "Quiet",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "449",
+        "id": 449,
         "types": [
             "Steel",
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Bronzor": {
         "evs": {
@@ -690,12 +690,12 @@
         "nature": "Quiet",
         "item": "Metal Coat",
         "tier": "Hall",
-        "id": "144",
+        "id": 144,
         "types": [
             "Steel",
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Budew": {
         "evs": {
@@ -711,12 +711,12 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "135",
+        "id": 135,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Buizel": {
         "evs": {
@@ -732,11 +732,11 @@
         "nature": "Hasty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "138",
+        "id": 138,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Bulbasaur": {
         "evs": {
@@ -752,12 +752,12 @@
         "nature": "Mild",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "1",
+        "id": 1,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Buneary": {
         "evs": {
@@ -773,11 +773,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "264",
+        "id": 264,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Burmy": {
         "evs": {
@@ -793,11 +793,11 @@
         "nature": "Adamant",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "136",
+        "id": 136,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Butterfree": {
         "evs": {
@@ -813,12 +813,12 @@
         "nature": "Timid",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "158",
+        "id": 158,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Cacnea": {
         "evs": {
@@ -834,11 +834,11 @@
         "nature": "Hasty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "114",
+        "id": 114,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Cacturne": {
         "evs": {
@@ -854,12 +854,12 @@
         "nature": "Adamant",
         "item": "Metronome",
         "tier": "HallR10",
-        "id": "335",
+        "id": 335,
         "types": [
             "Grass",
             "Dark"
         ],
-        "group": "3"
+        "group": 3
     },
     "Camerupt": {
         "evs": {
@@ -875,12 +875,12 @@
         "nature": "Modest",
         "item": "Power Herb",
         "tier": "HallR10",
-        "id": "332",
+        "id": 332,
         "types": [
             "Fire",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Carnivine": {
         "evs": {
@@ -896,11 +896,11 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "369",
+        "id": 369,
         "types": [
             "Grass"
         ],
-        "group": "3"
+        "group": 3
     },
     "Carvanha": {
         "evs": {
@@ -916,12 +916,12 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "110",
+        "id": 110,
         "types": [
             "Water",
             "Dark"
         ],
-        "group": "1"
+        "group": 1
     },
     "Castform": {
         "evs": {
@@ -937,11 +937,11 @@
         "nature": "Modest",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "id": "245",
+        "id": 245,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Chansey": {
         "evs": {
@@ -957,11 +957,11 @@
         "nature": "Quiet",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "id": "295",
+        "id": 295,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Charizard": {
         "evs": {
@@ -977,12 +977,12 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "476",
+        "id": 476,
         "types": [
             "Fire",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Charmander": {
         "evs": {
@@ -998,11 +998,11 @@
         "nature": "Lonely",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "2",
+        "id": 2,
         "types": [
             "Fire"
         ],
-        "group": "1"
+        "group": 1
     },
     "Charmeleon": {
         "evs": {
@@ -1018,11 +1018,11 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "156",
+        "id": 156,
         "types": [
             "Fire"
         ],
-        "group": "2"
+        "group": 2
     },
     "Chatot": {
         "evs": {
@@ -1038,12 +1038,12 @@
         "nature": "Modest",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "265",
+        "id": 265,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Cherrim": {
         "evs": {
@@ -1059,11 +1059,11 @@
         "nature": "Naive",
         "item": "Heat Rock",
         "tier": "HallR10",
-        "id": "359",
+        "id": 359,
         "types": [
             "Grass"
         ],
-        "group": "3"
+        "group": 3
     },
     "Cherubi": {
         "evs": {
@@ -1079,11 +1079,11 @@
         "nature": "Naughty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "139",
+        "id": 139,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Chikorita": {
         "evs": {
@@ -1099,11 +1099,11 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "51",
+        "id": 51,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Chimchar": {
         "evs": {
@@ -1119,11 +1119,11 @@
         "nature": "Mild",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "129",
+        "id": 129,
         "types": [
             "Fire"
         ],
-        "group": "1"
+        "group": 1
     },
     "Chimecho": {
         "evs": {
@@ -1139,11 +1139,11 @@
         "nature": "Hasty",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "246",
+        "id": 246,
         "types": [
             "Psychic"
         ],
-        "group": "2"
+        "group": 2
     },
     "Chinchou": {
         "evs": {
@@ -1159,12 +1159,12 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "58",
+        "id": 58,
         "types": [
             "Water",
             "Electric"
         ],
-        "group": "1"
+        "group": 1
     },
     "Chingling": {
         "evs": {
@@ -1180,11 +1180,11 @@
         "nature": "Modest",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "142",
+        "id": 142,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Clamperl": {
         "evs": {
@@ -1200,11 +1200,11 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "248",
+        "id": 248,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Claydol": {
         "evs": {
@@ -1220,12 +1220,12 @@
         "nature": "Rash",
         "item": "Choice Scarf",
         "tier": "HallR10",
-        "id": "432",
+        "id": 432,
         "types": [
             "Psychic",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Clefable": {
         "evs": {
@@ -1241,11 +1241,11 @@
         "nature": "Adamant",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "275",
+        "id": 275,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Clefairy": {
         "evs": {
@@ -1261,11 +1261,11 @@
         "nature": "Relaxed",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "16",
+        "id": 16,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Cloyster": {
         "evs": {
@@ -1281,12 +1281,12 @@
         "nature": "Rash",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "385",
+        "id": 385,
         "types": [
             "Water",
             "Ice"
         ],
-        "group": "4"
+        "group": 4
     },
     "Combee": {
         "evs": {
@@ -1302,12 +1302,12 @@
         "nature": "Naughty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "137",
+        "id": 137,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Combusken": {
         "evs": {
@@ -1323,12 +1323,12 @@
         "nature": "Jolly",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "217",
+        "id": 217,
         "types": [
             "Fire",
             "Fighting"
         ],
-        "group": "2"
+        "group": 2
     },
     "Corphish": {
         "evs": {
@@ -1344,11 +1344,11 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "117",
+        "id": 117,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Corsola": {
         "evs": {
@@ -1364,12 +1364,12 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "212",
+        "id": 212,
         "types": [
             "Water",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Cradily": {
         "evs": {
@@ -1385,12 +1385,12 @@
         "nature": "Modest",
         "item": "Big Root",
         "tier": "HallR10",
-        "id": "343",
+        "id": 343,
         "types": [
             "Grass",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Cranidos": {
         "evs": {
@@ -1406,11 +1406,11 @@
         "nature": "Jolly",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "258",
+        "id": 258,
         "types": [
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Crawdaunt": {
         "evs": {
@@ -1426,12 +1426,12 @@
         "nature": "Adamant",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "342",
+        "id": 342,
         "types": [
             "Water",
             "Dark"
         ],
-        "group": "3"
+        "group": 3
     },
     "Cresselia": {
         "evs": {
@@ -1447,11 +1447,11 @@
         "nature": "Lonely",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "435",
+        "id": 435,
         "types": [
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Croagunk": {
         "evs": {
@@ -1467,12 +1467,12 @@
         "nature": "Modest",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "152",
+        "id": 152,
         "types": [
             "Poison",
             "Fighting"
         ],
-        "group": "1"
+        "group": 1
     },
     "Crobat": {
         "evs": {
@@ -1488,12 +1488,12 @@
         "nature": "Jolly",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "405",
+        "id": 405,
         "types": [
             "Poison",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Croconaw": {
         "evs": {
@@ -1509,11 +1509,11 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "191",
+        "id": 191,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Cubone": {
         "evs": {
@@ -1529,11 +1529,11 @@
         "nature": "Adamant",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "44",
+        "id": 44,
         "types": [
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Cyndaquil": {
         "evs": {
@@ -1549,11 +1549,11 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "52",
+        "id": 52,
         "types": [
             "Fire"
         ],
-        "group": "1"
+        "group": 1
     },
     "Delcatty": {
         "evs": {
@@ -1569,11 +1569,11 @@
         "nature": "Modest",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "230",
+        "id": 230,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Delibird": {
         "evs": {
@@ -1589,12 +1589,12 @@
         "nature": "Adamant",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "id": "76",
+        "id": 76,
         "types": [
             "Ice",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Dewgong": {
         "evs": {
@@ -1610,12 +1610,12 @@
         "nature": "Modest",
         "item": "Chesto Berry",
         "tier": "HallR10",
-        "id": "287",
+        "id": 287,
         "types": [
             "Water",
             "Ice"
         ],
-        "group": "3"
+        "group": 3
     },
     "Dodrio": {
         "evs": {
@@ -1631,12 +1631,12 @@
         "nature": "Jolly",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "286",
+        "id": 286,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Doduo": {
         "evs": {
@@ -1652,12 +1652,12 @@
         "nature": "Jolly",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "35",
+        "id": 35,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Donphan": {
         "evs": {
@@ -1673,11 +1673,11 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "417",
+        "id": 417,
         "types": [
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Dragonair": {
         "evs": {
@@ -1693,11 +1693,11 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "id": "188",
+        "id": 188,
         "types": [
             "Dragon"
         ],
-        "group": "2"
+        "group": 2
     },
     "Dragonite": {
         "evs": {
@@ -1713,12 +1713,12 @@
         "nature": "Adamant",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "401",
+        "id": 401,
         "types": [
             "Dragon",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Drapion": {
         "evs": {
@@ -1734,12 +1734,12 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "id": "453",
+        "id": 453,
         "types": [
             "Dark",
             "Poison"
         ],
-        "group": "4"
+        "group": 4
     },
     "Dratini": {
         "evs": {
@@ -1755,11 +1755,11 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "id": "50",
+        "id": 50,
         "types": [
             "Dragon"
         ],
-        "group": "1"
+        "group": 1
     },
     "Drifblim": {
         "evs": {
@@ -1775,12 +1775,12 @@
         "nature": "Modest",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "id": "362",
+        "id": 362,
         "types": [
             "Flying",
             "Ghost"
         ],
-        "group": "3"
+        "group": 3
     },
     "Drifloon": {
         "evs": {
@@ -1796,12 +1796,12 @@
         "nature": "Modest",
         "item": "Spell Tag",
         "tier": "Hall",
-        "id": "263",
+        "id": 263,
         "types": [
             "Flying",
             "Ghost"
         ],
-        "group": "2"
+        "group": 2
     },
     "Drowzee": {
         "evs": {
@@ -1817,11 +1817,11 @@
         "nature": "Rash",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "40",
+        "id": 40,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Dugtrio": {
         "evs": {
@@ -1837,11 +1837,11 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "168",
+        "id": 168,
         "types": [
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Dunsparce": {
         "evs": {
@@ -1857,11 +1857,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "207",
+        "id": 207,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Dusclops": {
         "evs": {
@@ -1877,11 +1877,11 @@
         "nature": "Adamant",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "347",
+        "id": 347,
         "types": [
             "Ghost"
         ],
-        "group": "3"
+        "group": 3
     },
     "Dusknoir": {
         "evs": {
@@ -1897,11 +1897,11 @@
         "nature": "Careful",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "470",
+        "id": 470,
         "types": [
             "Ghost"
         ],
-        "group": "4"
+        "group": 4
     },
     "Duskull": {
         "evs": {
@@ -1917,11 +1917,11 @@
         "nature": "Mild",
         "item": "Spell Tag",
         "tier": "Hall",
-        "id": "121",
+        "id": 121,
         "types": [
             "Ghost"
         ],
-        "group": "1"
+        "group": 1
     },
     "Dustox": {
         "evs": {
@@ -1937,12 +1937,12 @@
         "nature": "Calm",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "222",
+        "id": 222,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "2"
+        "group": 2
     },
     "Eevee": {
         "evs": {
@@ -1958,11 +1958,11 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "49",
+        "id": 49,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Electabuzz": {
         "evs": {
@@ -1978,11 +1978,11 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "301",
+        "id": 301,
         "types": [
             "Electric"
         ],
-        "group": "3"
+        "group": 3
     },
     "Electivire": {
         "evs": {
@@ -1998,11 +1998,11 @@
         "nature": "Naughty",
         "item": "Life Orb",
         "tier": "HallR10",
-        "id": "459",
+        "id": 459,
         "types": [
             "Electric"
         ],
-        "group": "4"
+        "group": 4
     },
     "Electrode": {
         "evs": {
@@ -2018,11 +2018,11 @@
         "nature": "Naive",
         "item": "King's Rock",
         "tier": "HallR10",
-        "id": "290",
+        "id": 290,
         "types": [
             "Electric"
         ],
-        "group": "3"
+        "group": 3
     },
     "Elekid": {
         "evs": {
@@ -2038,11 +2038,11 @@
         "nature": "Adamant",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "213",
+        "id": 213,
         "types": [
             "Electric"
         ],
-        "group": "2"
+        "group": 2
     },
     "Empoleon": {
         "evs": {
@@ -2058,12 +2058,12 @@
         "nature": "Mild",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "id": "445",
+        "id": 445,
         "types": [
             "Water",
             "Steel"
         ],
-        "group": "4"
+        "group": 4
     },
     "Entei": {
         "evs": {
@@ -2079,11 +2079,11 @@
         "nature": "Rash",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "421",
+        "id": 421,
         "types": [
             "Fire"
         ],
-        "group": "4"
+        "group": 4
     },
     "Espeon": {
         "evs": {
@@ -2099,11 +2099,11 @@
         "nature": "Modest",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "408",
+        "id": 408,
         "types": [
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Exeggcute": {
         "evs": {
@@ -2119,12 +2119,12 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "43",
+        "id": 43,
         "types": [
             "Grass",
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Exeggutor": {
         "evs": {
@@ -2140,12 +2140,12 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "387",
+        "id": 387,
         "types": [
             "Grass",
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Exploud": {
         "evs": {
@@ -2161,11 +2161,11 @@
         "nature": "Modest",
         "item": "Metronome",
         "tier": "HallR10",
-        "id": "327",
+        "id": 327,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Farfetch'd": {
         "evs": {
@@ -2181,9 +2181,9 @@
         "nature": "Adamant",
         "item": "Stick",
         "tier": "Hall",
-        "id": "176",
+        "id": 176,
         "types": ["Normal", "Flying"],
-        "group": "2"
+        "group": 2
     },
     "Fearow": {
         "evs": {
@@ -2199,12 +2199,12 @@
         "nature": "Jolly",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "id": "375",
+        "id": 375,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Feraligatr": {
         "evs": {
@@ -2220,11 +2220,11 @@
         "nature": "Naive",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "404",
+        "id": 404,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Finneon": {
         "evs": {
@@ -2240,11 +2240,11 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "153",
+        "id": 153,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Flaaffy": {
         "evs": {
@@ -2260,11 +2260,11 @@
         "nature": "Lax",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "196",
+        "id": 196,
         "types": [
             "Electric"
         ],
-        "group": "2"
+        "group": 2
     },
     "Flareon": {
         "evs": {
@@ -2279,11 +2279,11 @@
         "nature": "Mild",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "395",
+        "id": 395,
         "types": [
             "Fire"
         ],
-        "group": "4"
+        "group": 4
     },
     "Floatzel": {
         "evs": {
@@ -2299,11 +2299,11 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "358",
+        "id": 358,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Flygon": {
         "evs": {
@@ -2319,12 +2319,12 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "431",
+        "id": 431,
         "types": [
             "Dragon",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Forretress": {
         "evs": {
@@ -2340,12 +2340,12 @@
         "nature": "Brave",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "313",
+        "id": 313,
         "types": [
             "Steel",
             "Bug"
         ],
-        "group": "3"
+        "group": 3
     },
     "Froslass": {
         "evs": {
@@ -2361,12 +2361,12 @@
         "nature": "Calm",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "372",
+        "id": 372,
         "types": [
             "Ice",
             "Ghost"
         ],
-        "group": "3"
+        "group": 3
     },
     "Furret": {
         "evs": {
@@ -2382,11 +2382,11 @@
         "nature": "Rash",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "192",
+        "id": 192,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Gabite": {
         "evs": {
@@ -2402,12 +2402,12 @@
         "nature": "Jolly",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "id": "266",
+        "id": 266,
         "types": [
             "Dragon",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Gallade": {
         "evs": {
@@ -2423,12 +2423,12 @@
         "nature": "Adamant",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "468",
+        "id": 468,
         "types": [
             "Psychic",
             "Fighting"
         ],
-        "group": "4"
+        "group": 4
     },
     "Garchomp": {
         "evs": {
@@ -2444,12 +2444,12 @@
         "nature": "Adamant",
         "item": "Persim Berry",
         "tier": "HallR10",
-        "id": "450",
+        "id": 450,
         "types": [
             "Dragon",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Gardevoir": {
         "evs": {
@@ -2465,11 +2465,11 @@
         "nature": "Timid",
         "item": "Sticky Barb",
         "tier": "HallR10",
-        "id": "427",
+        "id": 427,
         "types": [
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Gastrodon": {
         "evs": {
@@ -2485,12 +2485,12 @@
         "nature": "Modest",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "id": "360",
+        "id": 360,
         "types": [
             "Water",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Gengar": {
         "evs": {
@@ -2506,12 +2506,12 @@
         "nature": "Timid",
         "item": "Razor Fang",
         "tier": "HallR10",
-        "id": "386",
+        "id": 386,
         "types": [
             "Poison",
             "Ghost"
         ],
-        "group": "4"
+        "group": 4
     },
     "Geodude": {
         "evs": {
@@ -2527,12 +2527,12 @@
         "nature": "Brave",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "32",
+        "id": 32,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Gible": {
         "evs": {
@@ -2548,12 +2548,12 @@
         "nature": "Adamant",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "id": "148",
+        "id": 148,
         "types": [
             "Dragon",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Girafarig": {
         "evs": {
@@ -2569,12 +2569,12 @@
         "nature": "Adamant",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "312",
+        "id": 312,
         "types": [
             "Psychic",
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Glaceon": {
         "evs": {
@@ -2590,11 +2590,11 @@
         "nature": "Rash",
         "item": "Icy Rock",
         "tier": "HallR10",
-        "id": "464",
+        "id": 464,
         "types": [
             "Ice"
         ],
-        "group": "4"
+        "group": 4
     },
     "Glalie": {
         "evs": {
@@ -2610,11 +2610,11 @@
         "nature": "Modest",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "350",
+        "id": 350,
         "types": [
             "Ice"
         ],
-        "group": "3"
+        "group": 3
     },
     "Glameow": {
         "evs": {
@@ -2630,11 +2630,11 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "141",
+        "id": 141,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Gligar": {
         "evs": {
@@ -2650,12 +2650,12 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "208",
+        "id": 208,
         "types": [
             "Ground",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Gliscor": {
         "evs": {
@@ -2671,12 +2671,12 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "465",
+        "id": 465,
         "types": [
             "Ground",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Gloom": {
         "evs": {
@@ -2692,12 +2692,12 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "166",
+        "id": 166,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Golbat": {
         "evs": {
@@ -2713,12 +2713,12 @@
         "nature": "Modest",
         "item": "Razor Fang",
         "tier": "HallR10",
-        "id": "276",
+        "id": 276,
         "types": [
             "Poison",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Goldeen": {
         "evs": {
@@ -2734,11 +2734,11 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "46",
+        "id": 46,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Golduck": {
         "evs": {
@@ -2754,11 +2754,11 @@
         "nature": "Mild",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "id": "378",
+        "id": 378,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Golem": {
         "evs": {
@@ -2774,12 +2774,12 @@
         "nature": "Brave",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "283",
+        "id": 283,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Gorebyss": {
         "evs": {
@@ -2795,11 +2795,11 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "352",
+        "id": 352,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Granbull": {
         "evs": {
@@ -2815,11 +2815,11 @@
         "nature": "Adamant",
         "item": "Focus Band",
         "tier": "HallR10",
-        "id": "314",
+        "id": 314,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Graveler": {
         "evs": {
@@ -2835,12 +2835,12 @@
         "nature": "Adamant",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "174",
+        "id": 174,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Grimer": {
         "evs": {
@@ -2856,11 +2856,11 @@
         "nature": "Lonely",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "37",
+        "id": 37,
         "types": [
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Grotle": {
         "evs": {
@@ -2876,11 +2876,11 @@
         "nature": "Brave",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "251",
+        "id": 251,
         "types": [
             "Grass"
         ],
-        "group": "2"
+        "group": 2
     },
     "Grovyle": {
         "evs": {
@@ -2896,11 +2896,11 @@
         "nature": "Jolly",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "216",
+        "id": 216,
         "types": [
             "Grass"
         ],
-        "group": "2"
+        "group": 2
     },
     "Growlithe": {
         "evs": {
@@ -2916,11 +2916,11 @@
         "nature": "Adamant",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "169",
+        "id": 169,
         "types": [
             "Fire"
         ],
-        "group": "2"
+        "group": 2
     },
     "Grumpig": {
         "evs": {
@@ -2936,11 +2936,11 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "334",
+        "id": 334,
         "types": [
             "Psychic"
         ],
-        "group": "3"
+        "group": 3
     },
     "Gyarados": {
         "evs": {
@@ -2956,12 +2956,12 @@
         "nature": "Lonely",
         "item": "Life Orb",
         "tier": "HallR10",
-        "id": "391",
+        "id": 391,
         "types": [
             "Water",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Happiny": {
         "evs": {
@@ -2977,11 +2977,11 @@
         "nature": "Lax",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "147",
+        "id": 147,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Hariyama": {
         "evs": {
@@ -2997,11 +2997,11 @@
         "nature": "Brave",
         "item": "Focus Band",
         "tier": "HallR10",
-        "id": "328",
+        "id": 328,
         "types": [
             "Fighting"
         ],
-        "group": "3"
+        "group": 3
     },
     "Haunter": {
         "evs": {
@@ -3017,12 +3017,12 @@
         "nature": "Timid",
         "item": "Spell Tag",
         "tier": "Hall",
-        "id": "177",
+        "id": 177,
         "types": [
             "Poison",
             "Ghost"
         ],
-        "group": "2"
+        "group": 2
     },
     "Heatran": {
         "evs": {
@@ -3038,12 +3038,12 @@
         "nature": "Modest",
         "item": "Focus Band",
         "tier": "HallR10",
-        "id": "474",
+        "id": 474,
         "types": [
             "Fire",
             "Steel"
         ],
-        "group": "4"
+        "group": 4
     },
     "Heracross": {
         "evs": {
@@ -3059,12 +3059,12 @@
         "nature": "Jolly",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "413",
+        "id": 413,
         "types": [
             "Bug",
             "Fighting"
         ],
-        "group": "4"
+        "group": 4
     },
     "Hippopotas": {
         "evs": {
@@ -3080,11 +3080,11 @@
         "nature": "Careful",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "150",
+        "id": 150,
         "types": [
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Hippowdon": {
         "evs": {
@@ -3100,11 +3100,11 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "452",
+        "id": 452,
         "types": [
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Hitmonchan": {
         "evs": {
@@ -3120,11 +3120,11 @@
         "nature": "Adamant",
         "item": "Choice Band",
         "tier": "HallR10",
-        "id": "292",
+        "id": 292,
         "types": [
             "Fighting"
         ],
-        "group": "3"
+        "group": 3
     },
     "Hitmonlee": {
         "evs": {
@@ -3140,11 +3140,11 @@
         "nature": "Jolly",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "291",
+        "id": 291,
         "types": [
             "Fighting"
         ],
-        "group": "3"
+        "group": 3
     },
     "Hitmontop": {
         "evs": {
@@ -3160,11 +3160,11 @@
         "nature": "Adamant",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "320",
+        "id": 320,
         "types": [
             "Fighting"
         ],
-        "group": "3"
+        "group": 3
     },
     "Honchkrow": {
         "evs": {
@@ -3180,12 +3180,12 @@
         "nature": "Lonely",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "448",
+        "id": 448,
         "types": [
             "Dark",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Houndoom": {
         "evs": {
@@ -3201,12 +3201,12 @@
         "nature": "Mild",
         "item": "Choice Scarf",
         "tier": "HallR10",
-        "id": "415",
+        "id": 415,
         "types": [
             "Fire",
             "Dark"
         ],
-        "group": "4"
+        "group": 4
     },
     "Houndour": {
         "evs": {
@@ -3222,12 +3222,12 @@
         "nature": "Hasty",
         "item": "Black Glasses",
         "tier": "Hall",
-        "id": "77",
+        "id": 77,
         "types": [
             "Fire",
             "Dark"
         ],
-        "group": "1"
+        "group": 1
     },
     "Huntail": {
         "evs": {
@@ -3243,11 +3243,11 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "id": "351",
+        "id": 351,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Hypno": {
         "evs": {
@@ -3263,11 +3263,11 @@
         "nature": "Quiet",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "id": "288",
+        "id": 288,
         "types": [
             "Psychic"
         ],
-        "group": "3"
+        "group": 3
     },
     "Illumise": {
         "evs": {
@@ -3283,11 +3283,11 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "238",
+        "id": 238,
         "types": [
             "Bug"
         ],
-        "group": "2"
+        "group": 2
     },
     "Infernape": {
         "evs": {
@@ -3303,12 +3303,12 @@
         "nature": "Adamant",
         "item": "Life Orb",
         "tier": "HallR10",
-        "id": "444",
+        "id": 444,
         "types": [
             "Fire",
             "Fighting"
         ],
-        "group": "4"
+        "group": 4
     },
     "Ivysaur": {
         "evs": {
@@ -3324,12 +3324,12 @@
         "nature": "Bold",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "155",
+        "id": 155,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Jolteon": {
         "evs": {
@@ -3345,11 +3345,11 @@
         "nature": "Rash",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "394",
+        "id": 394,
         "types": [
             "Electric"
         ],
-        "group": "4"
+        "group": 4
     },
     "Jumpluff": {
         "evs": {
@@ -3365,12 +3365,12 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "310",
+        "id": 310,
         "types": [
             "Grass",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Jynx": {
         "evs": {
@@ -3386,12 +3386,12 @@
         "nature": "Timid",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "300",
+        "id": 300,
         "types": [
             "Ice",
             "Psychic"
         ],
-        "group": "3"
+        "group": 3
     },
     "Kabuto": {
         "evs": {
@@ -3407,12 +3407,12 @@
         "nature": "Jolly",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "187",
+        "id": 187,
         "types": [
             "Water",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Kabutops": {
         "evs": {
@@ -3428,12 +3428,12 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "id": "305",
+        "id": 305,
         "types": [
             "Water",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Kadabra": {
         "evs": {
@@ -3449,11 +3449,11 @@
         "nature": "Rash",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "171",
+        "id": 171,
         "types": [
             "Psychic"
         ],
-        "group": "2"
+        "group": 2
     },
     "Kangaskhan": {
         "evs": {
@@ -3469,11 +3469,11 @@
         "nature": "Adamant",
         "item": "Persim Berry",
         "tier": "HallR10",
-        "id": "296",
+        "id": 296,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Kecleon": {
         "evs": {
@@ -3489,11 +3489,11 @@
         "nature": "Jolly",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "345",
+        "id": 345,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Kingdra": {
         "evs": {
@@ -3509,12 +3509,12 @@
         "nature": "Modest",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "416",
+        "id": 416,
         "types": [
             "Water",
             "Dragon"
         ],
-        "group": "4"
+        "group": 4
     },
     "Kingler": {
         "evs": {
@@ -3530,11 +3530,11 @@
         "nature": "Adamant",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "289",
+        "id": 289,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Koffing": {
         "evs": {
@@ -3550,11 +3550,11 @@
         "nature": "Timid",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "181",
+        "id": 181,
         "types": [
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Krabby": {
         "evs": {
@@ -3570,11 +3570,11 @@
         "nature": "Naughty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "41",
+        "id": 41,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Kricketot": {
         "evs": {
@@ -3590,11 +3590,11 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "133",
+        "id": 133,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Kricketune": {
         "evs": {
@@ -3610,11 +3610,11 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "256",
+        "id": 256,
         "types": [
             "Bug"
         ],
-        "group": "2"
+        "group": 2
     },
     "Lairon": {
         "evs": {
@@ -3630,12 +3630,12 @@
         "nature": "Impish",
         "item": "Metal Coat",
         "tier": "Hall",
-        "id": "233",
+        "id": 233,
         "types": [
             "Steel",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Lanturn": {
         "evs": {
@@ -3651,12 +3651,12 @@
         "nature": "Modest",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "307",
+        "id": 307,
         "types": [
             "Water",
             "Electric"
         ],
-        "group": "3"
+        "group": 3
     },
     "Lapras": {
         "evs": {
@@ -3672,12 +3672,12 @@
         "nature": "Modest",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "392",
+        "id": 392,
         "types": [
             "Water",
             "Ice"
         ],
-        "group": "4"
+        "group": 4
     },
     "Larvitar": {
         "evs": {
@@ -3693,12 +3693,12 @@
         "nature": "Lonely",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "82",
+        "id": 82,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Latias": {
         "evs": {
@@ -3714,12 +3714,12 @@
         "nature": "Modest",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "441",
+        "id": 441,
         "types": [
             "Dragon",
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Latios": {
         "evs": {
@@ -3735,12 +3735,12 @@
         "nature": "Modest",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "442",
+        "id": 442,
         "types": [
             "Dragon",
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Leafeon": {
         "evs": {
@@ -3756,11 +3756,11 @@
         "nature": "Naughty",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "463",
+        "id": 463,
         "types": [
             "Grass"
         ],
-        "group": "4"
+        "group": 4
     },
     "Ledian": {
         "evs": {
@@ -3776,12 +3776,12 @@
         "nature": "Timid",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "193",
+        "id": 193,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Lickilicky": {
         "evs": {
@@ -3797,11 +3797,11 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "456",
+        "id": 456,
         "types": [
             "Normal"
         ],
-        "group": "4"
+        "group": 4
     },
     "Lickitung": {
         "evs": {
@@ -3817,11 +3817,11 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "180",
+        "id": 180,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Lileep": {
         "evs": {
@@ -3837,12 +3837,12 @@
         "nature": "Modest",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "243",
+        "id": 243,
         "types": [
             "Grass",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Linoone": {
         "evs": {
@@ -3858,11 +3858,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "220",
+        "id": 220,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Lombre": {
         "evs": {
@@ -3878,12 +3878,12 @@
         "nature": "Bold",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "223",
+        "id": 223,
         "types": [
             "Water",
             "Grass"
         ],
-        "group": "2"
+        "group": 2
     },
     "Lopunny": {
         "evs": {
@@ -3899,11 +3899,11 @@
         "nature": "Jolly",
         "item": "Sticky Barb",
         "tier": "HallR10",
-        "id": "363",
+        "id": 363,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Loudred": {
         "evs": {
@@ -3919,11 +3919,11 @@
         "nature": "Modest",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "228",
+        "id": 228,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Lucario": {
         "evs": {
@@ -3939,12 +3939,12 @@
         "nature": "Brave",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "451",
+        "id": 451,
         "types": [
             "Steel",
             "Fighting"
         ],
-        "group": "4"
+        "group": 4
     },
     "Ludicolo": {
         "evs": {
@@ -3960,12 +3960,12 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "322",
+        "id": 322,
         "types": [
             "Water",
             "Grass"
         ],
-        "group": "3"
+        "group": 3
     },
     "Lumineon": {
         "evs": {
@@ -3981,11 +3981,11 @@
         "nature": "Timid",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "370",
+        "id": 370,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Lunatone": {
         "evs": {
@@ -4001,12 +4001,12 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "339",
+        "id": 339,
         "types": [
             "Psychic",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Luvdisc": {
         "evs": {
@@ -4022,11 +4022,11 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "125",
+        "id": 125,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Luxio": {
         "evs": {
@@ -4042,11 +4042,11 @@
         "nature": "Adamant",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "257",
+        "id": 257,
         "types": [
             "Electric"
         ],
-        "group": "2"
+        "group": 2
     },
     "Luxray": {
         "evs": {
@@ -4062,11 +4062,11 @@
         "nature": "Naive",
         "item": "King's Rock",
         "tier": "HallR10",
-        "id": "446",
+        "id": 446,
         "types": [
             "Electric"
         ],
-        "group": "4"
+        "group": 4
     },
     "Machamp": {
         "evs": {
@@ -4082,11 +4082,11 @@
         "nature": "Brave",
         "item": "Focus Band",
         "tier": "HallR10",
-        "id": "381",
+        "id": 381,
         "types": [
             "Fighting"
         ],
-        "group": "4"
+        "group": 4
     },
     "Machoke": {
         "evs": {
@@ -4102,11 +4102,11 @@
         "nature": "Jolly",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "172",
+        "id": 172,
         "types": [
             "Fighting"
         ],
-        "group": "2"
+        "group": 2
     },
     "Machop": {
         "evs": {
@@ -4122,11 +4122,11 @@
         "nature": "Jolly",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "29",
+        "id": 29,
         "types": [
             "Fighting"
         ],
-        "group": "1"
+        "group": 1
     },
     "Magby": {
         "evs": {
@@ -4142,11 +4142,11 @@
         "nature": "Jolly",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "214",
+        "id": 214,
         "types": [
             "Fire"
         ],
-        "group": "2"
+        "group": 2
     },
     "Magcargo": {
         "evs": {
@@ -4162,12 +4162,12 @@
         "nature": "Sassy",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "211",
+        "id": 211,
         "types": [
             "Fire",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Magmar": {
         "evs": {
@@ -4183,11 +4183,11 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "302",
+        "id": 302,
         "types": [
             "Fire"
         ],
-        "group": "3"
+        "group": 3
     },
     "Magmortar": {
         "evs": {
@@ -4203,11 +4203,11 @@
         "nature": "Mild",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "id": "460",
+        "id": 460,
         "types": [
             "Fire"
         ],
-        "group": "4"
+        "group": 4
     },
     "Magnemite": {
         "evs": {
@@ -4223,12 +4223,12 @@
         "nature": "Rash",
         "item": "Metal Coat",
         "tier": "Hall",
-        "id": "34",
+        "id": 34,
         "types": [
             "Electric",
             "Steel"
         ],
-        "group": "1"
+        "group": 1
     },
     "Magneton": {
         "evs": {
@@ -4244,12 +4244,12 @@
         "nature": "Modest",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "285",
+        "id": 285,
         "types": [
             "Electric",
             "Steel"
         ],
-        "group": "3"
+        "group": 3
     },
     "Magnezone": {
         "evs": {
@@ -4265,12 +4265,12 @@
         "nature": "Bold",
         "item": "Ganlon Berry",
         "tier": "HallR10",
-        "id": "455",
+        "id": 455,
         "types": [
             "Electric",
             "Steel"
         ],
-        "group": "4"
+        "group": 4
     },
     "Mamoswine": {
         "evs": {
@@ -4286,12 +4286,12 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "466",
+        "id": 466,
         "types": [
             "Ice",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Manectric": {
         "evs": {
@@ -4307,11 +4307,11 @@
         "nature": "Modest",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "329",
+        "id": 329,
         "types": [
             "Electric"
         ],
-        "group": "3"
+        "group": 3
     },
     "Mantine": {
         "evs": {
@@ -4327,12 +4327,12 @@
         "nature": "Mild",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "317",
+        "id": 317,
         "types": [
             "Water",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Mantyke": {
         "evs": {
@@ -4348,12 +4348,12 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "268",
+        "id": 268,
         "types": [
             "Water",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Marowak": {
         "evs": {
@@ -4369,11 +4369,11 @@
         "nature": "Hasty",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "179",
+        "id": 179,
         "types": [
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Marshtomp": {
         "evs": {
@@ -4389,12 +4389,12 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "218",
+        "id": 218,
         "types": [
             "Water",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Masquerain": {
         "evs": {
@@ -4410,12 +4410,12 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "227",
+        "id": 227,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Mawile": {
         "evs": {
@@ -4431,11 +4431,11 @@
         "nature": "Impish",
         "item": "Metal Coat",
         "tier": "Hall",
-        "id": "232",
+        "id": 232,
         "types": [
             "Steel"
         ],
-        "group": "2"
+        "group": 2
     },
     "Medicham": {
         "evs": {
@@ -4451,12 +4451,12 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "234",
+        "id": 234,
         "types": [
             "Psychic",
             "Fighting"
         ],
-        "group": "2"
+        "group": 2
     },
     "Meganium": {
         "evs": {
@@ -4472,11 +4472,11 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "402",
+        "id": 402,
         "types": [
             "Grass"
         ],
-        "group": "4"
+        "group": 4
     },
     "Metagross": {
         "evs": {
@@ -4492,12 +4492,12 @@
         "nature": "Adamant",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "437",
+        "id": 437,
         "types": [
             "Steel",
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Metang": {
         "evs": {
@@ -4513,12 +4513,12 @@
         "nature": "Timid",
         "item": "Metal Coat",
         "tier": "Hall",
-        "id": "250",
+        "id": 250,
         "types": [
             "Steel",
             "Psychic"
         ],
-        "group": "2"
+        "group": 2
     },
     "Mightyena": {
         "evs": {
@@ -4534,11 +4534,11 @@
         "nature": "Jolly",
         "item": "Black Glasses",
         "tier": "Hall",
-        "id": "219",
+        "id": 219,
         "types": [
             "Dark"
         ],
-        "group": "2"
+        "group": 2
     },
     "Milotic": {
         "evs": {
@@ -4554,11 +4554,11 @@
         "nature": "Quiet",
         "item": "Life Orb",
         "tier": "HallR10",
-        "id": "433",
+        "id": 433,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Miltank": {
         "evs": {
@@ -4574,11 +4574,11 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "321",
+        "id": 321,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Mime Jr.": {
         "evs": {
@@ -4594,7 +4594,7 @@
         "nature": "Calm",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "146",
+        "id": 146,
         "types": ["Psychic"],
         "group": 1
     },
@@ -4612,11 +4612,11 @@
         "nature": "Timid",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "236",
+        "id": 236,
         "types": [
             "Electric"
         ],
-        "group": "2"
+        "group": 2
     },
     "Misdreavus": {
         "evs": {
@@ -4632,11 +4632,11 @@
         "nature": "Hasty",
         "item": "Spell Tag",
         "tier": "Hall",
-        "id": "205",
+        "id": 205,
         "types": [
             "Ghost"
         ],
-        "group": "2"
+        "group": 2
     },
     "Mismagius": {
         "evs": {
@@ -4652,11 +4652,11 @@
         "nature": "Modest",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "id": "364",
+        "id": 364,
         "types": [
             "Ghost"
         ],
-        "group": "3"
+        "group": 3
     },
     "Moltres": {
         "evs": {
@@ -4672,12 +4672,12 @@
         "nature": "Modest",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "id": "400",
+        "id": 400,
         "types": [
             "Fire",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Monferno": {
         "evs": {
@@ -4693,12 +4693,12 @@
         "nature": "Adamant",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "252",
+        "id": 252,
         "types": [
             "Fire",
             "Fighting"
         ],
-        "group": "2"
+        "group": 2
     },
     "Mothim": {
         "evs": {
@@ -4714,12 +4714,12 @@
         "nature": "Timid",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "261",
+        "id": 261,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Mr. Mime": {
         "evs": {
@@ -4735,11 +4735,11 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "299",
+        "id": 299,
         "types": [
             "Psychic"
         ],
-        "group": "3"
+        "group": 3
     },
     "Mudkip": {
         "evs": {
@@ -4755,11 +4755,11 @@
         "nature": "Brave",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "85",
+        "id": 85,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Muk": {
         "evs": {
@@ -4775,11 +4775,11 @@
         "nature": "Careful",
         "item": "Black Sludge",
         "tier": "HallR10",
-        "id": "384",
+        "id": 384,
         "types": [
             "Poison"
         ],
-        "group": "4"
+        "group": 4
     },
     "Munchlax": {
         "evs": {
@@ -4795,11 +4795,11 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "267",
+        "id": 267,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Murkrow": {
         "evs": {
@@ -4815,12 +4815,12 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "204",
+        "id": 204,
         "types": [
             "Dark",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Natu": {
         "evs": {
@@ -4836,12 +4836,12 @@
         "nature": "Modest",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "63",
+        "id": 63,
         "types": [
             "Psychic",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Nidoking": {
         "evs": {
@@ -4857,12 +4857,12 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "id": "274",
+        "id": 274,
         "types": [
             "Poison",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Nidoqueen": {
         "evs": {
@@ -4878,12 +4878,12 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "273",
+        "id": 273,
         "types": [
             "Poison",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Nidorina": {
         "evs": {
@@ -4899,11 +4899,11 @@
         "nature": "Adamant",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "163",
+        "id": 163,
         "types": [
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Nidorino": {
         "evs": {
@@ -4919,11 +4919,11 @@
         "nature": "Adamant",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "164",
+        "id": 164,
         "types": [
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Ninetales": {
         "evs": {
@@ -4939,11 +4939,11 @@
         "nature": "Mild",
         "item": "White Herb",
         "tier": "HallR10",
-        "id": "377",
+        "id": 377,
         "types": [
             "Fire"
         ],
-        "group": "4"
+        "group": 4
     },
     "Ninjask": {
         "evs": {
@@ -4959,12 +4959,12 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "326",
+        "id": 326,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Noctowl": {
         "evs": {
@@ -4980,12 +4980,12 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "306",
+        "id": 306,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Nosepass": {
         "evs": {
@@ -5001,11 +5001,11 @@
         "nature": "Impish",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "229",
+        "id": 229,
         "types": [
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Numel": {
         "evs": {
@@ -5021,12 +5021,12 @@
         "nature": "Mild",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "111",
+        "id": 111,
         "types": [
             "Fire",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Nuzleaf": {
         "evs": {
@@ -5042,12 +5042,12 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "224",
+        "id": 224,
         "types": [
             "Grass",
             "Dark"
         ],
-        "group": "2"
+        "group": 2
     },
     "Octillery": {
         "evs": {
@@ -5063,11 +5063,11 @@
         "nature": "Brave",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "316",
+        "id": 316,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Oddish": {
         "evs": {
@@ -5083,12 +5083,12 @@
         "nature": "Mild",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "20",
+        "id": 20,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Omanyte": {
         "evs": {
@@ -5104,12 +5104,12 @@
         "nature": "Rash",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "186",
+        "id": 186,
         "types": [
             "Water",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Omastar": {
         "evs": {
@@ -5125,12 +5125,12 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "304",
+        "id": 304,
         "types": [
             "Water",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Onix": {
         "evs": {
@@ -5146,12 +5146,12 @@
         "nature": "Impish",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "178",
+        "id": 178,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Pachirisu": {
         "evs": {
@@ -5167,11 +5167,11 @@
         "nature": "Modest",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "262",
+        "id": 262,
         "types": [
             "Electric"
         ],
-        "group": "2"
+        "group": 2
     },
     "Parasect": {
         "evs": {
@@ -5187,12 +5187,12 @@
         "nature": "Hasty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "167",
+        "id": 167,
         "types": [
             "Grass",
             "Bug"
         ],
-        "group": "2"
+        "group": 2
     },
     "Pelipper": {
         "evs": {
@@ -5208,12 +5208,12 @@
         "nature": "Timid",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "226",
+        "id": 226,
         "types": [
             "Water",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Persian": {
         "evs": {
@@ -5229,11 +5229,11 @@
         "nature": "Modest",
         "item": "King's Rock",
         "tier": "HallR10",
-        "id": "279",
+        "id": 279,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Phanpy": {
         "evs": {
@@ -5249,11 +5249,11 @@
         "nature": "Naive",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "78",
+        "id": 78,
         "types": [
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Pidgeot": {
         "evs": {
@@ -5269,12 +5269,12 @@
         "nature": "Modest",
         "item": "Wise Glasses",
         "tier": "HallR10",
-        "id": "374",
+        "id": 374,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Pidgeotto": {
         "evs": {
@@ -5290,12 +5290,12 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "160",
+        "id": 160,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Pikachu": {
         "evs": {
@@ -5311,11 +5311,11 @@
         "nature": "Naughty",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "12",
+        "id": 12,
         "types": [
             "Electric"
         ],
-        "group": "1"
+        "group": 1
     },
     "Piloswine": {
         "evs": {
@@ -5331,12 +5331,12 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "315",
+        "id": 315,
         "types": [
             "Ice",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Pinsir": {
         "evs": {
@@ -5352,11 +5352,11 @@
         "nature": "Jolly",
         "item": "Salac Berry",
         "tier": "HallR10",
-        "id": "390",
+        "id": 390,
         "types": [
             "Bug"
         ],
-        "group": "4"
+        "group": 4
     },
     "Piplup": {
         "evs": {
@@ -5372,11 +5372,11 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "130",
+        "id": 130,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Plusle": {
         "evs": {
@@ -5392,11 +5392,11 @@
         "nature": "Timid",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "235",
+        "id": 235,
         "types": [
             "Electric"
         ],
-        "group": "2"
+        "group": 2
     },
     "Politoed": {
         "evs": {
@@ -5412,11 +5412,11 @@
         "nature": "Modest",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "id": "407",
+        "id": 407,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Poliwhirl": {
         "evs": {
@@ -5432,11 +5432,11 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "170",
+        "id": 170,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Poliwrath": {
         "evs": {
@@ -5452,12 +5452,12 @@
         "nature": "Quiet",
         "item": "Zoom Lens",
         "tier": "HallR10",
-        "id": "380",
+        "id": 380,
         "types": [
             "Water",
             "Fighting"
         ],
-        "group": "4"
+        "group": 4
     },
     "Ponyta": {
         "evs": {
@@ -5473,11 +5473,11 @@
         "nature": "Jolly",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "175",
+        "id": 175,
         "types": [
             "Fire"
         ],
-        "group": "2"
+        "group": 2
     },
     "Porygon": {
         "evs": {
@@ -5493,11 +5493,11 @@
         "nature": "Quiet",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "185",
+        "id": 185,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Porygon2": {
         "evs": {
@@ -5513,11 +5513,11 @@
         "nature": "Rash",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "418",
+        "id": 418,
         "types": [
             "Normal"
         ],
-        "group": "4"
+        "group": 4
     },
     "Porygon-Z": {
         "evs": {
@@ -5533,7 +5533,7 @@
         "nature": "Modest",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "467",
+        "id": 467,
         "types": ["Normal"],
         "group": 4
     },
@@ -5551,11 +5551,11 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "280",
+        "id": 280,
         "types": [
             "Fighting"
         ],
-        "group": "3"
+        "group": 3
     },
     "Prinplup": {
         "evs": {
@@ -5571,11 +5571,11 @@
         "nature": "Hasty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "253",
+        "id": 253,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Probopass": {
         "evs": {
@@ -5591,12 +5591,12 @@
         "nature": "Calm",
         "item": "Focus Band",
         "tier": "HallR10",
-        "id": "469",
+        "id": 469,
         "types": [
             "Steel",
             "Rock"
         ],
-        "group": "4"
+        "group": 4
     },
     "Psyduck": {
         "evs": {
@@ -5612,11 +5612,11 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "25",
+        "id": 25,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Pupitar": {
         "evs": {
@@ -5632,12 +5632,12 @@
         "nature": "Adamant",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "215",
+        "id": 215,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Purugly": {
         "evs": {
@@ -5653,11 +5653,11 @@
         "nature": "Adamant",
         "item": "King's Rock",
         "tier": "HallR10",
-        "id": "365",
+        "id": 365,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Quagsire": {
         "evs": {
@@ -5673,12 +5673,12 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "203",
+        "id": 203,
         "types": [
             "Water",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Quilava": {
         "evs": {
@@ -5694,11 +5694,11 @@
         "nature": "Timid",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "190",
+        "id": 190,
         "types": [
             "Fire"
         ],
-        "group": "2"
+        "group": 2
     },
     "Qwilfish": {
         "evs": {
@@ -5714,12 +5714,12 @@
         "nature": "Careful",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "209",
+        "id": 209,
         "types": [
             "Water",
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Raichu": {
         "evs": {
@@ -5735,11 +5735,11 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "id": "271",
+        "id": 271,
         "types": [
             "Electric"
         ],
-        "group": "3"
+        "group": 3
     },
     "Raikou": {
         "evs": {
@@ -5755,11 +5755,11 @@
         "nature": "Naive",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "420",
+        "id": 420,
         "types": [
             "Electric"
         ],
-        "group": "4"
+        "group": 4
     },
     "Rampardos": {
         "evs": {
@@ -5775,11 +5775,11 @@
         "nature": "Adamant",
         "item": "Shell Bell",
         "tier": "HallR10",
-        "id": "355",
+        "id": 355,
         "types": [
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Rapidash": {
         "evs": {
@@ -5795,11 +5795,11 @@
         "nature": "Lonely",
         "item": "Razor Fang",
         "tier": "HallR10",
-        "id": "383",
+        "id": 383,
         "types": [
             "Fire"
         ],
-        "group": "4"
+        "group": 4
     },
     "Raticate": {
         "evs": {
@@ -5815,11 +5815,11 @@
         "nature": "Jolly",
         "item": "Focus Band",
         "tier": "Hall",
-        "id": "161",
+        "id": 161,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Regice": {
         "evs": {
@@ -5835,11 +5835,11 @@
         "nature": "Quiet",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "439",
+        "id": 439,
         "types": [
             "Ice"
         ],
-        "group": "4"
+        "group": 4
     },
     "Regigigas": {
         "evs": {
@@ -5855,11 +5855,11 @@
         "nature": "Impish",
         "item": "Lum Berry",
         "tier": "HallR10",
-        "id": "477",
+        "id": 477,
         "types": [
             "Normal"
         ],
-        "group": "4"
+        "group": 4
     },
     "Regirock": {
         "evs": {
@@ -5875,11 +5875,11 @@
         "nature": "Brave",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "438",
+        "id": 438,
         "types": [
             "Rock"
         ],
-        "group": "4"
+        "group": 4
     },
     "Registeel": {
         "evs": {
@@ -5895,11 +5895,11 @@
         "nature": "Brave",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "440",
+        "id": 440,
         "types": [
             "Steel"
         ],
-        "group": "4"
+        "group": 4
     },
     "Relicanth": {
         "evs": {
@@ -5915,12 +5915,12 @@
         "nature": "Brave",
         "item": "Shell Bell",
         "tier": "HallR10",
-        "id": "353",
+        "id": 353,
         "types": [
             "Water",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Remoraid": {
         "evs": {
@@ -5936,11 +5936,11 @@
         "nature": "Timid",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "75",
+        "id": 75,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Rhydon": {
         "evs": {
@@ -5956,12 +5956,12 @@
         "nature": "Adamant",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "294",
+        "id": 294,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Rhyhorn": {
         "evs": {
@@ -5977,12 +5977,12 @@
         "nature": "Impish",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "182",
+        "id": 182,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Rhyperior": {
         "evs": {
@@ -5998,12 +5998,12 @@
         "nature": "Brave",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "457",
+        "id": 457,
         "types": [
             "Rock",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Riolu": {
         "evs": {
@@ -6019,11 +6019,11 @@
         "nature": "Jolly",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "149",
+        "id": 149,
         "types": [
             "Fighting"
         ],
-        "group": "1"
+        "group": 1
     },
     "Roselia": {
         "evs": {
@@ -6039,12 +6039,12 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "239",
+        "id": 239,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Roserade": {
         "evs": {
@@ -6060,12 +6060,12 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "id": "447",
+        "id": 447,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "4"
+        "group": 4
     },
     "Rotom": {
         "evs": {
@@ -6081,12 +6081,12 @@
         "nature": "Timid",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "id": "373",
+        "id": 373,
         "types": [
             "Electric",
             "Ghost"
         ],
-        "group": "3"
+        "group": 3
     },
     "Sableye": {
         "evs": {
@@ -6102,12 +6102,12 @@
         "nature": "Gentle",
         "item": "Spell Tag",
         "tier": "Hall",
-        "id": "231",
+        "id": 231,
         "types": [
             "Dark",
             "Ghost"
         ],
-        "group": "2"
+        "group": 2
     },
     "Salamence": {
         "evs": {
@@ -6123,12 +6123,12 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "436",
+        "id": 436,
         "types": [
             "Dragon",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Sandshrew": {
         "evs": {
@@ -6144,11 +6144,11 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "13",
+        "id": 13,
         "types": [
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Sandslash": {
         "evs": {
@@ -6164,11 +6164,11 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "272",
+        "id": 272,
         "types": [
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Sceptile": {
         "evs": {
@@ -6184,11 +6184,11 @@
         "nature": "Naughty",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "424",
+        "id": 424,
         "types": [
             "Grass"
         ],
-        "group": "4"
+        "group": 4
     },
     "Scizor": {
         "evs": {
@@ -6204,12 +6204,12 @@
         "nature": "Brave",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "411",
+        "id": 411,
         "types": [
             "Steel",
             "Bug"
         ],
-        "group": "4"
+        "group": 4
     },
     "Scyther": {
         "evs": {
@@ -6225,12 +6225,12 @@
         "nature": "Jolly",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "389",
+        "id": 389,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Seadra": {
         "evs": {
@@ -6246,11 +6246,11 @@
         "nature": "Modest",
         "item": "Scope Lens",
         "tier": "HallR10",
-        "id": "297",
+        "id": 297,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Seaking": {
         "evs": {
@@ -6266,11 +6266,11 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "298",
+        "id": 298,
         "types": [
             "Water"
         ],
-        "group": "3"
+        "group": 3
     },
     "Sealeo": {
         "evs": {
@@ -6286,12 +6286,12 @@
         "nature": "Modest",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "id": "247",
+        "id": 247,
         "types": [
             "Water",
             "Ice"
         ],
-        "group": "2"
+        "group": 2
     },
     "Seel": {
         "evs": {
@@ -6307,11 +6307,11 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "36",
+        "id": 36,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Seviper": {
         "evs": {
@@ -6327,11 +6327,11 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "338",
+        "id": 338,
         "types": [
             "Poison"
         ],
-        "group": "3"
+        "group": 3
     },
     "Sharpedo": {
         "evs": {
@@ -6347,12 +6347,12 @@
         "nature": "Adamant",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "331",
+        "id": 331,
         "types": [
             "Water",
             "Dark"
         ],
-        "group": "3"
+        "group": 3
     },
     "Shedinja": {
         "evs": {
@@ -6368,12 +6368,12 @@
         "nature": "Adamant",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "101",
+        "id": 101,
         "types": [
             "Bug",
             "Ghost"
         ],
-        "group": "1"
+        "group": 1
     },
     "Shelgon": {
         "evs": {
@@ -6389,11 +6389,11 @@
         "nature": "Adamant",
         "item": "Dragon Fang",
         "tier": "Hall",
-        "id": "249",
+        "id": 249,
         "types": [
             "Dragon"
         ],
-        "group": "2"
+        "group": 2
     },
     "Shellos": {
         "evs": {
@@ -6409,11 +6409,11 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "140",
+        "id": 140,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Shieldon": {
         "evs": {
@@ -6429,12 +6429,12 @@
         "nature": "Careful",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "259",
+        "id": 259,
         "types": [
             "Steel",
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Shiftry": {
         "evs": {
@@ -6450,12 +6450,12 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "id": "323",
+        "id": 323,
         "types": [
             "Grass",
             "Dark"
         ],
-        "group": "3"
+        "group": 3
     },
     "Shinx": {
         "evs": {
@@ -6471,11 +6471,11 @@
         "nature": "Naughty",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "134",
+        "id": 134,
         "types": [
             "Electric"
         ],
-        "group": "1"
+        "group": 1
     },
     "Shuckle": {
         "evs": {
@@ -6491,12 +6491,12 @@
         "nature": "Careful",
         "item": "Smooth Rock",
         "tier": "HallR10",
-        "id": "412",
+        "id": 412,
         "types": [
             "Bug",
             "Rock"
         ],
-        "group": "4"
+        "group": 4
     },
     "Shuppet": {
         "evs": {
@@ -6512,11 +6512,11 @@
         "nature": "Jolly",
         "item": "Spell Tag",
         "tier": "Hall",
-        "id": "120",
+        "id": 120,
         "types": [
             "Ghost"
         ],
-        "group": "1"
+        "group": 1
     },
     "Skarmory": {
         "evs": {
@@ -6532,12 +6532,12 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "id": "318",
+        "id": 318,
         "types": [
             "Steel",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Skiploom": {
         "evs": {
@@ -6553,12 +6553,12 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "199",
+        "id": 199,
         "types": [
             "Grass",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Skorupi": {
         "evs": {
@@ -6574,12 +6574,12 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "151",
+        "id": 151,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Skuntank": {
         "evs": {
@@ -6595,12 +6595,12 @@
         "nature": "Naughty",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "366",
+        "id": 366,
         "types": [
             "Dark",
             "Poison"
         ],
-        "group": "3"
+        "group": 3
     },
     "Slaking": {
         "evs": {
@@ -6616,11 +6616,11 @@
         "nature": "Adamant",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "428",
+        "id": 428,
         "types": [
             "Normal"
         ],
-        "group": "4"
+        "group": 4
     },
     "Slowbro": {
         "evs": {
@@ -6636,12 +6636,12 @@
         "nature": "Modest",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "284",
+        "id": 284,
         "types": [
             "Water",
             "Psychic"
         ],
-        "group": "3"
+        "group": 3
     },
     "Slowking": {
         "evs": {
@@ -6657,12 +6657,12 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "311",
+        "id": 311,
         "types": [
             "Water",
             "Psychic"
         ],
-        "group": "3"
+        "group": 3
     },
     "Slowpoke": {
         "evs": {
@@ -6678,12 +6678,12 @@
         "nature": "Sassy",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "33",
+        "id": 33,
         "types": [
             "Water",
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Smoochum": {
         "evs": {
@@ -6699,12 +6699,12 @@
         "nature": "Mild",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "id": "81",
+        "id": 81,
         "types": [
             "Ice",
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Sneasel": {
         "evs": {
@@ -6720,12 +6720,12 @@
         "nature": "Jolly",
         "item": "Black Glasses",
         "tier": "Hall",
-        "id": "210",
+        "id": 210,
         "types": [
             "Ice",
             "Dark"
         ],
-        "group": "2"
+        "group": 2
     },
     "Snorlax": {
         "evs": {
@@ -6741,11 +6741,11 @@
         "nature": "Brave",
         "item": "Choice Band",
         "tier": "HallR10",
-        "id": "397",
+        "id": 397,
         "types": [
             "Normal"
         ],
-        "group": "4"
+        "group": 4
     },
     "Snorunt": {
         "evs": {
@@ -6761,11 +6761,11 @@
         "nature": "Brave",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "id": "123",
+        "id": 123,
         "types": [
             "Ice"
         ],
-        "group": "1"
+        "group": 1
     },
     "Snover": {
         "evs": {
@@ -6781,12 +6781,12 @@
         "nature": "Brave",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "id": "154",
+        "id": 154,
         "types": [
             "Grass",
             "Ice"
         ],
-        "group": "1"
+        "group": 1
     },
     "Snubbull": {
         "evs": {
@@ -6802,11 +6802,11 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "71",
+        "id": 71,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Solrock": {
         "evs": {
@@ -6822,12 +6822,12 @@
         "nature": "Adamant",
         "item": "Muscle Band",
         "tier": "HallR10",
-        "id": "340",
+        "id": 340,
         "types": [
             "Psychic",
             "Rock"
         ],
-        "group": "3"
+        "group": 3
     },
     "Spinda": {
         "evs": {
@@ -6843,11 +6843,11 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "241",
+        "id": 241,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Spoink": {
         "evs": {
@@ -6863,11 +6863,11 @@
         "nature": "Hasty",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "112",
+        "id": 112,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Squirtle": {
         "evs": {
@@ -6883,11 +6883,11 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "3",
+        "id": 3,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Stantler": {
         "evs": {
@@ -6903,11 +6903,11 @@
         "nature": "Rash",
         "item": "King's Rock",
         "tier": "HallR10",
-        "id": "319",
+        "id": 319,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Staraptor": {
         "evs": {
@@ -6923,12 +6923,12 @@
         "nature": "Adamant",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "354",
+        "id": 354,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Staravia": {
         "evs": {
@@ -6944,12 +6944,12 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "254",
+        "id": 254,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Starly": {
         "evs": {
@@ -6965,12 +6965,12 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "131",
+        "id": 131,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Starmie": {
         "evs": {
@@ -6986,12 +6986,12 @@
         "nature": "Timid",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "388",
+        "id": 388,
         "types": [
             "Water",
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Staryu": {
         "evs": {
@@ -7007,11 +7007,11 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "184",
+        "id": 184,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Steelix": {
         "evs": {
@@ -7027,12 +7027,12 @@
         "nature": "Brave",
         "item": "Iron Ball",
         "tier": "HallR10",
-        "id": "410",
+        "id": 410,
         "types": [
             "Steel",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Stunky": {
         "evs": {
@@ -7048,12 +7048,12 @@
         "nature": "Modest",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "143",
+        "id": 143,
         "types": [
             "Dark",
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Sudowoodo": {
         "evs": {
@@ -7069,11 +7069,11 @@
         "nature": "Impish",
         "item": "Hard Stone",
         "tier": "Hall",
-        "id": "198",
+        "id": 198,
         "types": [
             "Rock"
         ],
-        "group": "2"
+        "group": 2
     },
     "Suicune": {
         "evs": {
@@ -7089,11 +7089,11 @@
         "nature": "Bold",
         "item": "Sitrus Berry",
         "tier": "HallR10",
-        "id": "422",
+        "id": 422,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Sunflora": {
         "evs": {
@@ -7109,11 +7109,11 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "201",
+        "id": 201,
         "types": [
             "Grass"
         ],
-        "group": "2"
+        "group": 2
     },
     "Swablu": {
         "evs": {
@@ -7129,12 +7129,12 @@
         "nature": "Lonely",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "115",
+        "id": 115,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Swalot": {
         "evs": {
@@ -7150,11 +7150,11 @@
         "nature": "Adamant",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "330",
+        "id": 330,
         "types": [
             "Poison"
         ],
-        "group": "3"
+        "group": 3
     },
     "Swampert": {
         "evs": {
@@ -7170,12 +7170,12 @@
         "nature": "Quiet",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "426",
+        "id": 426,
         "types": [
             "Water",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Swellow": {
         "evs": {
@@ -7191,12 +7191,12 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "225",
+        "id": 225,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Tangela": {
         "evs": {
@@ -7212,11 +7212,11 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "183",
+        "id": 183,
         "types": [
             "Grass"
         ],
-        "group": "2"
+        "group": 2
     },
     "Tangrowth": {
         "evs": {
@@ -7232,11 +7232,11 @@
         "nature": "Lonely",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "id": "458",
+        "id": 458,
         "types": [
             "Grass"
         ],
-        "group": "4"
+        "group": 4
     },
     "Tauros": {
         "evs": {
@@ -7252,11 +7252,11 @@
         "nature": "Adamant",
         "item": "Persim Berry",
         "tier": "HallR10",
-        "id": "303",
+        "id": 303,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Teddiursa": {
         "evs": {
@@ -7272,11 +7272,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "72",
+        "id": 72,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Tentacool": {
         "evs": {
@@ -7292,12 +7292,12 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "31",
+        "id": 31,
         "types": [
             "Water",
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Tentacruel": {
         "evs": {
@@ -7313,12 +7313,12 @@
         "nature": "Adamant",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "382",
+        "id": 382,
         "types": [
             "Water",
             "Poison"
         ],
-        "group": "4"
+        "group": 4
     },
     "Togekiss": {
         "evs": {
@@ -7334,12 +7334,12 @@
         "nature": "Modest",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "461",
+        "id": 461,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Togetic": {
         "evs": {
@@ -7355,11 +7355,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "195",
+        "id": 195,
         "types": [
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Torchic": {
         "evs": {
@@ -7375,11 +7375,11 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "84",
+        "id": 84,
         "types": [
             "Fire"
         ],
-        "group": "1"
+        "group": 1
     },
     "Torkoal": {
         "evs": {
@@ -7395,11 +7395,11 @@
         "nature": "Quiet",
         "item": "White Herb",
         "tier": "HallR10",
-        "id": "333",
+        "id": 333,
         "types": [
             "Fire"
         ],
-        "group": "3"
+        "group": 3
     },
     "Torterra": {
         "evs": {
@@ -7415,12 +7415,12 @@
         "nature": "Brave",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "id": "443",
+        "id": 443,
         "types": [
             "Grass",
             "Ground"
         ],
-        "group": "4"
+        "group": 4
     },
     "Totodile": {
         "evs": {
@@ -7436,11 +7436,11 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "53",
+        "id": 53,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Toxicroak": {
         "evs": {
@@ -7456,12 +7456,12 @@
         "nature": "Brave",
         "item": "Liechi Berry",
         "tier": "HallR10",
-        "id": "368",
+        "id": 368,
         "types": [
             "Poison",
             "Fighting"
         ],
-        "group": "3"
+        "group": 3
     },
     "Treecko": {
         "evs": {
@@ -7477,11 +7477,11 @@
         "nature": "Naive",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "83",
+        "id": 83,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Tropius": {
         "evs": {
@@ -7497,12 +7497,12 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "id": "348",
+        "id": 348,
         "types": [
             "Grass",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Turtwig": {
         "evs": {
@@ -7518,11 +7518,11 @@
         "nature": "Lonely",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "128",
+        "id": 128,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Typhlosion": {
         "evs": {
@@ -7538,11 +7538,11 @@
         "nature": "Timid",
         "item": "White Herb",
         "tier": "HallR10",
-        "id": "403",
+        "id": 403,
         "types": [
             "Fire"
         ],
-        "group": "4"
+        "group": 4
     },
     "Tyranitar": {
         "evs": {
@@ -7558,12 +7558,12 @@
         "nature": "Brave",
         "item": "Quick Claw",
         "tier": "HallR10",
-        "id": "423",
+        "id": 423,
         "types": [
             "Dark",
             "Rock"
         ],
-        "group": "4"
+        "group": 4
     },
     "Umbreon": {
         "evs": {
@@ -7579,11 +7579,11 @@
         "nature": "Relaxed",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "409",
+        "id": 409,
         "types": [
             "Dark"
         ],
-        "group": "4"
+        "group": 4
     },
     "Ursaring": {
         "evs": {
@@ -7599,11 +7599,11 @@
         "nature": "Adamant",
         "item": "Focus Band",
         "tier": "HallR10",
-        "id": "414",
+        "id": 414,
         "types": [
             "Normal"
         ],
-        "group": "4"
+        "group": 4
     },
     "Vaporeon": {
         "evs": {
@@ -7619,11 +7619,11 @@
         "nature": "Mild",
         "item": "Expert Belt",
         "tier": "HallR10",
-        "id": "393",
+        "id": 393,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Venomoth": {
         "evs": {
@@ -7639,11 +7639,11 @@
         "nature": "Modest",
         "item": "Choice Specs",
         "tier": "HallR10",
-        "id": "278",
+        "id": 278,
         "types": [
             "Poison"
         ],
-        "group": "3"
+        "group": 3
     },
     "Venonat": {
         "evs": {
@@ -7659,12 +7659,12 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "22",
+        "id": 22,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Venusaur": {
         "evs": {
@@ -7680,12 +7680,12 @@
         "nature": "Quiet",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "475",
+        "id": 475,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "4"
+        "group": 4
     },
     "Vespiquen": {
         "evs": {
@@ -7701,12 +7701,12 @@
         "nature": "Brave",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "357",
+        "id": 357,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Vibrava": {
         "evs": {
@@ -7722,12 +7722,12 @@
         "nature": "Adamant",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "242",
+        "id": 242,
         "types": [
             "Dragon",
             "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Victreebel": {
         "evs": {
@@ -7743,12 +7743,12 @@
         "nature": "Modest",
         "item": "White Herb",
         "tier": "HallR10",
-        "id": "282",
+        "id": 282,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "3"
+        "group": 3
     },
     "Vigoroth": {
         "evs": {
@@ -7764,11 +7764,11 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "id": "325",
+        "id": 325,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Vileplume": {
         "evs": {
@@ -7784,12 +7784,12 @@
         "nature": "Modest",
         "item": "Heat Rock",
         "tier": "HallR10",
-        "id": "277",
+        "id": 277,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "3"
+        "group": 3
     },
     "Volbeat": {
         "evs": {
@@ -7805,11 +7805,11 @@
         "nature": "Rash",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "237",
+        "id": 237,
         "types": [
             "Bug"
         ],
-        "group": "2"
+        "group": 2
     },
     "Voltorb": {
         "evs": {
@@ -7825,11 +7825,11 @@
         "nature": "Modest",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "42",
+        "id": 42,
         "types": [
             "Electric"
         ],
-        "group": "1"
+        "group": 1
     },
     "Vulpix": {
         "evs": {
@@ -7845,11 +7845,11 @@
         "nature": "Modest",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "17",
+        "id": 17,
         "types": [
             "Fire"
         ],
-        "group": "1"
+        "group": 1
     },
     "Wailmer": {
         "evs": {
@@ -7865,11 +7865,11 @@
         "nature": "Modest",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "240",
+        "id": 240,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Wailord": {
         "evs": {
@@ -7885,11 +7885,11 @@
         "nature": "Quiet",
         "item": "Bright Powder",
         "tier": "HallR10",
-        "id": "430",
+        "id": 430,
         "types": [
             "Water"
         ],
-        "group": "4"
+        "group": 4
     },
     "Walrein": {
         "evs": {
@@ -7905,12 +7905,12 @@
         "nature": "Quiet",
         "item": "Icy Rock",
         "tier": "HallR10",
-        "id": "434",
+        "id": 434,
         "types": [
             "Water",
             "Ice"
         ],
-        "group": "4"
+        "group": 4
     },
     "Wartortle": {
         "evs": {
@@ -7926,11 +7926,11 @@
         "nature": "Calm",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "157",
+        "id": 157,
         "types": [
             "Water"
         ],
-        "group": "2"
+        "group": 2
     },
     "Weavile": {
         "evs": {
@@ -7946,12 +7946,12 @@
         "nature": "Adamant",
         "item": "Focus Sash",
         "tier": "HallR10",
-        "id": "454",
+        "id": 454,
         "types": [
             "Ice",
             "Dark"
         ],
-        "group": "4"
+        "group": 4
     },
     "Weepinbell": {
         "evs": {
@@ -7967,12 +7967,12 @@
         "nature": "Modest",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "173",
+        "id": 173,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "2"
+        "group": 2
     },
     "Weezing": {
         "evs": {
@@ -7988,11 +7988,11 @@
         "nature": "Calm",
         "item": "Black Sludge",
         "tier": "HallR10",
-        "id": "293",
+        "id": 293,
         "types": [
             "Poison"
         ],
-        "group": "3"
+        "group": 3
     },
     "Whiscash": {
         "evs": {
@@ -8008,12 +8008,12 @@
         "nature": "Quiet",
         "item": "Lax Incense",
         "tier": "HallR10",
-        "id": "341",
+        "id": 341,
         "types": [
             "Water",
             "Ground"
         ],
-        "group": "3"
+        "group": 3
     },
     "Wigglytuff": {
         "evs": {
@@ -8029,11 +8029,11 @@
         "nature": "Modest",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "165",
+        "id": 165,
         "types": [
             "Normal"
         ],
-        "group": "2"
+        "group": 2
     },
     "Wobbuffet": {
         "evs": {
@@ -8049,11 +8049,11 @@
         "nature": "Calm",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "id": "206",
+        "id": 206,
         "types": [
             "Psychic"
         ],
-        "group": "2"
+        "group": 2
     },
     "Wormadam": {
         "evs": {
@@ -8069,12 +8069,12 @@
         "nature": "Quiet",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "260",
+        "id": 260,
         "types": [
             "Bug",
-            "Grass"
+            "Ground"
         ],
-        "group": "2"
+        "group": 2
     },
     "Xatu": {
         "evs": {
@@ -8090,12 +8090,12 @@
         "nature": "Modest",
         "item": "Leftovers",
         "tier": "HallR10",
-        "id": "308",
+        "id": 308,
         "types": [
             "Psychic",
             "Flying"
         ],
-        "group": "3"
+        "group": 3
     },
     "Yanma": {
         "evs": {
@@ -8111,12 +8111,12 @@
         "nature": "Modest",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "202",
+        "id": 202,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "2"
+        "group": 2
     },
     "Yanmega": {
         "evs": {
@@ -8132,12 +8132,12 @@
         "nature": "Rash",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "id": "462",
+        "id": 462,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Zangoose": {
         "evs": {
@@ -8153,11 +8153,11 @@
         "nature": "Adamant",
         "item": "Razor Claw",
         "tier": "HallR10",
-        "id": "337",
+        "id": 337,
         "types": [
             "Normal"
         ],
-        "group": "3"
+        "group": 3
     },
     "Zapdos": {
         "evs": {
@@ -8173,12 +8173,12 @@
         "nature": "Modest",
         "item": "Ganlon Berry",
         "tier": "HallR10",
-        "id": "399",
+        "id": 399,
         "types": [
             "Electric",
             "Flying"
         ],
-        "group": "4"
+        "group": 4
     },
     "Caterpie": {
         "evs": {
@@ -8194,11 +8194,11 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "4",
+        "id": 4,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Metapod": {
         "evs": {
@@ -8214,11 +8214,11 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "5",
+        "id": 5,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Weedle": {
         "evs": {
@@ -8234,12 +8234,12 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "6",
+        "id": 6,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Kakuna": {
         "evs": {
@@ -8255,12 +8255,12 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "7",
+        "id": 7,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Pidgey": {
         "evs": {
@@ -8276,12 +8276,12 @@
         "nature": "Mild",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "8",
+        "id": 8,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Rattata": {
         "evs": {
@@ -8297,11 +8297,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "9",
+        "id": 9,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Spearow": {
         "evs": {
@@ -8317,12 +8317,12 @@
         "nature": "Adamant",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "10",
+        "id": 10,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Ekans": {
         "evs": {
@@ -8338,11 +8338,11 @@
         "nature": "Hasty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "11",
+        "id": 11,
         "types": [
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Nidoran-F": {
         "evs": {
@@ -8358,9 +8358,9 @@
         "nature": "Mild",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "14",
+        "id": 14,
         "types": ["Poison"],
-        "group": "1"
+        "group": 1
     },
     "Nidoran-M": {
         "evs": {
@@ -8376,9 +8376,9 @@
         "nature": "Naughty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "15",
+        "id": 15,
         "types": ["Poison"],
-        "group": "1"
+        "group": 1
     },
     "Jigglypuff": {
         "evs": {
@@ -8394,11 +8394,11 @@
         "nature": "Rash",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "18",
+        "id": 18,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Zubat": {
         "evs": {
@@ -8414,12 +8414,12 @@
         "nature": "Hasty",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "19",
+        "id": 19,
         "types": [
             "Poison",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Paras": {
         "evs": {
@@ -8435,12 +8435,12 @@
         "nature": "Brave",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "21",
+        "id": 21,
         "types": [
             "Grass",
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Diglett": {
         "evs": {
@@ -8456,11 +8456,11 @@
         "nature": "Adamant",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "23",
+        "id": 23,
         "types": [
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Meowth": {
         "evs": {
@@ -8476,11 +8476,11 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "24",
+        "id": 24,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Mankey": {
         "evs": {
@@ -8496,11 +8496,11 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "26",
+        "id": 26,
         "types": [
             "Fighting"
         ],
-        "group": "1"
+        "group": 1
     },
     "Poliwag": {
         "evs": {
@@ -8516,11 +8516,11 @@
         "nature": "Hasty",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "27",
+        "id": 27,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Abra": {
         "evs": {
@@ -8536,11 +8536,11 @@
         "nature": "Naive",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "28",
+        "id": 28,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Bellsprout": {
         "evs": {
@@ -8556,12 +8556,12 @@
         "nature": "Rash",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "30",
+        "id": 30,
         "types": [
             "Grass",
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Shellder": {
         "evs": {
@@ -8577,11 +8577,11 @@
         "nature": "Sassy",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "38",
+        "id": 38,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Gastly": {
         "evs": {
@@ -8597,12 +8597,12 @@
         "nature": "Modest",
         "item": "Spell Tag",
         "tier": "Hall",
-        "id": "39",
+        "id": 39,
         "types": [
             "Poison",
             "Ghost"
         ],
-        "group": "1"
+        "group": 1
     },
     "Horsea": {
         "evs": {
@@ -8618,11 +8618,11 @@
         "nature": "Jolly",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "45",
+        "id": 45,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Magikarp": {
         "evs": {
@@ -8638,11 +8638,11 @@
         "nature": "Jolly",
         "item": "Scope Lens",
         "tier": "Hall",
-        "id": "47",
+        "id": 47,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Ditto": {
         "evs": {
@@ -8658,11 +8658,11 @@
         "nature": "Naive",
         "item": "Quick Powder",
         "tier": "Hall",
-        "id": "48",
+        "id": 48,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Sentret": {
         "evs": {
@@ -8678,11 +8678,11 @@
         "nature": "Rash",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "54",
+        "id": 54,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Hoothoot": {
         "evs": {
@@ -8698,12 +8698,12 @@
         "nature": "Mild",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "55",
+        "id": 55,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Ledyba": {
         "evs": {
@@ -8719,12 +8719,12 @@
         "nature": "Hasty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "56",
+        "id": 56,
         "types": [
             "Bug",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Spinarak": {
         "evs": {
@@ -8740,12 +8740,12 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "57",
+        "id": 57,
         "types": [
             "Poison",
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Pichu": {
         "evs": {
@@ -8761,11 +8761,11 @@
         "nature": "Naive",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "59",
+        "id": 59,
         "types": [
             "Electric"
         ],
-        "group": "1"
+        "group": 1
     },
     "Cleffa": {
         "evs": {
@@ -8781,11 +8781,11 @@
         "nature": "Relaxed",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "60",
+        "id": 60,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Igglybuff": {
         "evs": {
@@ -8801,11 +8801,11 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "61",
+        "id": 61,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Togepi": {
         "evs": {
@@ -8821,11 +8821,11 @@
         "nature": "Naive",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "62",
+        "id": 62,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Mareep": {
         "evs": {
@@ -8841,11 +8841,11 @@
         "nature": "Rash",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "64",
+        "id": 64,
         "types": [
             "Electric"
         ],
-        "group": "1"
+        "group": 1
     },
     "Marill": {
         "evs": {
@@ -8861,11 +8861,11 @@
         "nature": "Lonely",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "65",
+        "id": 65,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Hoppip": {
         "evs": {
@@ -8881,12 +8881,12 @@
         "nature": "Hasty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "66",
+        "id": 66,
         "types": [
             "Grass",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Sunkern": {
         "evs": {
@@ -8902,11 +8902,11 @@
         "nature": "Jolly",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "67",
+        "id": 67,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Wooper": {
         "evs": {
@@ -8922,12 +8922,12 @@
         "nature": "Gentle",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "68",
+        "id": 68,
         "types": [
             "Water",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Unown": {
         "evs": {
@@ -8943,11 +8943,11 @@
         "nature": "Hasty",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "id": "69",
+        "id": 69,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Pineco": {
         "evs": {
@@ -8963,11 +8963,11 @@
         "nature": "Relaxed",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "70",
+        "id": 70,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Slugma": {
         "evs": {
@@ -8983,11 +8983,11 @@
         "nature": "Hasty",
         "item": "Charcoal",
         "tier": "Hall",
-        "id": "73",
+        "id": 73,
         "types": [
             "Fire"
         ],
-        "group": "1"
+        "group": 1
     },
     "Swinub": {
         "evs": {
@@ -9003,12 +9003,12 @@
         "nature": "Quiet",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "id": "74",
+        "id": 74,
         "types": [
             "Ice",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Smeargle": {
         "evs": {
@@ -9024,11 +9024,11 @@
         "nature": "Timid",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "79",
+        "id": 79,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Tyrogue": {
         "evs": {
@@ -9044,11 +9044,11 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "80",
+        "id": 80,
         "types": [
             "Fighting"
         ],
-        "group": "1"
+        "group": 1
     },
     "Poochyena": {
         "evs": {
@@ -9064,11 +9064,11 @@
         "nature": "Naive",
         "item": "Black Glasses",
         "tier": "Hall",
-        "id": "86",
+        "id": 86,
         "types": [
             "Dark"
         ],
-        "group": "1"
+        "group": 1
     },
     "Zigzagoon": {
         "evs": {
@@ -9084,11 +9084,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "87",
+        "id": 87,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Wurmple": {
         "evs": {
@@ -9104,11 +9104,11 @@
         "nature": "Jolly",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "88",
+        "id": 88,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Silcoon": {
         "evs": {
@@ -9124,11 +9124,11 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "89",
+        "id": 89,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Cascoon": {
         "evs": {
@@ -9144,11 +9144,11 @@
         "nature": "Impish",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "90",
+        "id": 90,
         "types": [
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Lotad": {
         "evs": {
@@ -9164,12 +9164,12 @@
         "nature": "Hasty",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "91",
+        "id": 91,
         "types": [
             "Water",
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Seedot": {
         "evs": {
@@ -9185,11 +9185,11 @@
         "nature": "Quiet",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "92",
+        "id": 92,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Taillow": {
         "evs": {
@@ -9205,12 +9205,12 @@
         "nature": "Lonely",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "93",
+        "id": 93,
         "types": [
             "Normal",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Wingull": {
         "evs": {
@@ -9226,12 +9226,12 @@
         "nature": "Timid",
         "item": "Sharp Beak",
         "tier": "Hall",
-        "id": "94",
+        "id": 94,
         "types": [
             "Water",
             "Flying"
         ],
-        "group": "1"
+        "group": 1
     },
     "Ralts": {
         "evs": {
@@ -9247,11 +9247,11 @@
         "nature": "Mild",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "95",
+        "id": 95,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Kirlia": {
         "evs": {
@@ -9267,11 +9267,11 @@
         "nature": "Rash",
         "item": "Twisted Spoon",
         "tier": "Hall",
-        "id": "96",
+        "id": 96,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Surskit": {
         "evs": {
@@ -9287,12 +9287,12 @@
         "nature": "Mild",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "97",
+        "id": 97,
         "types": [
             "Water",
             "Bug"
         ],
-        "group": "1"
+        "group": 1
     },
     "Shroomish": {
         "evs": {
@@ -9308,11 +9308,11 @@
         "nature": "Rash",
         "item": "Miracle Seed",
         "tier": "Hall",
-        "id": "98",
+        "id": 98,
         "types": [
             "Grass"
         ],
-        "group": "1"
+        "group": 1
     },
     "Slakoth": {
         "evs": {
@@ -9328,11 +9328,11 @@
         "nature": "Adamant",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "99",
+        "id": 99,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Nincada": {
         "evs": {
@@ -9348,12 +9348,12 @@
         "nature": "Hasty",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "100",
+        "id": 100,
         "types": [
             "Bug",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Whismur": {
         "evs": {
@@ -9369,11 +9369,11 @@
         "nature": "Naughty",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "102",
+        "id": 102,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Makuhita": {
         "evs": {
@@ -9389,11 +9389,11 @@
         "nature": "Adamant",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "103",
+        "id": 103,
         "types": [
             "Fighting"
         ],
-        "group": "1"
+        "group": 1
     },
     "Azurill": {
         "evs": {
@@ -9409,11 +9409,11 @@
         "nature": "Mild",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "104",
+        "id": 104,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Skitty": {
         "evs": {
@@ -9429,11 +9429,11 @@
         "nature": "Jolly",
         "item": "Silk Scarf",
         "tier": "Hall",
-        "id": "105",
+        "id": 105,
         "types": [
             "Normal"
         ],
-        "group": "1"
+        "group": 1
     },
     "Meditite": {
         "evs": {
@@ -9449,12 +9449,12 @@
         "nature": "Rash",
         "item": "Black Belt",
         "tier": "Hall",
-        "id": "107",
+        "id": 107,
         "types": [
             "Psychic",
             "Fighting"
         ],
-        "group": "1"
+        "group": 1
     },
     "Electrike": {
         "evs": {
@@ -9470,11 +9470,11 @@
         "nature": "Rash",
         "item": "Magnet",
         "tier": "Hall",
-        "id": "108",
+        "id": 108,
         "types": [
             "Electric"
         ],
-        "group": "1"
+        "group": 1
     },
     "Gulpin": {
         "evs": {
@@ -9490,11 +9490,11 @@
         "nature": "Brave",
         "item": "Poison Barb",
         "tier": "Hall",
-        "id": "109",
+        "id": 109,
         "types": [
             "Poison"
         ],
-        "group": "1"
+        "group": 1
     },
     "Trapinch": {
         "evs": {
@@ -9510,11 +9510,11 @@
         "nature": "Jolly",
         "item": "Soft Sand",
         "tier": "Hall",
-        "id": "113",
+        "id": 113,
         "types": [
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Barboach": {
         "evs": {
@@ -9530,12 +9530,12 @@
         "nature": "Mild",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "116",
+        "id": 116,
         "types": [
             "Water",
             "Ground"
         ],
-        "group": "1"
+        "group": 1
     },
     "Feebas": {
         "evs": {
@@ -9551,11 +9551,11 @@
         "nature": "Adamant",
         "item": "Mystic Water",
         "tier": "Hall",
-        "id": "119",
+        "id": 119,
         "types": [
             "Water"
         ],
-        "group": "1"
+        "group": 1
     },
     "Wynaut": {
         "evs": {
@@ -9571,11 +9571,11 @@
         "nature": "Bold",
         "item": "Sitrus Berry",
         "tier": "Hall",
-        "id": "122",
+        "id": 122,
         "types": [
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Spheal": {
         "evs": {
@@ -9591,12 +9591,12 @@
         "nature": "Rash",
         "item": "Never-Melt Ice",
         "tier": "Hall",
-        "id": "124",
+        "id": 124,
         "types": [
             "Water",
             "Ice"
         ],
-        "group": "1"
+        "group": 1
     },
     "Beldum": {
         "evs": {
@@ -9612,12 +9612,12 @@
         "nature": "Adamant",
         "item": "Metal Coat",
         "tier": "Hall",
-        "id": "127",
+        "id": 127,
         "types": [
             "Steel",
             "Psychic"
         ],
-        "group": "1"
+        "group": 1
     },
     "Wormadam-G": {
         "evs": {
@@ -9633,7 +9633,7 @@
         "nature": "Brave",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "269",
+        "id": 269,
         "types": ["Bug", "Ground"],
         "group": 2
     },
@@ -9651,7 +9651,7 @@
         "nature": "Relaxed",
         "item": "Silver Powder",
         "tier": "Hall",
-        "id": "270",
+        "id": 270,
         "types": ["Bug", "Steel"],
         "group": 2
     },
@@ -9669,12 +9669,12 @@
         "nature": "Modest",
         "item": "Petaya Berry",
         "tier": "HallR10",
-        "id": "367",
+        "id": 367,
         "types": [
             "Dark",
             "Ghost"
         ],
-        "group": "3"
+        "group": 3
     },
     "Uxie": {
         "evs": {
@@ -9690,11 +9690,11 @@
         "nature": "Bold",
         "item": "Focus Band",
         "tier": "HallR10",
-        "id": "471",
+        "id": 471,
         "types": [
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Mesprit": {
         "evs": {
@@ -9710,11 +9710,11 @@
         "nature": "Timid",
         "item": "Light Clay",
         "tier": "HallR10",
-        "id": "472",
+        "id": 472,
         "types": [
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     },
     "Azelf": {
         "evs": {
@@ -9730,10 +9730,10 @@
         "nature": "Adamant",
         "item": "Flame Orb",
         "tier": "HallR10",
-        "id": "473",
+        "id": 473,
         "types": [
             "Psychic"
         ],
-        "group": "4"
+        "group": 4
     }
 }
