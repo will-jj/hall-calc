@@ -57,7 +57,7 @@ public class Attacker
     public Gen1 gen { get; set; }
     public string name { get; set; }
     public string[] types { get; set; }
-    public int weightkg { get; set; }
+    public double weightkg { get; set; }
     public int level { get; set; }
     public string gender { get; set; }
     public string ability { get; set; }
@@ -83,7 +83,7 @@ public class Species1
     public string name { get; set; }
     public BaseStats baseStats { get; set; }
     public string[] types { get; set; }
-    public int weightkg { get; set; }
+    public double weightkg { get; set; }
     public bool nfe { get; set; }
     public Abilities1 abilities { get; set; }
 }

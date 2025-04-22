@@ -23383,7 +23383,9 @@ var import_dist = __toESM(require_dist());
 function calculateDamage(attackingPokemon, attackingPokemonOptions, defendingPokemon, defendingPokemonOptions, moveName, field) {
   const gen = import_dist.Generations.get(4);
   attackingPokemonOptions = JSON.parse(attackingPokemonOptions);
-  const testmon = new import_dist.Pokemon(gen, attackingPokemon, attackingPokemonOptions)
+  defendingPokemonOptions = JSON.parse(defendingPokemonOptions);
+  const testmon = new import_dist.Pokemon(gen, attackingPokemon, attackingPokemonOptions);
+  const testmondef = new import_dist.Pokemon(gen, defendingPokemon, defendingPokemonOptions);
   const result = (0, import_dist.calculate)(
     gen,
     new import_dist.Pokemon(gen, attackingPokemon, attackingPokemonOptions),

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using Avalonia.Controls.Primitives;
+using Avalonia.Remote.Protocol.Designer;
 
 namespace HallCalc.Models;
 
@@ -8,6 +9,8 @@ public class PokemonSet
 {
     [JsonPropertyName("evs")]
     public Stats Evs { get; set; }
+    [JsonPropertyName("ivs")]
+    public Stats Ivs { get; set; }
     public List<string> Moves { get; set; }
     [JsonPropertyName("nature")]
     public string Nature { get; set; }
@@ -40,4 +43,15 @@ public partial class Stats
 
     [JsonPropertyName("spe")]
     public int Spe { get; set; }
+
+    public void SetAll(int all)
+    {
+        HP = all;
+        Atk = all;
+        Def = all;
+        SpA = all;
+        SpD = all;
+        Spe = all;
+    }
 }
+

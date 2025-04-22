@@ -10,6 +10,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using HallCalc.Models;
 using HallCalc.Models.Results;
+using Stats = HallCalc.Models.Stats;
 
 
 namespace HallCalc.ViewModels;
@@ -28,6 +29,7 @@ public partial class MainViewModel : ViewModelBase
         JsonSerializerOptions options = new JsonSerializerOptions();
         options.PropertyNameCaseInsensitive = true;
         options.NumberHandling = JsonNumberHandling.AllowReadingFromString;
+        options.IncludeFields = true;
         Dictionary<string, PokemonSet>? sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
         const string targetType = "Fire";
         IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets!
@@ -39,18 +41,37 @@ public partial class MainViewModel : ViewModelBase
             Console.WriteLine(yo.Id);
         }
         
-        PokemonSet hallPachie = sets!["Pachirisu"];
-        hallPachie.Level = 30;
+        PokemonSet attacker = new();
+        string attackerName = "Mudkip";
+        string defenderName = "Charmander";
+        attacker.Ivs = new Stats();
+        attacker.Ivs.SetAll(31);
+        attacker.Evs = new Stats();
+        attacker.Evs.SetAll(40);
+        attacker.Evs.Atk = 252;
+        attacker.Evs.SpA = 252;
+        attacker.Nature = "Adamant";
+        attacker.Level = 30;
+        
+        PokemonSet defender = sets!["Bulbasaur"];
+        defender.Level = 20;
+        defender.Ivs = new Stats();
+        defender.Ivs.SetAll(20);
+
         if (!OperatingSystem.IsBrowser())
         {
             return;
         }
-        string meme = DamageCalcInterop.CalculateDamage("Squirtle",
-            JsonSerializer.Serialize(hallPachie),
-            "Bulbasaur",
-            "",
-            "earthquake",
+        string meme = DamageCalcInterop.CalculateDamage(attackerName,
+            JsonSerializer.Serialize(attacker),
+            defenderName,
+            JsonSerializer.Serialize(defender),
+            $"Waterfall",
             "");
+
+        var res = JsonSerializer.Deserialize<CalcResult>(meme);
+        int stop = 1;
+
 
     }
 }
