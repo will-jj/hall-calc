@@ -32,47 +32,129 @@ public partial class MainViewModel : ViewModelBase
         options.IncludeFields = true;
         Dictionary<string, PokemonSet>? sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
         const string targetType = "Fire";
-        IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets!
-            .Where(x => x.Value.Types.Contains(targetType));
-        IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = fireSets.OrderBy(x => x.Value.Id);
-        foreach ((string hi, PokemonSet yo) in memeay)
-        {
-            Console.WriteLine(hi);
-            Console.WriteLine(yo.Id);
-        }
+        // IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets!
+        //     .Where(x => x.Value.Types.Contains(targetType));
+        // IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = fireSets.OrderBy(x => x.Value.Id);
+        // foreach ((string hi, PokemonSet yo) in memeay)
+        // {
+        //     Console.WriteLine(hi);
+        //     Console.WriteLine(yo.Id);
+        // }
         
-        PokemonSet attacker = new();
+        PokemonSet ourMon = new();
         string attackerName = "Mudkip";
-        string defenderName = "Charmander";
-        attacker.Ivs = new Stats();
-        attacker.Ivs.SetAll(31);
-        attacker.Evs = new Stats();
-        attacker.Evs.SetAll(40);
-        attacker.Evs.Atk = 252;
-        attacker.Evs.SpA = 252;
-        attacker.Nature = "Adamant";
-        attacker.Level = 30;
+        ourMon.Ivs = new Stats();
+        ourMon.Ivs.SetAll(31);
+        ourMon.Evs = new Stats();
+        ourMon.Evs.SetAll(40);
+        ourMon.Evs.Atk = 252;
+        ourMon.Evs.SpA = 252;
+        ourMon.Nature = "Adamant";
+        ourMon.Level = 35;
+        ourMon.Moves = new List<string> { "Waterfall", "Aqua Tail", "Blizzard", "Double-Edge" };
         
         PokemonSet defender = sets!["Bulbasaur"];
         defender.Level = 20;
         defender.Ivs = new Stats();
         defender.Ivs.SetAll(20);
 
+        int round = 7;
+        int ivOpp = 8;
+        int ivOppInc = 2;
+        const int RANKS = 10;
+        int[][] groupRanks =
+        [
+            [1, 5],
+            [3, 8],
+            [6, 10],
+            [9, 10]
+        ];
+    
+        // so linq rn xo
+        int[] ivs = Enumerable.Range(0, 10).Select(x => 8 + x * 2).ToArray();
+        
         if (!OperatingSystem.IsBrowser())
         {
             return;
         }
-        string meme = DamageCalcInterop.CalculateDamage(attackerName,
-            JsonSerializer.Serialize(attacker),
-            defenderName,
-            JsonSerializer.Serialize(defender),
-            $"Waterfall",
-            "");
+        
+        // iterate mons by group
+        
+        IEnumerable<KeyValuePair<string, PokemonSet>> targetSets = sets!
+            .Where(x => x.Value.Types.Contains(targetType));
+        //IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = targetSets.OrderBy(x => x.Value.Id);
+        int userLevel = 30;
+        
+        for (int group = 1; group <= 4; group++)
+        {
+            IOrderedEnumerable<KeyValuePair<string, PokemonSet>> groupMons = targetSets
+                .Where(x => x.Value.Group.Equals(group))
+                .OrderBy(x => x.Value.Id);
+            foreach ((string pokemon, PokemonSet set) in groupMons)
+            {
+                for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
+                {
+                    int oppLevel = CalculateLevel(userLevel, round, rank);
+                    int oppIvs = ivs[rank-1];
+                    Console.WriteLine(pokemon);
+                    Console.WriteLine(set.Id);
+                    Console.WriteLine(oppLevel);
+                    Console.WriteLine(oppIvs);
+                    
+                    PokemonSet oppMon = sets![pokemon];
+                    oppMon.Level = oppLevel;
+                    oppMon.Ivs = new();
+                    oppMon.Ivs.SetAll(oppIvs);
+                    
+                    List<CalcResult> attackingOpp = new();
+                    List<CalcResult> defendingFromOpp = new();
+                    
+                    foreach (string move in ourMon.Moves)
+                    {
+                        string calcRes = DamageCalcInterop.CalculateDamage(attackerName,
+                            JsonSerializer.Serialize(ourMon),
+                            pokemon,
+                            JsonSerializer.Serialize(oppMon),
+                            move,
+                            "");
 
-        var res = JsonSerializer.Deserialize<CalcResult>(meme);
+                        var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                        attackingOpp.Add(res);
+                    }
+
+                    foreach (string move in oppMon.Moves)
+                    {
+                        string calcRes = DamageCalcInterop.CalculateDamage(attackerName,
+                            JsonSerializer.Serialize(ourMon),
+                            pokemon,
+                            JsonSerializer.Serialize(oppMon),
+                            move,
+                            "");
+
+                        var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                        defendingFromOpp.Add(res);
+                    }
+
+                    int stop3= 1;
+                }
+            }
+            
+        }
+      
         int stop = 1;
+        
 
+    }
+    
+    private static int CalculateLevel(int userLevel, int round, int rank)
+    {
+        double baseValue = userLevel - 3 * Math.Sqrt(userLevel);
+        double increment = Math.Sqrt(userLevel) / 5;
 
+        double rawValue = baseValue + ((round - 1) / 2.0) + (rank - 1) * increment;
+        double ceilingValue = Math.Ceiling(rawValue);
+
+        return (int)Math.Min(userLevel, ceilingValue);
     }
 }
 
