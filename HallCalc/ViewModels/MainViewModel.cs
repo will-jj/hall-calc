@@ -156,7 +156,7 @@ public partial class MainViewModel : ViewModelBase
         if (topLevel == null) return;
         FilePickerSaveOptions pickeroptions = new()
         {
-            SuggestedFileName = "out.csv"
+            SuggestedFileName = $"{ourMonName}-{round}-{targetType}.csv"
         };
         IStorageFile? fileOut = await topLevel.StorageProvider.SaveFilePickerAsync(pickeroptions);
         if (fileOut != null)
