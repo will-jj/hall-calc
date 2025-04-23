@@ -1,3 +1,6 @@
+using System;
+using System.Linq;
+
 namespace HallCalc.Models.Results;
 
 public class CalcResult
@@ -8,7 +11,15 @@ public class CalcResult
     public Move move { get; set; }
     public Field field { get; set; }
     public int[] damage { get; set; }
+    public string damageString { get; set; }
     public RawDesc rawDesc { get; set; }
+
+    public void CreateDamageStrings(double hp)
+    {
+        int damageLast = damage.Last();
+        double damagePerc = (damage.Last() / hp) * 100;
+        damageString = $"{damageLast} ({damagePerc:0} %)";
+    }
 }
 
 public class Gen

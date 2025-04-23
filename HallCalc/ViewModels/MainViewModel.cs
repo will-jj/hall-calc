@@ -2,14 +2,18 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using Avalonia.Controls;
 using Avalonia.Platform;
+using Avalonia.Platform.Storage;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using HallCalc.Models;
 using HallCalc.Models.Results;
+using HallCalc.Services;
 using Stats = HallCalc.Models.Stats;
 
 
@@ -21,7 +25,7 @@ public partial class MainViewModel : ViewModelBase
     private string _greeting = "Welcome to Avalonia!";
 
     [RelayCommand]
-    public void GetData()
+    public async Task GetData()
     {
         using Stream stream = AssetLoader.Open(new Uri("avares://HallCalc/Assets/combined_data.json"));
         using StreamReader reader = new(stream);
@@ -42,11 +46,10 @@ public partial class MainViewModel : ViewModelBase
         // }
         
         PokemonSet ourMon = new();
-        string attackerName = "Mudkip";
+        string ourMonName = "Mudkip";
         ourMon.Ivs = new Stats();
         ourMon.Ivs.SetAll(31);
         ourMon.Evs = new Stats();
-        ourMon.Evs.SetAll(40);
         ourMon.Evs.Atk = 252;
         ourMon.Evs.SpA = 252;
         ourMon.Nature = "Adamant";
@@ -84,14 +87,19 @@ public partial class MainViewModel : ViewModelBase
             .Where(x => x.Value.Types.Contains(targetType));
         //IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = targetSets.OrderBy(x => x.Value.Id);
         int userLevel = 30;
-        
+        StringBuilder csvContent = new StringBuilder();
         for (int group = 1; group <= 4; group++)
         {
+            csvContent.AppendLine($"Group: {group}");
+            csvContent.AppendLine();
             IOrderedEnumerable<KeyValuePair<string, PokemonSet>> groupMons = targetSets
                 .Where(x => x.Value.Group.Equals(group))
                 .OrderBy(x => x.Value.Id);
             foreach ((string pokemon, PokemonSet set) in groupMons)
             {
+                csvContent.AppendLine(pokemon);
+                PokemonSet oppMon = sets![pokemon];
+                csvContent.AppendLine($"Rank, Op. Level, Op. IVs, Op. Speed, {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
                 for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
                 {
                     int oppLevel = CalculateLevel(userLevel, round, rank);
@@ -101,7 +109,7 @@ public partial class MainViewModel : ViewModelBase
                     Console.WriteLine(oppLevel);
                     Console.WriteLine(oppIvs);
                     
-                    PokemonSet oppMon = sets![pokemon];
+                    
                     oppMon.Level = oppLevel;
                     oppMon.Ivs = new();
                     oppMon.Ivs.SetAll(oppIvs);
@@ -111,7 +119,7 @@ public partial class MainViewModel : ViewModelBase
                     
                     foreach (string move in ourMon.Moves)
                     {
-                        string calcRes = DamageCalcInterop.CalculateDamage(attackerName,
+                        string calcRes = DamageCalcInterop.CalculateDamage(ourMonName,
                             JsonSerializer.Serialize(ourMon),
                             pokemon,
                             JsonSerializer.Serialize(oppMon),
@@ -119,29 +127,47 @@ public partial class MainViewModel : ViewModelBase
                             "");
 
                         var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                        res.CreateDamageStrings(res.defender.stats.hp);
                         attackingOpp.Add(res);
                     }
 
                     foreach (string move in oppMon.Moves)
                     {
-                        string calcRes = DamageCalcInterop.CalculateDamage(attackerName,
-                            JsonSerializer.Serialize(ourMon),
-                            pokemon,
+                        string calcRes = DamageCalcInterop.CalculateDamage(pokemon,
                             JsonSerializer.Serialize(oppMon),
+                            ourMonName,
+                            JsonSerializer.Serialize(ourMon),
                             move,
                             "");
 
                         var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                        res.CreateDamageStrings(res.defender.stats.hp);
                         defendingFromOpp.Add(res);
                     }
-
-                    int stop3= 1;
+                    //string damageLine = string.Join(",", attackingOpp.Select(x => x.damage.Last())) + "," + string.Join(",", defendingFromOpp.Select(x => x.damage.Last()));
+                    string damageLine = string.Join(",", attackingOpp.Select(x => x.damageString)) + "," + string.Join(",", defendingFromOpp.Select(x => x.damageString));
+                    csvContent.AppendLine($"{rank}, {oppLevel}, {oppIvs}, {attackingOpp[0].defender.stats.spe}, {damageLine}");
                 }
+                csvContent.AppendLine();
             }
             
         }
-      
-        int stop = 1;
+        TopLevel? topLevel = DialogManager.GetTopLevelForContext(this);
+        if (topLevel == null) return;
+        FilePickerSaveOptions pickeroptions = new()
+        {
+            SuggestedFileName = "out.csv"
+        };
+        IStorageFile? fileOut = await topLevel.StorageProvider.SaveFilePickerAsync(pickeroptions);
+        if (fileOut != null)
+        {
+            await using Stream stream2 = await fileOut.OpenWriteAsync();
+            // Convert the StringBuilder content to bytes
+            byte[] csvBytes = System.Text.Encoding.UTF8.GetBytes(csvContent.ToString());
+    
+            // Write the bytes to the stream
+            await stream2.WriteAsync(csvBytes, 0, csvBytes.Length);
+        }
         
 
     }
