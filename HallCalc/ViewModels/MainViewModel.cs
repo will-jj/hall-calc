@@ -14,6 +14,7 @@ using CommunityToolkit.Mvvm.Input;
 using HallCalc.Models;
 using HallCalc.Models.Results;
 using HallCalc.Services;
+using PKHeX.Core;
 using Stats = HallCalc.Models.Stats;
 
 
@@ -27,6 +28,13 @@ public partial class MainViewModel : ViewModelBase
     [RelayCommand]
     public async Task GetData()
     {
+        
+        if (!OperatingSystem.IsBrowser())
+        {
+            return;
+        }
+
+        
         using Stream stream = AssetLoader.Open(new Uri("avares://HallCalc/Assets/combined_data.json"));
         using StreamReader reader = new(stream);
         string json =  reader.ReadToEnd();
@@ -47,21 +55,66 @@ public partial class MainViewModel : ViewModelBase
         
         PokemonSet ourMon = new();
         string ourMonName = "Mudkip";
-        ourMon.Ivs = new Stats();
-        ourMon.Ivs.SetAll(31);
-        ourMon.Evs = new Stats();
-        ourMon.Evs.Atk = 252;
-        ourMon.Evs.SpA = 252;
-        ourMon.Nature = "Adamant";
-        ourMon.Level = 35;
-        ourMon.Moves = new List<string> { "Waterfall", "Aqua Tail", "Blizzard", "Double-Edge" };
+        string showdownText =
+            """
+            Mudkip @ Focus Band  
+            Ability: Torrent  
+            Level: 30  
+            EVs: 4 HP / 252 SpA / 252 Spe  
+            Timid Nature  
+            IVs: 0 Atk / 0 Def / 0 SpD  
+            - Surf  
+            - Icy Wind  
+            - Hydro Pump  
+            - Counter
+            """;
+        ShowdownSet showdownSet = new(showdownText);
         
-        PokemonSet defender = sets!["Bulbasaur"];
-        defender.Level = 20;
-        defender.Ivs = new Stats();
-        defender.Ivs.SetAll(20);
+        
+        // fire bae
+        var versions = GameVersion.HGSS;
+        
+        ourMon.Item = GameInfo.Strings.Item[showdownSet.HeldItem];
+        ourMon.Ivs = new Stats();
+        ourMon.Ivs.SetFromShowdown(showdownSet.IVs);
+        ourMon.Evs = new Stats();
+        ourMon.Evs.SetFromShowdown(showdownSet.EVs);
+        ourMon.Nature = showdownSet.Nature.ToString();
+        ourMon.Level = showdownSet.Level;
 
-        int round = 7;
+        ourMon.Moves = [];
+        foreach (ushort moveId in showdownSet.Moves)
+        {
+            ourMon.Moves.Add(GameInfo.Strings.Move[moveId]);
+        }
+        
+        
+        // ourMon.Item = "Focus Sash";
+        // ourMon.Ivs = new Stats();
+        // ourMon.Ivs.SetAll(31);
+        // ourMon.Evs = new Stats();
+        // ourMon.Evs.Spe = 252;
+        // ourMon.Evs.SpA = 252;
+        // ourMon.Nature = "Timid";
+        // ourMon.Level = 30;
+        // ourMon.Moves = new List<string> { "Icy Wind", "Surf", "Counter", "Mirror Coat" };
+        
+        // do a simple calc to get stats without effort...
+        string calcResSelf = DamageCalcInterop.CalculateDamage(ourMonName,
+            JsonSerializer.Serialize(ourMon),
+            ourMonName,
+            JsonSerializer.Serialize(ourMon),
+            "tackle",
+            "");
+
+        CalcResult? resSelf = JsonSerializer.Deserialize<CalcResult>(calcResSelf);
+        StringBuilder csvContent = new StringBuilder();
+
+        csvContent.AppendLine($"Calcing for Mudkip ({ourMon.Item})");
+        csvContent.AppendLine($"HP, Speed");
+        csvContent.AppendLine($"{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
+        
+        int round = 17;
         int ivOpp = 8;
         int ivOppInc = 2;
         const int RANKS = 10;
@@ -76,18 +129,13 @@ public partial class MainViewModel : ViewModelBase
         // so linq rn xo
         int[] ivs = Enumerable.Range(0, 10).Select(x => 8 + x * 2).ToArray();
         
-        if (!OperatingSystem.IsBrowser())
-        {
-            return;
-        }
-        
+
         // iterate mons by group
         
         IEnumerable<KeyValuePair<string, PokemonSet>> targetSets = sets!
             .Where(x => x.Value.Types.Contains(targetType));
         //IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = targetSets.OrderBy(x => x.Value.Id);
         int userLevel = 30;
-        StringBuilder csvContent = new StringBuilder();
         for (int group = 1; group <= 4; group++)
         {
             csvContent.AppendLine($"Group: {group}");
@@ -97,17 +145,13 @@ public partial class MainViewModel : ViewModelBase
                 .OrderBy(x => x.Value.Id);
             foreach ((string pokemon, PokemonSet set) in groupMons)
             {
-                csvContent.AppendLine(pokemon);
+                csvContent.AppendLine($"{pokemon} ({set.Item})");
                 PokemonSet oppMon = sets![pokemon];
-                csvContent.AppendLine($"Rank, Op. Level, Op. IVs, Op. Speed, {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
+                csvContent.AppendLine($"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
                 for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
                 {
                     int oppLevel = CalculateLevel(userLevel, round, rank);
                     int oppIvs = ivs[rank-1];
-                    Console.WriteLine(pokemon);
-                    Console.WriteLine(set.Id);
-                    Console.WriteLine(oppLevel);
-                    Console.WriteLine(oppIvs);
                     
                     
                     oppMon.Level = oppLevel;
@@ -146,7 +190,9 @@ public partial class MainViewModel : ViewModelBase
                     }
                     //string damageLine = string.Join(",", attackingOpp.Select(x => x.damage.Last())) + "," + string.Join(",", defendingFromOpp.Select(x => x.damage.Last()));
                     string damageLine = string.Join(",", attackingOpp.Select(x => x.damageString)) + "," + string.Join(",", defendingFromOpp.Select(x => x.damageString));
-                    csvContent.AppendLine($"{rank}, {oppLevel}, {oppIvs}, {attackingOpp[0].defender.stats.spe}, {damageLine}");
+                    int speed = attackingOpp[0].defender.stats.spe;
+                    int speedMinStat = (int)(speed * 2d/3d);
+                    csvContent.AppendLine($"{rank}, {oppLevel}, {oppIvs}, {attackingOpp[0].defender.stats.hp}, {speed}, {speedMinStat}, {damageLine}");
                 }
                 csvContent.AppendLine();
             }

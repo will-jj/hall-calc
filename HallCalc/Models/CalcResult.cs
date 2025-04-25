@@ -17,8 +17,12 @@ public class CalcResult
     public void CreateDamageStrings(double hp)
     {
         int damageLast = damage.Last();
+        int damageLowerMid = damage[8];
+        int damageLower = damage[0];
         double damagePerc = (damage.Last() / hp) * 100;
-        damageString = $"{damageLast} ({damagePerc:0} %)";
+        double damageLowerPerc = (damageLower / hp) * 100;
+        double damageLowerMidPerc = (damageLowerMid / hp) * 100;
+        damageString = $"{damageLower} ({damageLowerPerc:0}%) | {damageLowerMid} ({damageLowerMidPerc:0}%) | {damageLast} ({damagePerc:0}%)";
     }
 }
 

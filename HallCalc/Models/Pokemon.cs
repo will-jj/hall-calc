@@ -53,5 +53,15 @@ public partial class Stats
         SpD = all;
         Spe = all;
     }
+
+    public void SetFromShowdown(int[] showDownStats)
+    {
+        HP = showDownStats[0];
+        Atk = showDownStats[1];
+        Def = showDownStats[2];
+        SpA = showDownStats[4];
+        SpD = showDownStats[5];
+        Spe = showDownStats[3];
+    }
 }
 
