@@ -8072,7 +8072,7 @@
         "id": 260,
         "types": [
             "Bug",
-            "Ground"
+            "Grass"
         ],
         "group": 2
     },
@@ -9619,7 +9619,7 @@
         ],
         "group": 1
     },
-    "Wormadam-G": {
+    "Wormadam-Sandy": {
         "evs": {
             "atk": 252,
             "spa": 252
@@ -9637,7 +9637,7 @@
         "types": ["Bug", "Ground"],
         "group": 2
     },
-    "Wormadam-S": {
+    "Wormadam-Trash": {
         "evs": {
             "atk": 252,
             "spa": 252

@@ -23393,12 +23393,12 @@ function calculateDamage(attackingPokemon, attackingPokemonOptions, defendingPok
     new import_dist.Move(gen, moveName),
     new import_dist.Field(typeof field === "undefined" ? void 0 : field)
   );
-  if(result.damage === 0)
+  if (!Array.isArray(result.damage))
   {
     // for the memes
-    result.damage = new Array(16).fill(0);
+    result.damage = new Array(16).fill(result.damage);
   }
-  return JSON.stringify(result);
+    return JSON.stringify(result);
 }
 export {
   calculateDamage

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,65 @@ public partial class MainViewModel : ViewModelBase
 {
     [ObservableProperty]
     private string _greeting = "Welcome to Avalonia!";
+    
+    [ObservableProperty]
+    public partial string ShowdownText {get;set;}
 
+    public ObservableCollection<string> Types { get; set; } =
+    [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Grass",
+        "Ice",
+        "Fighting",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Steel"
+    ];
+    
+    [ObservableProperty]
+    public partial string SelectedType {get; set; }
+    
+    [ObservableProperty]
+    public partial int SelectedTypeIndex { get; set; }
+
+    public ObservableCollection<int> Rounds { get; set; } = new(Enumerable.Range(1, 17));
+
+    [ObservableProperty] public partial int SelectedRound { get; set; } = 1;
+    [ObservableProperty] public partial int SelectedRoundIndex { get; set; }
+
+    private Dictionary<string, PokemonSet>? _sets;
+
+    public MainViewModel()
+    {
+        SelectedRoundIndex = 0;
+        SelectedTypeIndex = 0;
+        LoadData();
+    }
+
+    [RelayCommand]
+    public Task LoadData()
+    {
+        using Stream stream = AssetLoader.Open(new Uri("avares://HallCalc/Assets/combined_data.json"));
+        using StreamReader reader = new(stream);
+        string json =  reader.ReadToEnd();
+        JsonSerializerOptions options = new JsonSerializerOptions();
+        options.PropertyNameCaseInsensitive = true;
+        options.NumberHandling = JsonNumberHandling.AllowReadingFromString;
+        options.IncludeFields = true;
+        _sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
+        return Task.CompletedTask;
+    }
+    
     [RelayCommand]
     public async Task GetData()
     {
@@ -35,15 +94,7 @@ public partial class MainViewModel : ViewModelBase
         }
 
         
-        using Stream stream = AssetLoader.Open(new Uri("avares://HallCalc/Assets/combined_data.json"));
-        using StreamReader reader = new(stream);
-        string json =  reader.ReadToEnd();
-        JsonSerializerOptions options = new JsonSerializerOptions();
-        options.PropertyNameCaseInsensitive = true;
-        options.NumberHandling = JsonNumberHandling.AllowReadingFromString;
-        options.IncludeFields = true;
-        Dictionary<string, PokemonSet>? sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
-        const string targetType = "Fire";
+        
         // IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets!
         //     .Where(x => x.Value.Types.Contains(targetType));
         // IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = fireSets.OrderBy(x => x.Value.Id);
@@ -55,20 +106,8 @@ public partial class MainViewModel : ViewModelBase
         
         PokemonSet ourMon = new();
         string ourMonName = "Mudkip";
-        string showdownText =
-            """
-            Mudkip @ Focus Band  
-            Ability: Torrent  
-            Level: 30  
-            EVs: 4 HP / 252 SpA / 252 Spe  
-            Timid Nature  
-            IVs: 0 Atk / 0 Def / 0 SpD  
-            - Surf  
-            - Icy Wind  
-            - Hydro Pump  
-            - Counter
-            """;
-        ShowdownSet showdownSet = new(showdownText);
+
+        ShowdownSet showdownSet = new(ShowdownText);
         
         
         // fire bae
@@ -87,18 +126,14 @@ public partial class MainViewModel : ViewModelBase
         {
             ourMon.Moves.Add(GameInfo.Strings.Move[moveId]);
         }
-        
-        
-        // ourMon.Item = "Focus Sash";
-        // ourMon.Ivs = new Stats();
-        // ourMon.Ivs.SetAll(31);
-        // ourMon.Evs = new Stats();
-        // ourMon.Evs.Spe = 252;
-        // ourMon.Evs.SpA = 252;
-        // ourMon.Nature = "Timid";
-        // ourMon.Level = 30;
-        // ourMon.Moves = new List<string> { "Icy Wind", "Surf", "Counter", "Mirror Coat" };
-        
+
+        // redo moves animal style (for hidden power)
+       ourMon.Moves = ShowdownText
+            .Split(new[] { Environment.NewLine }, StringSplitOptions.None)
+            .Where(line => line.Trim().StartsWith('-'))
+            .Select(line => line.TrimStart(' ', '-').Trim())
+            .ToList();
+       
         // do a simple calc to get stats without effort...
         string calcResSelf = DamageCalcInterop.CalculateDamage(ourMonName,
             JsonSerializer.Serialize(ourMon),
@@ -114,10 +149,7 @@ public partial class MainViewModel : ViewModelBase
         csvContent.AppendLine($"HP, Speed");
         csvContent.AppendLine($"{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
         
-        int round = 17;
-        int ivOpp = 8;
-        int ivOppInc = 2;
-        const int RANKS = 10;
+
         int[][] groupRanks =
         [
             [1, 5],
@@ -132,8 +164,8 @@ public partial class MainViewModel : ViewModelBase
 
         // iterate mons by group
         
-        IEnumerable<KeyValuePair<string, PokemonSet>> targetSets = sets!
-            .Where(x => x.Value.Types.Contains(targetType));
+        IEnumerable<KeyValuePair<string, PokemonSet>> targetSets = _sets!
+            .Where(x => x.Value.Types.Contains(SelectedType));
         //IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = targetSets.OrderBy(x => x.Value.Id);
         int userLevel = 30;
         for (int group = 1; group <= 4; group++)
@@ -146,11 +178,11 @@ public partial class MainViewModel : ViewModelBase
             foreach ((string pokemon, PokemonSet set) in groupMons)
             {
                 csvContent.AppendLine($"{pokemon} ({set.Item})");
-                PokemonSet oppMon = sets![pokemon];
+                PokemonSet oppMon = _sets![pokemon];
                 csvContent.AppendLine($"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
                 for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
                 {
-                    int oppLevel = CalculateLevel(userLevel, round, rank);
+                    int oppLevel = CalculateLevel(userLevel, SelectedRound, rank);
                     int oppIvs = ivs[rank-1];
                     
                     
@@ -160,33 +192,50 @@ public partial class MainViewModel : ViewModelBase
                     
                     List<CalcResult> attackingOpp = new();
                     List<CalcResult> defendingFromOpp = new();
-                    
+                    string resouter;
                     foreach (string move in ourMon.Moves)
                     {
-                        string calcRes = DamageCalcInterop.CalculateDamage(ourMonName,
-                            JsonSerializer.Serialize(ourMon),
-                            pokemon,
-                            JsonSerializer.Serialize(oppMon),
-                            move,
-                            "");
+                        try
+                        {
+                            string calcRes = DamageCalcInterop.CalculateDamage(ourMonName,
+                                JsonSerializer.Serialize(ourMon),
+                                pokemon,
+                                JsonSerializer.Serialize(oppMon),
+                                move,
+                                "");
+                            resouter = calcRes;
+                            var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                            res.CreateDamageStrings(res.defender.stats.hp);
+                            attackingOpp.Add(res);
+                        }
+                        catch(Exception eee)
+                        {
+                            int stop = 1;
+                        }
 
-                        var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
-                        res.CreateDamageStrings(res.defender.stats.hp);
-                        attackingOpp.Add(res);
+
                     }
 
+                    string outerscope;
                     foreach (string move in oppMon.Moves)
                     {
-                        string calcRes = DamageCalcInterop.CalculateDamage(pokemon,
-                            JsonSerializer.Serialize(oppMon),
-                            ourMonName,
-                            JsonSerializer.Serialize(ourMon),
-                            move,
-                            "");
-
-                        var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
-                        res.CreateDamageStrings(res.defender.stats.hp);
-                        defendingFromOpp.Add(res);
+                        try
+                        {
+                            string calcRes = DamageCalcInterop.CalculateDamage(pokemon,
+                                JsonSerializer.Serialize(oppMon),
+                                ourMonName,
+                                JsonSerializer.Serialize(ourMon),
+                                move,
+                                "");
+                            outerscope = calcRes;
+                            var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                            res.CreateDamageStrings(res.defender.stats.hp);
+                            defendingFromOpp.Add(res);
+                        }
+                        catch (Exception eee)
+                        {
+                            int stop = 1;
+                        }
                     }
                     //string damageLine = string.Join(",", attackingOpp.Select(x => x.damage.Last())) + "," + string.Join(",", defendingFromOpp.Select(x => x.damage.Last()));
                     string damageLine = string.Join(",", attackingOpp.Select(x => x.damageString)) + "," + string.Join(",", defendingFromOpp.Select(x => x.damageString));
@@ -202,7 +251,7 @@ public partial class MainViewModel : ViewModelBase
         if (topLevel == null) return;
         FilePickerSaveOptions pickeroptions = new()
         {
-            SuggestedFileName = $"{ourMonName}-{round}-{targetType}.csv"
+            SuggestedFileName = $"{ourMonName}-{SelectedRound}-{SelectedType}.csv"
         };
         IStorageFile? fileOut = await topLevel.StorageProvider.SaveFilePickerAsync(pickeroptions);
         if (fileOut != null)
