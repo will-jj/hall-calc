@@ -177,7 +177,7 @@ public partial class MainViewModel : ViewModelBase
                     .OrderBy(x => x.Value.Id);
                 foreach ((string pokemon, PokemonSet set) in groupMons)
                 {
-                    csvContent.AppendLine($"{pokemon} ({set.Item})");
+                    bool addedName = false;
                     PokemonSet oppMon = _sets![pokemon];
                     if (pokemon == _ourMonName)
                     {
@@ -247,6 +247,13 @@ public partial class MainViewModel : ViewModelBase
                             }
                         }
 
+                        if (!addedName)
+                        {
+                            csvContent.AppendLine($"{pokemon} ({set.Item} / {attackingOpp[0].defender.ability})");
+                            csvContent.AppendLine(
+                                $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
+                            addedName = true;
+                        }
                         //string damageLine = string.Join(",", attackingOpp.Select(x => x.damage.Last())) + "," + string.Join(",", defendingFromOpp.Select(x => x.damage.Last()));
                         string damageLine = string.Join(",", attackingOpp.Select(x => x.damageString)) + "," +
                                             string.Join(",", defendingFromOpp.Select(x => x.damageString));
