@@ -23,7 +23,7 @@ public class CalcResult
     public void CreateDamageStrings(double hp)
     {
         int damageLast = damage.Last();
-        int damageLowerMid = damage[8];
+        int damageLowerMid = damage[7];
         int damageLower = damage[0];
         double damagePerc = (damage.Last() / hp) * 100;
         double damageLowerPerc = (damageLower / hp) * 100;
