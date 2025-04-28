@@ -179,8 +179,10 @@ public partial class MainViewModel : ViewModelBase
                 {
                     csvContent.AppendLine($"{pokemon} ({set.Item})");
                     PokemonSet oppMon = _sets![pokemon];
-                    csvContent.AppendLine(
-                        $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
+                    if (pokemon == _ourMonName)
+                    {
+                        continue;
+                    }
                     for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
                     {
                         int oppLevel = CalculateLevel(ourMon.Level, SelectedRound, rank);
