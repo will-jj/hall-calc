@@ -80,7 +80,7 @@ public partial class MainViewModel : ViewModelBase
         options.PropertyNameCaseInsensitive = true;
         options.NumberHandling = JsonNumberHandling.AllowReadingFromString;
         options.IncludeFields = true;
-        _sets = JsonSerializer.Deserialize<Dictionary<string, PokemonSet>>(json, options);
+        _sets = JsonSerializer.Deserialize(json, PokemonSerializationContext.Default.DictionaryStringPokemonSet);
         return Task.CompletedTask;
     }
     
@@ -105,7 +105,7 @@ public partial class MainViewModel : ViewModelBase
         // }
         
         PokemonSet ourMon = new();
-        string ourMonName = "Mudkip";
+        string ourMonName;
 
         ShowdownSet showdownSet = new(ShowdownText);
         
@@ -120,6 +120,7 @@ public partial class MainViewModel : ViewModelBase
         ourMon.Evs.SetFromShowdown(showdownSet.EVs);
         ourMon.Nature = showdownSet.Nature.ToString();
         ourMon.Level = showdownSet.Level;
+        ourMonName = GameInfo.Strings.Species[showdownSet.Species];
 
         ourMon.Moves = [];
         foreach (ushort moveId in showdownSet.Moves)
@@ -145,7 +146,7 @@ public partial class MainViewModel : ViewModelBase
         CalcResult? resSelf = JsonSerializer.Deserialize<CalcResult>(calcResSelf);
         StringBuilder csvContent = new StringBuilder();
 
-        csvContent.AppendLine($"Calcing for Mudkip ({ourMon.Item})");
+        csvContent.AppendLine($"Calcing for {ourMonName} ({ourMon.Item})");
         csvContent.AppendLine($"HP, Speed");
         csvContent.AppendLine($"{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
         
@@ -198,13 +199,13 @@ public partial class MainViewModel : ViewModelBase
                         try
                         {
                             string calcRes = DamageCalcInterop.CalculateDamage(ourMonName,
-                                JsonSerializer.Serialize(ourMon),
+                                JsonSerializer.Serialize(ourMon, PokemonSerializationContext.Default.PokemonSet),
                                 pokemon,
-                                JsonSerializer.Serialize(oppMon),
+                                JsonSerializer.Serialize(oppMon, PokemonSerializationContext.Default.PokemonSet),
                                 move,
                                 "");
                             resouter = calcRes;
-                            var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                            var res = JsonSerializer.Deserialize<CalcResult>(calcRes, CalcResultSerializeOnlyContext.Default.CalcResult);
                             res.CreateDamageStrings(res.defender.stats.hp);
                             attackingOpp.Add(res);
                         }
@@ -222,13 +223,13 @@ public partial class MainViewModel : ViewModelBase
                         try
                         {
                             string calcRes = DamageCalcInterop.CalculateDamage(pokemon,
-                                JsonSerializer.Serialize(oppMon),
+                                JsonSerializer.Serialize(oppMon, PokemonSerializationContext.Default.PokemonSet),
                                 ourMonName,
-                                JsonSerializer.Serialize(ourMon),
+                                JsonSerializer.Serialize(ourMon, PokemonSerializationContext.Default.PokemonSet),
                                 move,
                                 "");
                             outerscope = calcRes;
-                            var res = JsonSerializer.Deserialize<CalcResult>(calcRes);
+                            var res = JsonSerializer.Deserialize<CalcResult>(calcRes, CalcResultSerializeOnlyContext.Default.CalcResult);
                             res.CreateDamageStrings(res.defender.stats.hp);
                             defendingFromOpp.Add(res);
                         }

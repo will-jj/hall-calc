@@ -1,19 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
-  <PropertyGroup>
-    <TargetFramework>net9.0-browser</TargetFramework>
-    <OutputType>Exe</OutputType>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Nullable>enable</Nullable>
-    <WasmBuildNative>true</WasmBuildNative>
-    <RunAOTCompilation>true</RunAOTCompilation>
-  </PropertyGroup>
+		<PropertyGroup>
+				<TargetFramework>net9.0-browser</TargetFramework>
+				<OutputType>Exe</OutputType>
+				<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+				<Nullable>enable</Nullable>
+				<WasmBuildNative>true</WasmBuildNative>
+				<RunAOTCompilation>true</RunAOTCompilation>
+				<JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+		</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Avalonia.Browser" />
-  </ItemGroup>
-  
+		<ItemGroup>
+				<PackageReference Include="Avalonia.Browser" />
+		</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\HallCalc\HallCalc.csproj" />
-  </ItemGroup>
+
+		<ItemGroup>
+				<ProjectReference Include="..\HallCalc\HallCalc.csproj" />
+		</ItemGroup>
 </Project>

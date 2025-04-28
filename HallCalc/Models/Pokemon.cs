@@ -1,11 +1,17 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Avalonia.Controls.Primitives;
-using Avalonia.Remote.Protocol.Designer;
 
 namespace HallCalc.Models;
-
-public class PokemonSet
+[JsonSourceGenerationOptions(
+    PropertyNameCaseInsensitive = true,
+    IncludeFields = true)]
+[JsonSerializable(typeof(Dictionary<string, PokemonSet>))]
+[JsonSerializable(typeof(PokemonSet))]
+[JsonSerializable(typeof(Stats))]
+public partial class PokemonSerializationContext : JsonSerializerContext
+{
+}
+    public class PokemonSet
 {
     [JsonPropertyName("evs")]
     public Stats Evs { get; set; }

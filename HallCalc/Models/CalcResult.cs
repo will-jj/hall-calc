@@ -1,8 +1,14 @@
 using System;
 using System.Linq;
+using System.Text.Json.Serialization;
 
 namespace HallCalc.Models.Results;
 
+[JsonSourceGenerationOptions(GenerationMode = JsonSourceGenerationMode.Metadata)]
+[JsonSerializable(typeof(CalcResult))]
+internal partial class CalcResultSerializeOnlyContext : JsonSerializerContext
+{
+}
 public class CalcResult
 {
     public Gen gen { get; set; }
