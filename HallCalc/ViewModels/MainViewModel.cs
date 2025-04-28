@@ -91,17 +91,7 @@ public partial class MainViewModel : ViewModelBase
         {
             return;
         }
-
         
-        
-        // IEnumerable<KeyValuePair<string, PokemonSet>> fireSets = sets!
-        //     .Where(x => x.Value.Types.Contains(targetType));
-        // IOrderedEnumerable<KeyValuePair<string, PokemonSet>> memeay = fireSets.OrderBy(x => x.Value.Id);
-        // foreach ((string hi, PokemonSet yo) in memeay)
-        // {
-        //     Console.WriteLine(hi);
-        //     Console.WriteLine(yo.Id);
-        // }
         try
         {
 
@@ -109,11 +99,7 @@ public partial class MainViewModel : ViewModelBase
             PokemonSet ourMon = new();
 
             ShowdownSet showdownSet = new(ShowdownText);
-
-
-            // fire bae
-            var versions = GameVersion.HGSS;
-
+            
             ourMon.Item = GameInfo.Strings.Item[showdownSet.HeldItem];
             ourMon.Ivs = new Stats();
             ourMon.Ivs.SetFromShowdown(showdownSet.IVs);
