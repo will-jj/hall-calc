@@ -107,6 +107,8 @@ public partial class MainViewModel : ViewModelBase
             ourMon.Evs.SetFromShowdown(showdownSet.EVs);
             ourMon.Nature = showdownSet.Nature.ToString();
             ourMon.Level = showdownSet.Level;
+            ourMon.Ability = GameInfo.Strings.Ability[showdownSet.Ability];
+            
             _ourMonName = GameInfo.Strings.Species[showdownSet.Species];
 
             ourMon.Moves = [];
@@ -133,7 +135,7 @@ public partial class MainViewModel : ViewModelBase
             CalcResult? resSelf = JsonSerializer.Deserialize<CalcResult>(calcResSelf, CalcResultSerializeOnlyContext.Default.CalcResult);
             StringBuilder csvContent = new StringBuilder();
 
-            csvContent.AppendLine($"Calcing for {_ourMonName} ({ourMon.Item})");
+            csvContent.AppendLine($"Calcing for {_ourMonName} ({ourMon.Item} / {ourMon.Ability})");
             csvContent.AppendLine($"HP, Speed");
             csvContent.AppendLine($"{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
 

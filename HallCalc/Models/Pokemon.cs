@@ -27,6 +27,8 @@ public partial class PokemonSerializationContext : JsonSerializerContext
     public string Tier { get; set; }
     public int Group {get; set;}
     public int Id {get; set;} 
+    [JsonPropertyName("ability")]
+    public string Ability {get; set;}
     public List<string> Types { get; set; }
 }
 
