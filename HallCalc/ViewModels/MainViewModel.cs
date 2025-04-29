@@ -165,95 +165,104 @@ public partial class MainViewModel : ViewModelBase
                     .OrderBy(x => x.Value.Id);
                 foreach ((string pokemon, PokemonSet set) in groupMons)
                 {
-                    bool addedName = false;
-                    PokemonSet oppMon = _sets![pokemon];
-                    if (pokemon == _ourMonName)
+                    foreach (string ability in GetAbilities(pokemon))
                     {
-                        continue;
-                    }
-                    for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
-                    {
-                        int oppLevel = CalculateLevel(ourMon.Level, SelectedRound, rank);
-                        int oppIvs = ivs[rank - 1];
-
-
-                        oppMon.Level = oppLevel;
-                        oppMon.Ivs = new();
-                        oppMon.Ivs.SetAll(oppIvs);
-
-                        List<CalcResult> attackingOpp = new();
-                        List<CalcResult> defendingFromOpp = new();
-                        string resouter;
-                        foreach (string move in ourMon.Moves)
+                        set.Ability = ability;
+                        bool addedName = false;
+                        PokemonSet oppMon = _sets![pokemon];
+                        if (pokemon == _ourMonName)
                         {
-                            try
-                            {
-                                string calcRes = DamageCalcInterop.CalculateDamage(_ourMonName,
-                                    JsonSerializer.Serialize(ourMon, PokemonSerializationContext.Default.PokemonSet),
-                                    pokemon,
-                                    JsonSerializer.Serialize(oppMon, PokemonSerializationContext.Default.PokemonSet),
-                                    move,
-                                    "");
-                                resouter = calcRes;
-                                var res = JsonSerializer.Deserialize<CalcResult>(calcRes,
-                                    CalcResultSerializeOnlyContext.Default.CalcResult);
-                                res.CreateDamageStrings(res.defender.stats.hp);
-                                attackingOpp.Add(res);
-                            }
-                            catch (Exception eee)
-                            {
-                                DamageCalcInterop.ShowAlert(eee.Message);
-
-                                int stop = 1;
-                            }
-
-
+                            continue;
                         }
 
-                        string outerscope;
-                        foreach (string move in oppMon.Moves)
+                        for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
                         {
-                            try
-                            {
-                                string calcRes = DamageCalcInterop.CalculateDamage(pokemon,
-                                    JsonSerializer.Serialize(oppMon, PokemonSerializationContext.Default.PokemonSet),
-                                    _ourMonName,
-                                    JsonSerializer.Serialize(ourMon, PokemonSerializationContext.Default.PokemonSet),
-                                    move,
-                                    "");
-                                outerscope = calcRes;
-                                var res = JsonSerializer.Deserialize<CalcResult>(calcRes,
-                                    CalcResultSerializeOnlyContext.Default.CalcResult);
-                                res.CreateDamageStrings(res.defender.stats.hp);
-                                defendingFromOpp.Add(res);
-                            }
-                            catch (Exception eee)
-                            {
-                                DamageCalcInterop.ShowAlert(eee.Message);
+                            int oppLevel = CalculateLevel(ourMon.Level, SelectedRound, rank);
+                            int oppIvs = ivs[rank - 1];
 
-                                int stop = 1;
-                            }
-                        }
 
-                        if (!addedName)
-                        {
-                            csvContent.AppendLine($"{pokemon} ({set.Item} / {attackingOpp[0].defender.ability})");
+                            oppMon.Level = oppLevel;
+                            oppMon.Ivs = new();
+                            oppMon.Ivs.SetAll(oppIvs);
+
+                            List<CalcResult> attackingOpp = new();
+                            List<CalcResult> defendingFromOpp = new();
+                            string resouter;
+                            foreach (string move in ourMon.Moves)
+                            {
+                                try
+                                {
+                                    string calcRes = DamageCalcInterop.CalculateDamage(_ourMonName,
+                                        JsonSerializer.Serialize(ourMon,
+                                            PokemonSerializationContext.Default.PokemonSet),
+                                        pokemon,
+                                        JsonSerializer.Serialize(oppMon,
+                                            PokemonSerializationContext.Default.PokemonSet),
+                                        move,
+                                        "");
+                                    resouter = calcRes;
+                                    var res = JsonSerializer.Deserialize<CalcResult>(calcRes,
+                                        CalcResultSerializeOnlyContext.Default.CalcResult);
+                                    res.CreateDamageStrings(res.defender.stats.hp);
+                                    attackingOpp.Add(res);
+                                }
+                                catch (Exception eee)
+                                {
+                                    DamageCalcInterop.ShowAlert(eee.Message);
+
+                                    int stop = 1;
+                                }
+
+
+                            }
+
+                            string outerscope;
+                            foreach (string move in oppMon.Moves)
+                            {
+                                try
+                                {
+                                    string calcRes = DamageCalcInterop.CalculateDamage(pokemon,
+                                        JsonSerializer.Serialize(oppMon,
+                                            PokemonSerializationContext.Default.PokemonSet),
+                                        _ourMonName,
+                                        JsonSerializer.Serialize(ourMon,
+                                            PokemonSerializationContext.Default.PokemonSet),
+                                        move,
+                                        "");
+                                    outerscope = calcRes;
+                                    var res = JsonSerializer.Deserialize<CalcResult>(calcRes,
+                                        CalcResultSerializeOnlyContext.Default.CalcResult);
+                                    res.CreateDamageStrings(res.defender.stats.hp);
+                                    defendingFromOpp.Add(res);
+                                }
+                                catch (Exception eee)
+                                {
+                                    DamageCalcInterop.ShowAlert(eee.Message);
+
+                                    int stop = 1;
+                                }
+                            }
+
+                            if (!addedName)
+                            {
+                                csvContent.AppendLine($"{pokemon} ({set.Item} / {attackingOpp[0].defender.ability})");
+                                csvContent.AppendLine(
+                                    $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
+                                addedName = true;
+                            }
+
+                            //string damageLine = string.Join(",", attackingOpp.Select(x => x.damage.Last())) + "," + string.Join(",", defendingFromOpp.Select(x => x.damage.Last()));
+                            string damageLine = string.Join(",", attackingOpp.Select(x => x.damageString)) + "," +
+                                                string.Join(",", defendingFromOpp.Select(x => x.damageString));
+                            int speed = attackingOpp[0].defender.stats.spe;
+                            int speedMinStat = (int)(speed * 2d / 3d);
                             csvContent.AppendLine(
-                                $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
-                            addedName = true;
+                                $"{rank}, {oppLevel}, {oppIvs}, {attackingOpp[0].defender.stats.hp}, {speed}, {speedMinStat}, {damageLine}");
                         }
-                        //string damageLine = string.Join(",", attackingOpp.Select(x => x.damage.Last())) + "," + string.Join(",", defendingFromOpp.Select(x => x.damage.Last()));
-                        string damageLine = string.Join(",", attackingOpp.Select(x => x.damageString)) + "," +
-                                            string.Join(",", defendingFromOpp.Select(x => x.damageString));
-                        int speed = attackingOpp[0].defender.stats.spe;
-                        int speedMinStat = (int)(speed * 2d / 3d);
-                        csvContent.AppendLine(
-                            $"{rank}, {oppLevel}, {oppIvs}, {attackingOpp[0].defender.stats.hp}, {speed}, {speedMinStat}, {damageLine}");
+
+                        csvContent.AppendLine();
                     }
-
-                    csvContent.AppendLine();
                 }
-
             }
 
             _csvOut = csvContent.ToString();
@@ -298,6 +307,36 @@ public partial class MainViewModel : ViewModelBase
         double ceilingValue = Math.Ceiling(rawValue);
 
         return (int)Math.Min(userLevel, ceilingValue);
+    }
+
+    private List<string> GetAbilities(string species)
+    {
+        // Why do you curse me
+        if (species.Contains("Wormadam"))
+        {
+            species = "Wormadam";
+        }
+        species = species.Replace("-M", "♂");
+        species = species.Replace("-F", "♀");
+        species = species.Replace('\'', '’');
+
+        List<string> abilities = [];
+        PK4 pokemon = new PK4();
+        List<string> speciesList = GameInfo.Strings.Species.ToList();
+        int speciesIndex = speciesList.IndexOf(species);
+        pokemon.Species = (ushort)speciesIndex;
+        
+       
+        pokemon.RefreshAbility(0);
+        string firstAbility = GameInfo.Strings.Ability[pokemon.Ability];
+        abilities.Add(firstAbility);
+        pokemon.RefreshAbility(1);
+        string secondAbility = GameInfo.Strings.Ability[pokemon.Ability];
+        if (firstAbility != secondAbility)
+        {
+            abilities.Add(secondAbility);
+        }
+        return abilities;
     }
 }
 
