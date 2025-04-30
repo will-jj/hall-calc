@@ -165,11 +165,15 @@ public partial class MainViewModel : ViewModelBase
                     .OrderBy(x => x.Value.Id);
                 foreach ((string pokemon, PokemonSet set) in groupMons)
                 {
+                    List<(string Ability, List<Result> calcResults)> results = [];
+                    PokemonSet oppMon = _sets![pokemon];
                     foreach (string ability in GetAbilities(pokemon))
                     {
+
+                        List<Result> calcResults = [];
                         set.Ability = ability;
                         bool addedName = false;
-                        PokemonSet oppMon = _sets![pokemon];
+                        
                         if (pokemon == _ourMonName)
                         {
                             continue;
@@ -177,13 +181,20 @@ public partial class MainViewModel : ViewModelBase
 
                         for (int rank = groupRanks[group - 1][0]; rank <= groupRanks[group - 1][1]; rank++)
                         {
+                            Result calcResult = new();
+                            calcResult.Rank = rank;
+
                             int oppLevel = CalculateLevel(ourMon.Level, SelectedRound, rank);
                             int oppIvs = ivs[rank - 1];
-
+                            
+                            calcResult.OppIvs = oppIvs;
+                            calcResult.OppLevel = oppLevel;
 
                             oppMon.Level = oppLevel;
                             oppMon.Ivs = new();
                             oppMon.Ivs.SetAll(oppIvs);
+                            
+
 
                             List<CalcResult> attackingOpp = new();
                             List<CalcResult> defendingFromOpp = new();
@@ -205,6 +216,8 @@ public partial class MainViewModel : ViewModelBase
                                         CalcResultSerializeOnlyContext.Default.CalcResult);
                                     res.CreateDamageStrings(res.defender.stats.hp);
                                     attackingOpp.Add(res);
+                                    calcResult.Attacking.Add(res);
+                                    
                                 }
                                 catch (Exception eee)
                                 {
@@ -234,6 +247,7 @@ public partial class MainViewModel : ViewModelBase
                                         CalcResultSerializeOnlyContext.Default.CalcResult);
                                     res.CreateDamageStrings(res.defender.stats.hp);
                                     defendingFromOpp.Add(res);
+                                    calcResult.Defending.Add(res);
                                 }
                                 catch (Exception eee)
                                 {
@@ -242,24 +256,98 @@ public partial class MainViewModel : ViewModelBase
                                     int stop = 1;
                                 }
                             }
+                            calcResults.Add(calcResult);
+                        }
+                        
+                        results.Add((ability, calcResults));
+                    }
+                    // we have one or two abilites, and only want to show them separately if the results are... different 
+                    string abilitiesString;
+                    if (results.Count == 2)
+                    {
+                        bool differentAttacking = false;
+                        bool differentDefending = false;
 
-                            if (!addedName)
+                        var firstOfFirst = results[0].calcResults[0];
+                        var firstOfSecond = results[1].calcResults[0];
+                        
+                        // check each move for attack and defend across abilities
+                        for (int ii = 0; ii < 4; ii++)
+                        {
+                            if (!firstOfFirst.Attacking[ii].damage.SequenceEqual(firstOfSecond.Attacking[ii].damage))
                             {
-                                csvContent.AppendLine($"{pokemon} ({set.Item} / {attackingOpp[0].defender.ability})");
-                                csvContent.AppendLine(
-                                    $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
-                                addedName = true;
+                                differentAttacking = true;
                             }
-
-                            //string damageLine = string.Join(",", attackingOpp.Select(x => x.damage.Last())) + "," + string.Join(",", defendingFromOpp.Select(x => x.damage.Last()));
-                            string damageLine = string.Join(",", attackingOpp.Select(x => x.damageString)) + "," +
-                                                string.Join(",", defendingFromOpp.Select(x => x.damageString));
-                            int speed = attackingOpp[0].defender.stats.spe;
-                            int speedMinStat = (int)(speed * 2d / 3d);
-                            csvContent.AppendLine(
-                                $"{rank}, {oppLevel}, {oppIvs}, {attackingOpp[0].defender.stats.hp}, {speed}, {speedMinStat}, {damageLine}");
+                            if (!firstOfFirst.Defending[ii].damage.SequenceEqual(firstOfSecond.Defending[ii].damage))
+                            {
+                                differentDefending = true;
+                            }
                         }
 
+                        if (differentDefending || differentAttacking)
+                        {
+                            // Need to print them out separately 
+                            foreach ((string ability, List<Result> calcResults) calcResult in results)
+                            {
+                                csvContent.AppendLine($"{pokemon} ({set.Item} / {calcResult.ability})");
+                                csvContent.AppendLine(
+                                    $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
+                                foreach (var result in calcResult.calcResults)
+                                {
+                                    string damageLine =
+                                        string.Join(",", result.Attacking.Select(x => x.damageString)) + "," +
+                                        string.Join(",", result.Defending.Select(x => x.damageString));
+                                    int speed = result.Attacking[0].defender.stats.hp;
+                                    int hp = result.Attacking[0].defender.stats.hp;
+                                    int speedMinStat = (int)(speed * 2d / 3d);
+                                    csvContent.AppendLine(
+                                        $"{result.Rank}, {result.OppLevel}, {result.OppIvs}, {hp}, {speed}, {speedMinStat}, {damageLine}");
+                                }
+                                csvContent.AppendLine();
+                            }
+                        }
+
+                        else
+                        {
+                            abilitiesString = $"{results[0].Ability} or {results[1].Ability}";
+                            List<Result> calcResults = results[0].calcResults;
+                            csvContent.AppendLine($"{pokemon} ({set.Item} / {abilitiesString})");
+                            csvContent.AppendLine(
+                                $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
+                            foreach (var result in calcResults)
+                            {
+                                string damageLine =
+                                    string.Join(",", result.Attacking.Select(x => x.damageString)) + "," +
+                                    string.Join(",", result.Defending.Select(x => x.damageString));
+                                int speed = result.Attacking[0].defender.stats.hp;
+                                int hp = result.Attacking[0].defender.stats.hp;
+                                int speedMinStat = (int)(speed * 2d / 3d);
+                                csvContent.AppendLine(
+                                    $"{result.Rank}, {result.OppLevel}, {result.OppIvs}, {hp}, {speed}, {speedMinStat}, {damageLine}");
+                            }
+                            csvContent.AppendLine();
+                            
+                        }
+                    }
+
+                    if (results.Count == 1)
+                    {
+                        abilitiesString = results[0].Ability;
+
+
+                        csvContent.AppendLine($"{pokemon} ({set.Item} / {results[0].Ability})");
+                        csvContent.AppendLine(
+                            $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMon.Moves)}, {string.Join(',', oppMon.Moves)}");
+                        foreach (var result in results[0].calcResults)
+                        {
+                            string damageLine = string.Join(",", result.Attacking.Select(x => x.damageString)) + "," +
+                                                string.Join(",", result.Defending.Select(x => x.damageString));
+                            int speed = result.Attacking[0].defender.stats.hp;
+                            int hp = result.Attacking[0].defender.stats.hp;
+                            int speedMinStat = (int)(speed * 2d / 3d);
+                            csvContent.AppendLine(
+                                $"{result.Rank}, {result.OppLevel}, {result.OppIvs}, {hp}, {speed}, {speedMinStat}, {damageLine}");
+                        }
                         csvContent.AppendLine();
                     }
                 }
@@ -338,6 +426,8 @@ public partial class MainViewModel : ViewModelBase
         }
         return abilities;
     }
+    
+    
 }
 
 
