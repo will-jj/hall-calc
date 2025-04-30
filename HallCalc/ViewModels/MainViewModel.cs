@@ -25,9 +25,8 @@ public partial class MainViewModel : ViewModelBase
 {
     [ObservableProperty]
     private string _greeting = "Welcome to Avalonia!";
-    
-    [ObservableProperty]
-    public partial string ShowdownText {get;set;}
+
+    [ObservableProperty] public partial string ShowdownText { get; set; }
 
     public ObservableCollection<string> Types { get; set; } =
     [
@@ -49,12 +48,10 @@ public partial class MainViewModel : ViewModelBase
         "Dark",
         "Steel"
     ];
-    
-    [ObservableProperty]
-    public partial string SelectedType {get; set; }
-    
-    [ObservableProperty]
-    public partial int SelectedTypeIndex { get; set; }
+
+    [ObservableProperty] public partial string SelectedType { get; set; }
+
+    [ObservableProperty] public partial int SelectedTypeIndex { get; set; }
 
     public ObservableCollection<int> Rounds { get; set; } = new(Enumerable.Range(1, 17));
 
@@ -78,28 +75,25 @@ public partial class MainViewModel : ViewModelBase
     {
         using Stream stream = AssetLoader.Open(new Uri("avares://HallCalc/Assets/combined_data.json"));
         using StreamReader reader = new(stream);
-        string json =  reader.ReadToEnd();
+        string json = reader.ReadToEnd();
         _sets = JsonSerializer.Deserialize(json, PokemonSerializationContext.Default.DictionaryStringPokemonSet);
         return Task.CompletedTask;
     }
-    
+
     [RelayCommand]
     public async Task GetData()
     {
-        
         if (!OperatingSystem.IsBrowser())
         {
             return;
         }
-        
+
         try
         {
-
-
             PokemonSet ourMon = new();
 
             ShowdownSet showdownSet = new(ShowdownText);
-            
+
             ourMon.Item = GameInfo.Strings.Item[showdownSet.HeldItem];
             ourMon.Ivs = new Stats();
             ourMon.Ivs.SetFromShowdown(showdownSet.IVs);
@@ -108,7 +102,7 @@ public partial class MainViewModel : ViewModelBase
             ourMon.Nature = showdownSet.Nature.ToString();
             ourMon.Level = showdownSet.Level;
             ourMon.Ability = GameInfo.Strings.Ability[showdownSet.Ability];
-            
+
             _ourMonName = GameInfo.Strings.Species[showdownSet.Species];
 
             ourMon.Moves = [];
@@ -132,7 +126,8 @@ public partial class MainViewModel : ViewModelBase
                 "tackle",
                 "");
 
-            CalcResult? resSelf = JsonSerializer.Deserialize<CalcResult>(calcResSelf, CalcResultSerializeOnlyContext.Default.CalcResult);
+            CalcResult? resSelf =
+                JsonSerializer.Deserialize<CalcResult>(calcResSelf, CalcResultSerializeOnlyContext.Default.CalcResult);
             StringBuilder csvContent = new StringBuilder();
 
             csvContent.AppendLine($"Calcing for {_ourMonName} ({ourMon.Item} / {ourMon.Ability})");
@@ -169,11 +164,9 @@ public partial class MainViewModel : ViewModelBase
                     PokemonSet oppMon = _sets![pokemon];
                     foreach (string ability in GetAbilities(pokemon))
                     {
-
                         List<Result> calcResults = [];
                         set.Ability = ability;
-                        bool addedName = false;
-                        
+
                         if (pokemon == _ourMonName)
                         {
                             continue;
@@ -186,19 +179,14 @@ public partial class MainViewModel : ViewModelBase
 
                             int oppLevel = CalculateLevel(ourMon.Level, SelectedRound, rank);
                             int oppIvs = ivs[rank - 1];
-                            
+
                             calcResult.OppIvs = oppIvs;
                             calcResult.OppLevel = oppLevel;
 
                             oppMon.Level = oppLevel;
                             oppMon.Ivs = new();
                             oppMon.Ivs.SetAll(oppIvs);
-                            
 
-
-                            List<CalcResult> attackingOpp = new();
-                            List<CalcResult> defendingFromOpp = new();
-                            string resouter;
                             foreach (string move in ourMon.Moves)
                             {
                                 try
@@ -211,25 +199,17 @@ public partial class MainViewModel : ViewModelBase
                                             PokemonSerializationContext.Default.PokemonSet),
                                         move,
                                         "");
-                                    resouter = calcRes;
-                                    var res = JsonSerializer.Deserialize<CalcResult>(calcRes,
+                                    CalcResult? res = JsonSerializer.Deserialize<CalcResult>(calcRes,
                                         CalcResultSerializeOnlyContext.Default.CalcResult);
                                     res.CreateDamageStrings(res.defender.stats.hp);
-                                    attackingOpp.Add(res);
                                     calcResult.Attacking.Add(res);
-                                    
                                 }
-                                catch (Exception eee)
+                                catch (Exception ex)
                                 {
-                                    DamageCalcInterop.ShowAlert(eee.Message);
-
-                                    int stop = 1;
+                                    DamageCalcInterop.ShowAlert(ex.Message);
                                 }
-
-
                             }
 
-                            string outerscope;
                             foreach (string move in oppMon.Moves)
                             {
                                 try
@@ -242,23 +222,20 @@ public partial class MainViewModel : ViewModelBase
                                             PokemonSerializationContext.Default.PokemonSet),
                                         move,
                                         "");
-                                    outerscope = calcRes;
-                                    var res = JsonSerializer.Deserialize<CalcResult>(calcRes,
+                                    CalcResult? res = JsonSerializer.Deserialize<CalcResult>(calcRes,
                                         CalcResultSerializeOnlyContext.Default.CalcResult);
                                     res.CreateDamageStrings(res.defender.stats.hp);
-                                    defendingFromOpp.Add(res);
                                     calcResult.Defending.Add(res);
                                 }
-                                catch (Exception eee)
+                                catch (Exception ex)
                                 {
-                                    DamageCalcInterop.ShowAlert(eee.Message);
-
-                                    int stop = 1;
+                                    DamageCalcInterop.ShowAlert(ex.Message);
                                 }
                             }
+
                             calcResults.Add(calcResult);
                         }
-                        
+
                         results.Add((ability, calcResults));
                     }
 
@@ -267,11 +244,8 @@ public partial class MainViewModel : ViewModelBase
                     bool differentDefending = false;
                     if (results.Count == 2)
                     {
-                        bool differentAttacking = false;
-                        bool differentDefending = false;
-
-                        var firstOfFirst = results[0].calcResults[0];
-                        var firstOfSecond = results[1].calcResults[0];
+                        Result firstOfFirst = results[0].calcResults[0];
+                        Result firstOfSecond = results[1].calcResults[0];
 
                         // check each move for attack and defend across abilities
                         for (int ii = 0; ii < 4; ii++)
@@ -313,14 +287,11 @@ public partial class MainViewModel : ViewModelBase
 
             _csvOut = csvContent.ToString();
             await DownloadResult();
-
         }
         catch (Exception e)
         {
             DamageCalcInterop.ShowAlert(e.Message);
         }
-
-
     }
 
     [RelayCommand]
@@ -343,7 +314,7 @@ public partial class MainViewModel : ViewModelBase
             await stream2.WriteAsync(csvBytes, 0, csvBytes.Length);
         }
     }
-    
+
     private static int CalculateLevel(int userLevel, int round, int rank)
     {
         double baseValue = userLevel - 3 * Math.Sqrt(userLevel);
@@ -362,6 +333,7 @@ public partial class MainViewModel : ViewModelBase
         {
             species = "Wormadam";
         }
+
         species = species.Replace("-M", "♂");
         species = species.Replace("-F", "♀");
         species = species.Replace('\'', '’');
@@ -371,8 +343,8 @@ public partial class MainViewModel : ViewModelBase
         List<string> speciesList = GameInfo.Strings.Species.ToList();
         int speciesIndex = speciesList.IndexOf(species);
         pokemon.Species = (ushort)speciesIndex;
-        
-       
+
+
         pokemon.RefreshAbility(0);
         string firstAbility = GameInfo.Strings.Ability[pokemon.Ability];
         abilities.Add(firstAbility);
@@ -382,6 +354,7 @@ public partial class MainViewModel : ViewModelBase
         {
             abilities.Add(secondAbility);
         }
+
         return abilities;
     }
 
@@ -397,7 +370,7 @@ public partial class MainViewModel : ViewModelBase
         csvContent.AppendLine(
             $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMoves)}, {string.Join(',', oppMoves)}");
 
-        foreach (var result in calcResults)
+        foreach (Result result in calcResults)
         {
             string damageLine = string.Join(",", result.Attacking.Select(x => x.damageString)) + "," +
                                 string.Join(",", result.Defending.Select(x => x.damageString));
@@ -412,5 +385,3 @@ public partial class MainViewModel : ViewModelBase
         csvContent.AppendLine();
     }
 }
-
-
