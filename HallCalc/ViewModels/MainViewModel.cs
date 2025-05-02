@@ -375,7 +375,7 @@ public partial class MainViewModel : ViewModelBase
             string damageLine = string.Join(",", result.Attacking.Select(x => x.damageString)) + "," +
                                 string.Join(",", result.Defending.Select(x => x.damageString));
             int hp = result.Attacking[0].defender.stats.hp;
-            int speed = result.Attacking[0].defender.stats.hp;
+            int speed = result.Attacking[0].defender.stats.spe;
             int speedMinStat = (int)(speed * 2d / 3d);
 
             csvContent.AppendLine(
