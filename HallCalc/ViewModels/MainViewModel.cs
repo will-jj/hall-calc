@@ -266,20 +266,20 @@ public partial class MainViewModel : ViewModelBase
                             // Need to print them out separately 
                             foreach ((string ability, List<Result> calcResults) calcResult in results)
                             {
-                                AppendResultsToCsv(csvContent, pokemon, set.Item, calcResult.ability,
+                                AppendResultsToCsv(csvContent, pokemon, set, calcResult.ability,
                                     calcResult.calcResults, ourMon.Moves, oppMon.Moves);
                             }
                         }
                         else
                         {
                             string abilitiesString = $"{results[0].Ability} or {results[1].Ability}";
-                            AppendResultsToCsv(csvContent, pokemon, set.Item, abilitiesString, results[0].calcResults,
+                            AppendResultsToCsv(csvContent, pokemon, set, abilitiesString, results[0].calcResults,
                                 ourMon.Moves, oppMon.Moves);
                         }
                     }
                     else if (results.Count == 1)
                     {
-                        AppendResultsToCsv(csvContent, pokemon, set.Item, results[0].Ability, results[0].calcResults, ourMon.Moves, oppMon.Moves);
+                        AppendResultsToCsv(csvContent, pokemon, set, results[0].Ability, results[0].calcResults, ourMon.Moves, oppMon.Moves);
                     }
                     
                 }
@@ -360,13 +360,13 @@ public partial class MainViewModel : ViewModelBase
 
     void AppendResultsToCsv(StringBuilder csvContent,
         string pokemon,
-        string item,
+        PokemonSet set,
         string abilities,
         IEnumerable<Result> calcResults,
         IEnumerable<string> ourMoves,
         IEnumerable<string> oppMoves)
     {
-        csvContent.AppendLine($"{pokemon} ({item} / {abilities})");
+        csvContent.AppendLine($"{pokemon} ({set.Item} / {abilities}), H{set.Id}");
         csvContent.AppendLine(
             $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMoves)}, {string.Join(',', oppMoves)}");
 
