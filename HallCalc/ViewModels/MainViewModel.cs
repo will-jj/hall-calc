@@ -68,6 +68,12 @@ public partial class MainViewModel : ViewModelBase
         SelectedRoundIndex = 0;
         SelectedTypeIndex = 0;
         LoadData();
+        PokemonSet set =  new PokemonSet();
+        PokemonSet userSet = new();
+        set.Id = 379;
+        userSet.Id = 377;
+        double hi =  CalcBaseChance(9, set, userSet,"Fire");
+        int stop = 1;
     }
 
     [RelayCommand]
@@ -358,7 +364,7 @@ public partial class MainViewModel : ViewModelBase
         return abilities;
     }
 
-    void AppendResultsToCsv(StringBuilder csvContent,
+    private void AppendResultsToCsv(StringBuilder csvContent,
         string pokemon,
         PokemonSet set,
         string abilities,
@@ -384,4 +390,81 @@ public partial class MainViewModel : ViewModelBase
 
         csvContent.AppendLine();
     }
+
+    private double CalcBaseChance(int rank, PokemonSet set, PokemonSet userSet, string selectedType)
+    {
+        // proof of concept hacky code
+       
+        int[][] groupRanks =
+        [
+            [1, 5],
+            [3, 8],
+            [6, 10],
+            [9, 10]
+        ];
+        
+        // get the groups based on rank
+        List<int> indices = groupRanks
+            .Select((range, index) => new { range, index })
+            .Where(x => rank >= x.range[0] && rank <= x.range[1])
+            // add one for group
+            .Select(x => x.index + 1)
+            .ToList();
+
+
+        IOrderedEnumerable<KeyValuePair<string, PokemonSet>> groupMonsE = _sets!
+            .Where(x => indices.Any(i => x.Value.Group.Equals(i)))
+            .OrderBy(x => x.Value.Id);
+
+        List<KeyValuePair<string, PokemonSet>> groupMons = groupMonsE.ToList();
+        KeyValuePair<string, PokemonSet> firstInGroup = groupMons!.First();
+        KeyValuePair<string, PokemonSet> lastInGroup = groupMons!.Last();
+        int firstIdx = firstInGroup.Value.Id;
+        int lastIdx = lastInGroup.Value.Id;
+            
+        IEnumerable<KeyValuePair<string, PokemonSet>> typeMonsE = groupMons.Where(x => x.Value.Types.Contains(selectedType));
+        List<KeyValuePair<string, PokemonSet>> typeMons = typeMonsE.ToList();
+        
+        // need to handle the first, and last differently, maybe also second last if mon is last
+        int endIdx = typeMons.Last().Value.Id;
+        bool isEndMon = endIdx == lastIdx && lastIdx == set.Id;
+        int groupCount = groupMons.Count;
+
+        if (isEndMon)
+        {
+            return 100 * 1d/groupCount; 
+        }
+
+        int index = typeMons.FindIndex(x => x.Value.Id.Equals(set.Id));
+        int diff = 0;
+        
+        // wrap the index if needed...
+        int beforeIdx = index - 1;
+
+        // skip user mon
+        if (typeMons[(beforeIdx + typeMons.Count) % typeMons.Count].Value.Id == userSet.Id)
+        {
+            beforeIdx -= 1;
+        }
+        
+        // naive but logical
+        if (beforeIdx < 0)
+        {
+            int wrappedId = typeMons[(beforeIdx + typeMons.Count) % typeMons.Count].Value.Id;
+            if (wrappedId == lastIdx)
+            {
+                beforeIdx -= 1; 
+            }
+            int beforeId = typeMons[(beforeIdx + typeMons.Count) % typeMons.Count].Value.Id;
+            diff += lastIdx - beforeId;
+            diff += set.Id - firstIdx + 1;
+        }
+        else
+        {
+            diff += set.Id - typeMons[beforeIdx].Value.Id;
+        }
+    
+        return 100 * diff * 1d/groupCount;
+    }
+    
 }
