@@ -8,6 +8,7 @@ public class Result
     public int Rank {get; set;}
     public int OppIvs { get; set; }
     public int OppLevel { get; set; }
+    public double? Probability { get; set; }
     public List<CalcResult> Attacking {get;set;} = [];
     public List<CalcResult> Defending {get;set;} = [];
 }

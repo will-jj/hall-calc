@@ -57,6 +57,9 @@ public partial class MainViewModel : ViewModelBase
 
     [ObservableProperty] public partial int SelectedRound { get; set; } = 1;
     [ObservableProperty] public partial int SelectedRoundIndex { get; set; }
+    
+    [ObservableProperty] public partial bool ShowProbability { get; set; }
+    [ObservableProperty] public partial bool ShowHallIndex { get; set; }
 
     private Dictionary<string, PokemonSet>? _sets;
 
@@ -70,10 +73,6 @@ public partial class MainViewModel : ViewModelBase
         LoadData();
         PokemonSet set =  new PokemonSet();
         PokemonSet userSet = new();
-        set.Id = 379;
-        userSet.Id = 377;
-        double hi =  CalcBaseChance(9, set, userSet,"Fire");
-        int stop = 1;
     }
 
     [RelayCommand]
@@ -238,9 +237,13 @@ public partial class MainViewModel : ViewModelBase
                                     DamageCalcInterop.ShowAlert(ex.Message);
                                 }
                             }
-
+                            if (ShowProbability)
+                            {
+                                calcResult.Probability = CalcBaseChance(rank, oppMon, ourMon, SelectedType);
+                            }
                             calcResults.Add(calcResult);
                         }
+
 
                         results.Add((ability, calcResults));
                     }
@@ -372,9 +375,21 @@ public partial class MainViewModel : ViewModelBase
         IEnumerable<string> ourMoves,
         IEnumerable<string> oppMoves)
     {
-        csvContent.AppendLine($"{pokemon} ({set.Item} / {abilities}), H{set.Id}");
+        string probabilityHeader = string.Empty;
+        bool includeProbabilities = false;
+        if (calcResults.FirstOrDefault().Probability.HasValue)
+        {
+            probabilityHeader = "Prob. [%],";
+            includeProbabilities = true;
+        }
+        string hallIndex = string.Empty;
+        if (ShowHallIndex)
+        {
+            hallIndex = $", H{set.Id}";
+        }
+        csvContent.AppendLine($"{pokemon} ({set.Item} / {abilities}){hallIndex}");
         csvContent.AppendLine(
-            $"Rank, Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMoves)}, {string.Join(',', oppMoves)}");
+            $"Rank,{probabilityHeader} Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMoves)}, {string.Join(',', oppMoves)}");
 
         foreach (Result result in calcResults)
         {
@@ -383,9 +398,14 @@ public partial class MainViewModel : ViewModelBase
             int hp = result.Attacking[0].defender.stats.hp;
             int speed = result.Attacking[0].defender.stats.spe;
             int speedMinStat = (int)(speed * 2d / 3d);
+            string probValue = string.Empty;
+            if (includeProbabilities)
+            {
+                probValue = result.Probability?.ToString("F2") + ",";
+            }
 
             csvContent.AppendLine(
-                $"{result.Rank}, {result.OppLevel}, {result.OppIvs}, {hp}, {speed}, {speedMinStat}, {damageLine}");
+                $"{result.Rank},{probValue} {result.OppLevel}, {result.OppIvs}, {hp}, {speed}, {speedMinStat}, {damageLine}");
         }
 
         csvContent.AppendLine();
