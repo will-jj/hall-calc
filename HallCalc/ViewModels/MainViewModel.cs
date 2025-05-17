@@ -389,7 +389,7 @@ public partial class MainViewModel : ViewModelBase
         }
         csvContent.AppendLine($"{pokemon} ({set.Item} / {abilities}){hallIndex}");
         csvContent.AppendLine(
-            $"Rank,{probabilityHeader} Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, Opp. Speed (-1), {string.Join(',', ourMoves)}, {string.Join(',', oppMoves)}");
+            $"Rank,{probabilityHeader} Opp. Level, Opp. IVs, Opp. HP, Opp. Speed, {string.Join(',', ourMoves)}, {string.Join(',', oppMoves)}");
 
         foreach (Result result in calcResults)
         {
@@ -397,7 +397,6 @@ public partial class MainViewModel : ViewModelBase
                                 string.Join(",", result.Defending.Select(x => x.damageString));
             int hp = result.Attacking[0].defender.stats.hp;
             int speed = result.Attacking[0].defender.stats.spe;
-            int speedMinStat = (int)(speed * 2d / 3d);
             string probValue = string.Empty;
             if (includeProbabilities)
             {
@@ -405,7 +404,7 @@ public partial class MainViewModel : ViewModelBase
             }
 
             csvContent.AppendLine(
-                $"{result.Rank},{probValue} {result.OppLevel}, {result.OppIvs}, {hp}, {speed}, {speedMinStat}, {damageLine}");
+                $"{result.Rank},{probValue} {result.OppLevel}, {result.OppIvs}, {hp}, {speed}, {damageLine}");
         }
 
         csvContent.AppendLine();
