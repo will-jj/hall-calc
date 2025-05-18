@@ -22,7 +22,13 @@
                   SelectedItem="{Binding SelectedRound, Mode=TwoWay}">
         </ComboBox>
         <Button Command="{Binding GetDataCommand}">Run Calc</Button>
-        <CheckBox Margin="0 20 0 0" IsChecked="{Binding ShowProbability}">Show Base Probabilities</CheckBox>
+        <StackPanel Margin="0 20" Orientation="Horizontal">
+            <CheckBox Margin="0" IsChecked="{Binding ShowProbability}">Show Base Probabilities</CheckBox>
+            <ComboBox Margin="5 0" SelectedIndex="{Binding ChanceType}">
+                <ComboBoxItem>Fraction</ComboBoxItem>
+                <ComboBoxItem>Percentage</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
         <CheckBox IsChecked="{Binding ShowHallIndex}"> Show Hall Index</CheckBox>
     </StackPanel>
 </UserControl>

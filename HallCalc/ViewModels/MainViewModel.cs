@@ -60,11 +60,18 @@ public partial class MainViewModel : ViewModelBase
     
     [ObservableProperty] public partial bool ShowProbability { get; set; }
     [ObservableProperty] public partial bool ShowHallIndex { get; set; }
+    [ObservableProperty] public partial int ChanceType { get; set; }
 
     private Dictionary<string, PokemonSet>? _sets;
 
     private string _ourMonName;
     private string _csvOut;
+
+    enum ChanceTypeEnum
+    {
+        Fraction,
+        Percentage
+    }
 
     public MainViewModel()
     {
@@ -239,7 +246,10 @@ public partial class MainViewModel : ViewModelBase
                             }
                             if (ShowProbability)
                             {
-                                calcResult.Probability = CalcBaseChance(rank, oppMon, ourMon, SelectedType);
+                                (int count, int setSize) chanceRes = CalcBaseChance(rank, oppMon, ourMon, SelectedType);
+                                calcResult.Probability = (ChanceTypeEnum)ChanceType == ChanceTypeEnum.Fraction
+                                    ? $"{chanceRes.count} / {chanceRes.setSize}"
+                                    : $"{(100d * chanceRes.count / chanceRes.setSize):F2}";
                             }
                             calcResults.Add(calcResult);
                         }
@@ -377,11 +387,13 @@ public partial class MainViewModel : ViewModelBase
     {
         string probabilityHeader = string.Empty;
         bool includeProbabilities = false;
-        if (calcResults.FirstOrDefault().Probability.HasValue)
+        if (!string.IsNullOrEmpty(calcResults.First().Probability))
         {
-            probabilityHeader = "Prob. [%],";
+            probabilityHeader = (ChanceTypeEnum)ChanceType == ChanceTypeEnum.Fraction ? "Prob. ," : "Prob. [%],";
+
             includeProbabilities = true;
         }
+        
         string hallIndex = string.Empty;
         if (ShowHallIndex)
         {
@@ -400,7 +412,7 @@ public partial class MainViewModel : ViewModelBase
             string probValue = string.Empty;
             if (includeProbabilities)
             {
-                probValue = result.Probability?.ToString("F2") + ",";
+                probValue = result.Probability + ",";
             }
 
             csvContent.AppendLine(
@@ -410,7 +422,7 @@ public partial class MainViewModel : ViewModelBase
         csvContent.AppendLine();
     }
 
-    private double CalcBaseChance(int rank, PokemonSet set, PokemonSet userSet, string selectedType)
+    private (int count, int setSize)  CalcBaseChance(int rank, PokemonSet set, PokemonSet userSet, string selectedType)
     {
         // proof of concept hacky code
        
@@ -451,7 +463,7 @@ public partial class MainViewModel : ViewModelBase
 
         if (isEndMon)
         {
-            return 100 * 1d/groupCount; 
+            return (1, groupCount); 
         }
 
         int index = typeMons.FindIndex(x => x.Value.Id.Equals(set.Id));
@@ -482,8 +494,8 @@ public partial class MainViewModel : ViewModelBase
         {
             diff += set.Id - typeMons[beforeIdx].Value.Id;
         }
-    
-        return 100 * diff * 1d/groupCount;
+
+        return (diff, groupCount);
     }
     
 }
