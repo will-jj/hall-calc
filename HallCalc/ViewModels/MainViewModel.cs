@@ -482,8 +482,15 @@ public partial class MainViewModel : ViewModelBase
         if (beforeIdx < 0)
         {
             int wrappedId = typeMons[(beforeIdx + typeMons.Count) % typeMons.Count].Value.Id;
+            
             if (wrappedId == lastIdx)
             {
+                // if the type of the mon is the same as last idx, remove the additional chance of it but
+                // don't break the rollover count
+                if (endIdx == lastIdx)
+                {
+                    diff -= 1; 
+                }
                 beforeIdx -= 1; 
             }
             int beforeId = typeMons[(beforeIdx + typeMons.Count) % typeMons.Count].Value.Id;
