@@ -450,15 +450,15 @@ public partial class MainViewModel : ViewModelBase
         List<KeyValuePair<string, PokemonSet>> groupMons = groupMonsE.ToList();
         KeyValuePair<string, PokemonSet> firstInGroup = groupMons!.First();
         KeyValuePair<string, PokemonSet> lastInGroup = groupMons!.Last();
-        int firstIdx = firstInGroup.Value.Id;
-        int lastIdx = lastInGroup.Value.Id;
+        int firstGroupId = firstInGroup.Value.Id;
+        int lastGroupId = lastInGroup.Value.Id;
             
         IEnumerable<KeyValuePair<string, PokemonSet>> typeMonsE = groupMons.Where(x => x.Value.Types.Contains(selectedType));
         List<KeyValuePair<string, PokemonSet>> typeMons = typeMonsE.ToList();
         
         // need to handle the first, and last differently, maybe also second last if mon is last
-        int endIdx = typeMons.Last().Value.Id;
-        bool isEndMon = endIdx == lastIdx && lastIdx == set.Id;
+        int endTypeId = typeMons.Last().Value.Id;
+        bool isEndMon = endTypeId == lastGroupId && lastGroupId == set.Id;
         int groupCount = groupMons.Count;
 
         if (isEndMon)
@@ -483,19 +483,19 @@ public partial class MainViewModel : ViewModelBase
         {
             int wrappedId = typeMons[(beforeIdx + typeMons.Count) % typeMons.Count].Value.Id;
             
-            if (wrappedId == lastIdx)
+            if (wrappedId == lastGroupId)
             {
                 // if the type of the mon is the same as last idx, remove the additional chance of it but
                 // don't break the rollover count
-                if (endIdx == lastIdx)
+                if (endTypeId == lastGroupId)
                 {
                     diff -= 1; 
                 }
                 beforeIdx -= 1; 
             }
             int beforeId = typeMons[(beforeIdx + typeMons.Count) % typeMons.Count].Value.Id;
-            diff += lastIdx - beforeId;
-            diff += set.Id - firstIdx + 1;
+            diff += lastGroupId - beforeId;
+            diff += set.Id - firstGroupId + 1;
         }
         else
         {
