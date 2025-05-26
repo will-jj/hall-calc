@@ -61,6 +61,7 @@ public partial class MainViewModel : ViewModelBase
     
     [ObservableProperty] public partial bool ShowProbability { get; set; }
     [ObservableProperty] public partial bool ShowHallIndex { get; set; }
+    [ObservableProperty] public partial bool IncludeShowdown { get; set; }
     [ObservableProperty] public partial int ChanceType { get; set; }
 
     [ObservableProperty]
@@ -149,6 +150,12 @@ public partial class MainViewModel : ViewModelBase
             csvContent.AppendLine($"Calcing for {_ourMonName} ({ourMon.Item} / {ourMon.Ability})");
             csvContent.AppendLine($"HP, Speed");
             csvContent.AppendLine($"{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
+            if (IncludeShowdown)
+            {
+                csvContent.AppendLine();
+                csvContent.AppendLine(ShowdownText);
+                csvContent.AppendLine();
+            }
 
 
             int[][] groupRanks =
