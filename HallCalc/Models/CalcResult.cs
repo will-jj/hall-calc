@@ -22,7 +22,7 @@ public class CalcResult
 
     public void CreateDamageStrings(double hp, int decimalPlaces)
     {
-        string format = $"0.{new string('#', decimalPlaces)}";
+        string format = $"F{decimalPlaces}";
         int damageLast = damage.Last();
         int damageLowerMid = damage[7];
         int damageLower = damage[0];
