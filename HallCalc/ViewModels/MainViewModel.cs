@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -61,6 +62,9 @@ public partial class MainViewModel : ViewModelBase
     [ObservableProperty] public partial bool ShowProbability { get; set; }
     [ObservableProperty] public partial bool ShowHallIndex { get; set; }
     [ObservableProperty] public partial int ChanceType { get; set; }
+
+    [ObservableProperty]
+    public partial int DecimalPlaces { get; set; } = 1;
 
     private Dictionary<string, PokemonSet>? _sets;
 
@@ -213,7 +217,7 @@ public partial class MainViewModel : ViewModelBase
                                         "");
                                     CalcResult? res = JsonSerializer.Deserialize<CalcResult>(calcRes,
                                         CalcResultSerializeOnlyContext.Default.CalcResult);
-                                    res.CreateDamageStrings(res.defender.stats.hp);
+                                    res.CreateDamageStrings(res.defender.stats.hp, DecimalPlaces);
                                     calcResult.Attacking.Add(res);
                                 }
                                 catch (Exception ex)
@@ -236,7 +240,7 @@ public partial class MainViewModel : ViewModelBase
                                         "");
                                     CalcResult? res = JsonSerializer.Deserialize<CalcResult>(calcRes,
                                         CalcResultSerializeOnlyContext.Default.CalcResult);
-                                    res.CreateDamageStrings(res.defender.stats.hp);
+                                    res.CreateDamageStrings(res.defender.stats.hp, DecimalPlaces);
                                     calcResult.Defending.Add(res);
                                 }
                                 catch (Exception ex)

@@ -30,5 +30,9 @@
             </ComboBox>
         </StackPanel>
         <CheckBox IsChecked="{Binding ShowHallIndex}"> Show Hall Index</CheckBox>
+        <TextBlock Margin="0 5">Damage % Decimal Places Limit</TextBlock>
+        <NumericUpDown Value="{Binding DecimalPlaces, Mode=TwoWay}" Minimum="0" Maximum="3" MaxWidth="100"
+                       HorizontalAlignment="Left" FormatString="0">
+        </NumericUpDown>
     </StackPanel>
 </UserControl>

@@ -20,15 +20,17 @@ public class CalcResult
     public string damageString { get; set; }
     public RawDesc rawDesc { get; set; }
 
-    public void CreateDamageStrings(double hp)
+    public void CreateDamageStrings(double hp, int decimalPlaces)
     {
+        string format = $"0.{new string('#', decimalPlaces)}";
         int damageLast = damage.Last();
         int damageLowerMid = damage[7];
         int damageLower = damage[0];
         double damagePerc = (damage.Last() / hp) * 100;
         double damageLowerPerc = (damageLower / hp) * 100;
         double damageLowerMidPerc = (damageLowerMid / hp) * 100;
-        damageString = $"{damageLower} ({damageLowerPerc:0}%) | {damageLowerMid} ({damageLowerMidPerc:0}%) | {damageLast} ({damagePerc:0}%)";
+        damageString =
+            $"{damageLower} ({damageLowerPerc.ToString(format)}%) | {damageLowerMid} ({damageLowerMidPerc.ToString(format)}%) | {damageLast} ({damagePerc.ToString(format)}%)";
     }
 }
 
