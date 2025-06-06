@@ -96,7 +96,7 @@ public partial class MainViewModel : ViewModelBase
         Argenta2 = 200,
     }
 
-    private enum CalcType
+    public enum CalcType
     {
         SingleType,
         Argenta,
@@ -238,7 +238,7 @@ public partial class MainViewModel : ViewModelBase
                 }
 
             _csvOut = csvContent.ToString();
-            await DownloadResult();
+            await DownloadResult(calcType);
         }
         catch (Exception e)
         {
@@ -498,13 +498,14 @@ public partial class MainViewModel : ViewModelBase
     }
 
     [RelayCommand]
-    public async Task DownloadResult()
+    public async Task DownloadResult(CalcType calcType)
     {
+        string roundString = calcType != CalcType.SingleType ? string.Empty : $"{SelectedRound}-";
         TopLevel? topLevel = DialogManager.GetTopLevelForContext(this);
         if (topLevel == null) return;
         FilePickerSaveOptions pickeroptions = new()
         {
-            SuggestedFileName = $"{_ourMonName}-{SelectedRound}-{SelectedType}.csv"
+            SuggestedFileName = $"{_ourMonName}-{roundString}{SelectedType}.csv"
         };
         IStorageFile? fileOut = await topLevel.StorageProvider.SaveFilePickerAsync(pickeroptions);
         if (fileOut != null)
