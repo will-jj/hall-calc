@@ -199,10 +199,7 @@ public partial class MainViewModel : ViewModelBase
                 targetSets = _sets!;
             }
 
-            for (int group = groupStart; group <= groupEnd; group++)
-            {
-                csvContent.AppendLine($"Group: {group}");
-                csvContent.AppendLine();
+
 
                 
                 // Small repetition for quick post Argenta fix 
@@ -214,22 +211,31 @@ public partial class MainViewModel : ViewModelBase
                         string type = Types[typeIndex];
                         csvContent.AppendLine(type);
                         csvContent.AppendLine();
-                        IOrderedEnumerable<KeyValuePair<string, PokemonSet>> groupTypeMons = targetSets
-                            .Where(x => x.Value.Group.Equals(group))
-                            .Where(x => x.Value.Types.Contains(type))
-                            .OrderBy(x => x.Value.Id);
-                        IterateGroup(groupTypeMons, group, calcType, type, ourMon, csvContent);
+                        for (int group = groupStart; group <= groupEnd; group++)
+                        {
+                            csvContent.AppendLine($"Group: {group}");
+                            csvContent.AppendLine();
+                            IOrderedEnumerable<KeyValuePair<string, PokemonSet>> groupTypeMons = targetSets
+                                .Where(x => x.Value.Group.Equals(group))
+                                .Where(x => x.Value.Types.Contains(type))
+                                .OrderBy(x => x.Value.Id);
+                            IterateGroup(groupTypeMons, group, calcType, type, ourMon, csvContent);
+                        }
 
                     }
                 }
                 else
                 {
-                    IOrderedEnumerable<KeyValuePair<string, PokemonSet>> groupMons = targetSets
-                        .Where(x => x.Value.Group.Equals(group))
-                        .OrderBy(x => x.Value.Id);
-                    IterateGroup(groupMons, group, calcType, SelectedType, ourMon, csvContent);
+                    for (int group = groupStart; group <= groupEnd; group++)
+                    {
+                        csvContent.AppendLine($"Group: {group}");
+                        csvContent.AppendLine();
+                        IOrderedEnumerable<KeyValuePair<string, PokemonSet>> groupMons = targetSets
+                            .Where(x => x.Value.Group.Equals(group))
+                            .OrderBy(x => x.Value.Id);
+                        IterateGroup(groupMons, group, calcType, SelectedType, ourMon, csvContent);
+                    }
                 }
-            }
 
             _csvOut = csvContent.ToString();
             await DownloadResult();
