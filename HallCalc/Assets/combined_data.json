@@ -7641,6 +7641,7 @@
         "tier": "HallR10",
         "id": 278,
         "types": [
+            "Bug",
             "Poison"
         ],
         "group": 3
