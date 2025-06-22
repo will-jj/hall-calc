@@ -73,6 +73,7 @@ public partial class MainViewModel : ViewModelBase
 
     private string _ourMonName;
     private string _csvOut;
+    private IStorageFile? _fileOut;
 
     private readonly int[][] _groupRanks =
     [
@@ -188,6 +189,13 @@ public partial class MainViewModel : ViewModelBase
                     break;
             }
 
+            IStorageFile? outfile = await GetFileStorage(calcType);
+            if (outfile is null)
+            {
+                return;
+            }
+            _fileOut = outfile;
+            
             IEnumerable<KeyValuePair<string, PokemonSet>> targetSets;
             if (calcType == CalcType.SingleType)
             {
@@ -238,7 +246,7 @@ public partial class MainViewModel : ViewModelBase
                 }
 
             _csvOut = csvContent.ToString();
-            await DownloadResult(calcType);
+            await DownloadResult();
         }
         catch (Exception e)
         {
@@ -497,20 +505,25 @@ public partial class MainViewModel : ViewModelBase
         return (ourMon, ourMonName);
     }
 
-    [RelayCommand]
-    public async Task DownloadResult(CalcType calcType)
+    private async Task<IStorageFile?> GetFileStorage(CalcType calcType)
     {
         string roundString = calcType != CalcType.SingleType ? string.Empty : $"{SelectedRound}-";
         TopLevel? topLevel = DialogManager.GetTopLevelForContext(this);
-        if (topLevel == null) return;
+        if (topLevel == null) return null;
         FilePickerSaveOptions pickeroptions = new()
         {
             SuggestedFileName = $"{_ourMonName}-{roundString}{SelectedType}.csv"
         };
         IStorageFile? fileOut = await topLevel.StorageProvider.SaveFilePickerAsync(pickeroptions);
-        if (fileOut != null)
+        return fileOut;
+    }
+
+    [RelayCommand]
+    public async Task DownloadResult()
+    {
+        if (_fileOut != null)
         {
-            await using Stream stream2 = await fileOut.OpenWriteAsync();
+            await using Stream stream2 = await _fileOut.OpenWriteAsync();
             // Convert the StringBuilder content to bytes
             byte[] csvBytes = System.Text.Encoding.UTF8.GetBytes(_csvOut);
 
