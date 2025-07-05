@@ -16,25 +16,35 @@
     <StackPanel Margin="10">
         <TextBox Watermark="Showdown Set" AcceptsReturn="True" Height="100" Text="{Binding ShowdownText, Mode=TwoWay}" />
         <ComboBox SelectedIndex="{Binding SelectedTypeIndex}" ItemsSource="{Binding Types}"
-                  SelectedItem="{Binding SelectedType, Mode=TwoWay}">
-        </ComboBox>
+                  SelectedItem="{Binding SelectedType, Mode=TwoWay}" />
         <ComboBox SelectedIndex="{Binding SelectedRoundIndex}" ItemsSource="{Binding Rounds}"
-                  SelectedItem="{Binding SelectedRound, Mode=TwoWay}">
-        </ComboBox>
+                  SelectedItem="{Binding SelectedRound, Mode=TwoWay}" />
         <Button Command="{Binding GetDataCommand}">Run Calc</Button>
-        <StackPanel Margin="0 20 0 5" Orientation="Horizontal">
-            <CheckBox Margin="0" IsChecked="{Binding ShowProbability}">Show Base Probabilities</CheckBox>
-            <ComboBox Margin="5 0" SelectedIndex="{Binding ChanceType}">
-                <ComboBoxItem>Fraction</ComboBoxItem>
-                <ComboBoxItem>Percentage</ComboBoxItem>
-            </ComboBox>
-        </StackPanel>
-        <CheckBox Margin="0 5" IsChecked="{Binding ShowHallIndex}"> Show Hall Index</CheckBox>
-        <CheckBox Margin="0 5" IsChecked="{Binding IncludeShowdown}"> Include Showdown Text</CheckBox>
 
-        <TextBlock Margin="0 5">Damage % Decimal Places</TextBlock>
-        <NumericUpDown Value="{Binding DecimalPlaces, Mode=TwoWay}" Minimum="0" Maximum="3" MaxWidth="100"
-                       HorizontalAlignment="Left" FormatString="0">
-        </NumericUpDown>
+        <Grid Margin="0,20,0,0" ColumnDefinitions="Auto,Auto">
+
+            <StackPanel Grid.Column="0">
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Margin="0" IsChecked="{Binding ShowProbability}">Show Base Probabilities</CheckBox>
+                    <ComboBox Margin="5 0" SelectedIndex="{Binding ChanceType}">
+                        <ComboBoxItem>Fraction</ComboBoxItem>
+                        <ComboBoxItem>Percentage</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+                <CheckBox Margin="0 5" IsChecked="{Binding ShowHallIndex}"> Show Hall Index</CheckBox>
+                <CheckBox Margin="0 5" IsChecked="{Binding IncludeShowdown}"> Include Showdown Text</CheckBox>
+                <TextBlock Margin="0 5">Damage % Decimal Places</TextBlock>
+                <NumericUpDown Value="{Binding DecimalPlaces, Mode=TwoWay}" Minimum="0" Maximum="3" MaxWidth="100"
+                               HorizontalAlignment="Left" FormatString="0" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Margin="20,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                        Orientation="Horizontal">
+                <CheckBox Margin="0 " IsChecked="{Binding UseCustomHp}">Use Set Attacker HP</CheckBox>
+                <NumericUpDown Margin="5 0 0 0" Value="{Binding AttackerHp, Mode=TwoWay}" Minimum="1" Maximum="1000" MaxWidth="200"
+                               HorizontalAlignment="Left" FormatString="0" MaxHeight="10" />
+            </StackPanel>
+        </Grid>
+
     </StackPanel>
 </UserControl>

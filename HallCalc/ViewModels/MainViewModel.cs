@@ -68,6 +68,11 @@ public partial class MainViewModel : ViewModelBase
     [ObservableProperty] public partial int ChanceType { get; set; }
 
     [ObservableProperty] public partial int DecimalPlaces { get; set; } = 1;
+    
+    [ObservableProperty] public partial bool UseCustomHp { get; set; } = false;
+
+    [ObservableProperty] public partial int AttackerHp { get; set; } = 1;
+
 
     private Dictionary<string, PokemonSet>? _sets;
 
@@ -296,7 +301,18 @@ public partial class MainViewModel : ViewModelBase
 
         csvContent.AppendLine($"Calcing for {_ourMonName} ({ourMon.Item} / {ourMon.Ability})");
         csvContent.AppendLine($"HP, Speed");
-        csvContent.AppendLine($"{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
+        if (UseCustomHp)
+        {
+            if (AttackerHp < 1)
+            {
+                AttackerHp = 1;
+            }
+            csvContent.AppendLine($"{AttackerHp}/{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
+        }
+        else
+        {
+            csvContent.AppendLine($"{resSelf.attacker.stats.hp}, {resSelf.attacker.stats.spe}");
+        }
         if (IncludeShowdown)
         {
             csvContent.AppendLine();
@@ -361,6 +377,11 @@ public partial class MainViewModel : ViewModelBase
         List<(string Ability, List<Result> calcResults)> results = [];
         PokemonSet oppMon = _sets![pokemon];
 
+        if (UseCustomHp)
+        {
+            ourMon.CurHP = AttackerHp;
+        }
+
         if (!OperatingSystem.IsBrowser())
         {
             return (results, oppMon);
@@ -375,7 +396,7 @@ public partial class MainViewModel : ViewModelBase
             {
                 continue;
             }
-
+            
             int rankStart;
             int rankEnd;
             switch (calcType)
